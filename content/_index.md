@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2024-06-03
 type: landing
 
 sections:
@@ -15,7 +15,7 @@ sections:
       text: |
         <br>
         
-        The **D Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        The **D Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2019.
   
   - block: collection
     content:
