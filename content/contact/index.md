@@ -38,7 +38,7 @@ sections:
     
       # Email form provider
       form:
-        provider: github page
+        provider: netlify
         formspree:
           id:
         netlify:
