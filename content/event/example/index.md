@@ -1,28 +1,28 @@
 ---
 title: Example Event
 
-event: Wowchemy Conference
+event: 郊游
 event_url: https://example.org
 
-location: Wowchemy HQ
+location: 石门
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+  street:
+  city: 石门
+  region: 
+  postcode:
+  country: 中国
 
 summary: An example event.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+abstract: '课题组部分成员进行野炊'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2024-01-08'
+date_end: '2024-01-08'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2024-06-03T00:00:00Z'
 
 authors: []
 tags: []
