@@ -1,6 +1,6 @@
 ---
 title: Tour
-date: 2022-10-24
+date: 2024-06-01
 
 type: landing
 
@@ -28,8 +28,8 @@ sections:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: XXXXXX
-        content: 'XXX!'
+      - title: Sthing
+        content: 'Cool!'
         align: right
         background:
           image:
