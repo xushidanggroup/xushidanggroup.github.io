@@ -1,6 +1,6 @@
 ---
 title: Tour
-date: 2024-06-01
+date: 2024-6-1
 
 type: landing
 
