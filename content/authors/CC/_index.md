@@ -44,9 +44,6 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:lcc1430880822@163.com'
-  - icon: phone
-    icon_pack: fas
-    link: 'tel:15626161302'
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
