@@ -9,7 +9,7 @@ sections:
     content:
       title: Contact
       text: |-
-        Welcome to join our research group
+        Join Our Research Group
       email: test@example.org
       phone: 888 888 88 88
       address:
