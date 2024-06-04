@@ -10,8 +10,8 @@ sections:
       title: Contact
       text: |-
         Join Our Research Group
-      email: test@example.org
-      phone: 888 888 88 88
+      email: xusd@scut.edu.cn
+      phone: 13717051839
       address:
         street: No. 777, Xingye Avenue
         city: Guangzhou
