@@ -1,6 +1,6 @@
 ---
 title: Contact
-date: 2022-10-24
+date: 2024-06-04
 
 type: landing
 
@@ -9,7 +9,7 @@ sections:
     content:
       title: Contact
       text: |-
-        来就是啦
+        Welcome to join our research group
       email: test@example.org
       phone: 888 888 88 88
       address:
