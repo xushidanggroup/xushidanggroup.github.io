@@ -22,10 +22,13 @@ organizations:
     url: 'https://www.scut.edu.cn/new/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include simulation calculation....
+bio: My research interests include Molecular Dynamics Simulation, First-Principles Calculation, Machine Learning, Material Discovery.
 
 interests:
-  - Simulation Calculation
+  - Molecular Dynamics Simulation
+  - First-Principles Calculation
+  - Machine Learning
+  - Material Discovery
 
 education:
   courses:
@@ -43,7 +46,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
+    link: 'mailto:meitangpeng@gmail.com'
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -59,6 +62,4 @@ user_groups:
   - Grad Students
 ---
 
-彭美堂 is a student of artificial intelligence at the SCUT D Lab. His research interests include simulation calculation.... He leads the D group, which develops everything.
-
-堂哥棒！(๑•̀ㅂ•́)و✧
+MT is a Master's student in Biomedical Engineering at the Dan Group, having joined in 2023. His research focuses on the integration of machine learning and quantum computing for the discovery of biomaterials, drug discovery, and controlled carrier delivery. MT has a keen interest in automated experimental technologies, dedicating his efforts to optimizing bioengineering processes and material properties through innovative computational approaches.
