@@ -22,18 +22,24 @@ organizations:
     url: 'https://www.scut.edu.cn/new/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include chemistry....
+bio: My research interests include first-principles calculations(DFT), machine learning, molecular modification, molecular dynamics simulation.
 
 interests:
-  - chemistry
+  - First-Principles Calculations(DFT)
+  - Machine Learning
+  - Molecular Modification
+  - Molecular Dynamics Simulation
 
 education:
   courses:
+    - course: PhD in Chemistry
+      institution: South China University of Technology
+      year: Currently Enrolled (2023 - Present)
     - course: MEng in Chemistry
-      institution: No1 University
+      institution: Jiangxi Science and Technology Normal University
       year: 2023
     - course: BEng in Chemistry
-      institution: No1 University
+      institution: Xi'an Normal University
       year: 2020
 
 # Social/Academic Networking
@@ -59,6 +65,6 @@ user_groups:
   - Grad Students
 ---
 
-李晨晨 is a student of artificial intelligence at the SCUT D Lab. His research interests include chemistry.... She leads the D group, which develops everything.
+Chenchen Li is a PhD student in Biomedical Engineering at Xu group , having joined in 2023. Her research focuses on enhancing machine learning's capability in guiding and predicting organic reactions, as well as facilitating selective modifications of compounds such as amino acids. she holds a profound interest in exploring how AI can expedite experimental procedures.
 
 晨晨师姐棒！(๑•̀ㅂ•́)و✧

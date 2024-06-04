@@ -31,7 +31,7 @@ education:
   courses:
     - course: MEng in Biomedical Engneering
       institution: South China University of Techology
-      year: 2026
+      year: Currently Enrolled (2023 - Present)
     - course: BEng in Polymer Chemistry
       institution: No1 University
       year: 2023
