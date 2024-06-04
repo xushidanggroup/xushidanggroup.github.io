@@ -45,7 +45,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: coders.jpg
+          filename: fall.jpg
           filters:
             brightness: 1
           parallax: false
