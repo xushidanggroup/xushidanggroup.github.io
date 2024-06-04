@@ -16,12 +16,15 @@ main:
   - name: People
     url: people
     weight: 40
-  - name: Events
-    url: event
+  - name: Postition
+    url: postition
     weight: 50
+  - name: Research
+    url: research
+    weight: 60
   - name: Publications
     url: publication
-    weight: 60
+    weight: 70
   - name: Contact
     url: contact
-    weight: 70
+    weight: 80
