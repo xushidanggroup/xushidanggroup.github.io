@@ -19,9 +19,6 @@ sections:
         postcode: '510006'
         country: China
         country_code: CN
-      coordinates:
-        latitude: 'x'
-        longitude: 'y'
       directions: Enter Building C1 and take the stairs to Office 508 on Floor 5
       office_hours:
         - 'Monday 10:00 to 13:00'
