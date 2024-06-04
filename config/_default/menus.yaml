@@ -16,7 +16,7 @@ main:
   - name: People
     url: people
     weight: 40
-  - name: Postition
+  - name: Postitions
     url: postition
     weight: 50
   - name: Research
