@@ -35,7 +35,7 @@ education:
     - course: MEng in Biomedical Engneering
       institution: South China University of Techology
       year: Currently Enrolled (2023 - Present)
-    - course: BEng in Polymer Chemistry
+    - course: BEng in Material Science and Engineering
       institution: Hunan University of Science and Technology
       year: 2023
 
