@@ -35,10 +35,10 @@ education:
     - course: PhD in Biomedical Engineering
       institution: South China University of Technology
       year: Currently Enrolled (2023 - Present)
-    - course: MEng in Surgery
+    - course: MM in Surgery
       institution: Southern Medical University
       year: 2022
-    - course: BEng in Clinical Medicine
+    - course: MBBS in Clinical Medicine
       institution: Southern Medical University
       year: 2019
 
