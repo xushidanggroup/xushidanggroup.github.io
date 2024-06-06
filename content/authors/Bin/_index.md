@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Chenchen Li 李晨晨
+title: Bin Xu 许膑
 
 # Full name (for SEO)
-first_name: Chenchen
-last_name: Li
+first_name: Bin
+last_name: Xu
 
 # Username (this should match the folder name)
 authors:
@@ -22,24 +22,24 @@ organizations:
     url: 'https://www.scut.edu.cn/new/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include first-principles calculations(DFT), machine learning, molecular modification, molecular dynamics simulation.
+bio: My research interests include cancer treatment, drug delivery, machine learning, biomarkers, material development.
 
 interests:
-  - First-Principles Calculations(DFT)
+  - Cancer Treatment
   - Machine Learning
-  - Molecular Modification
-  - Molecular Dynamics Simulation
+  - Biomarkers
+  - Material Development
 
 education:
   courses:
     - course: PhD in Biomedical Engineering
       institution: South China University of Technology
       year: Currently Enrolled (2023 - Present)
-    - course: MEng in Organic Chemistry
-      institution: Jiangxi Science and Technology Normal University
-      year: 2023
-    - course: BEng in Chemistry
-      institution: Xi'an Normal University
+    - course: MEng in Surgery
+      institution: Southern Medical University
+      year: 2022
+    - course: BEng in Clinical Medicine
+      institution: Southern Medical University
       year: 2019
 
 # Social/Academic Networking
@@ -49,7 +49,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:lcc1430880822@163.com'
+    link: 'mailto:bun_hui@126.com'
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -65,4 +65,4 @@ user_groups:
   - Grad Students
 ---
 
-Chenchen Li is a PhD student in Biomedical Engineering at Xu group , having joined in 2023. Her research focuses on enhancing machine learning's capability in guiding and predicting organic reactions, as well as facilitating selective modifications of compounds such as amino acids. she holds a profound interest in exploring how AI can expedite experimental procedures.
+Bin obtained his Master of Medicine degree from Southern Medical University in 2022 and shortly thereafter joined the Shidang Team. His research focuses on the development and application of integrated diagnosis and treatment biomaterials in tumor targeting and immune therapy drug delivery. Currently, he is committed to applying artificial intelligence to early tumor diagnosis, designing and developing drug delivery carriers, and enhancing precise prediction of drug efficacy.

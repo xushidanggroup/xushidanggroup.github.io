@@ -22,18 +22,21 @@ organizations:
     url: 'https://www.scut.edu.cn/new/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include chemistry synthesis....
+bio: My research interests include chemistry synthesis, chemical modifications of RNA and proteins, machine learning and deep learning.
 
 interests:
-  - chemistry synthesis
+  - Chemistry Synthesis
+  - Chemical Modifications
+  - Machine Learning
+  - Deep Learning
 
 education:
   courses:
-    - course: MEng in Biomedical Engneering
+    - course: MEng in Chemistry
       institution: South China University of Techology
       year: Currently Enrolled (2023 - Present)
-    - course: BEng in Polymer Chemistry
-      institution: No1 University
+    - course: BEng in Applied Chemistry
+      institution: Guangdong University of Technology
       year: 2023
 
 # Social/Academic Networking
@@ -43,7 +46,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
+    link: 'mailto:Yinghao612@gmail.com'
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -59,6 +62,4 @@ user_groups:
   - Grad Students
 ---
 
-刘英豪 is a student of artificial intelligence at the SCUT D Lab. His research interests include chemistry synthesis.... He leads the D group, which develops everything.
-
-豪哥棒！(๑•̀ㅂ•́)و✧
+Yinghao is a Master's student in Chemistry at the Xu Group, having joined in 2023. He is currently focused on the chemical modifications of RNA and proteins with the aim of making mRNA translation more efficient, stable, and controllable and making protein-protein interactions more controllable and monitorable through chemical modifications. He is also exploring how to use machine learning and deep learning to study such chemical modifications. 

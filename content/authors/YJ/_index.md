@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Chenchen Li 李晨晨
+title: Yujian Liu 刘宇健
 
 # Full name (for SEO)
-first_name: Chenchen
-last_name: Li
+first_name: Yujian
+last_name: Liu
 
 # Username (this should match the folder name)
 authors:
-  - 李晨晨
+  - 刘宇健
 
 # Is this the primary user of the site?
 superuser: false
@@ -22,25 +22,22 @@ organizations:
     url: 'https://www.scut.edu.cn/new/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include first-principles calculations(DFT), machine learning, molecular modification, molecular dynamics simulation.
+bio: My research interests include AI for Science, AIGC, representation learning, computer vision
 
 interests:
-  - First-Principles Calculations(DFT)
-  - Machine Learning
-  - Molecular Modification
-  - Molecular Dynamics Simulation
+  - AI for Science
+  - AIGC
+  - Representation Learning
+  - Computer Vision
 
 education:
   courses:
-    - course: PhD in Biomedical Engineering
-      institution: South China University of Technology
+    - course: MEng in Biomedical Engineering
+      institution: South China University of Techology
       year: Currently Enrolled (2023 - Present)
-    - course: MEng in Organic Chemistry
-      institution: Jiangxi Science and Technology Normal University
+    - course: BEng in Communication Engineering
+      institution: Central South University of Forestry & Technology
       year: 2023
-    - course: BEng in Chemistry
-      institution: Xi'an Normal University
-      year: 2019
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -49,7 +46,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:lcc1430880822@163.com'
+    link: 'mailto:liuyujian0408@gmail.com'
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -65,4 +62,4 @@ user_groups:
   - Grad Students
 ---
 
-Chenchen Li is a PhD student in Biomedical Engineering at Xu group , having joined in 2023. Her research focuses on enhancing machine learning's capability in guiding and predicting organic reactions, as well as facilitating selective modifications of compounds such as amino acids. she holds a profound interest in exploring how AI can expedite experimental procedures.
+Yujian is a Master in Biomedical Engineering at the Xu Group, having joined in 2023. Currently, he has a keen interest in the design of algorithms for AIGC (VAE\Diffusion model), representation learning (CNN\GNN\Trans) and their applications in image recognition, property molecule generation and protein-drug interactions.
