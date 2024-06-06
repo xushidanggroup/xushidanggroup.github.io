@@ -3,7 +3,7 @@ title: Shimen Camping
 date: 2024-01-07
 ---
 
-野炊
+Camping trip at Shimen
 
 <!--more-->
 
