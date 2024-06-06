@@ -35,10 +35,10 @@ education:
     - course: PhD in Biomedical Engineering
       institution: South China University of Technology
       year: Currently Enrolled (2023 - Present)
-    - course: MEng in Organic Chemistry
+    - course: MSc in Organic Chemistry
       institution: Jiangxi Science and Technology Normal University
       year: 2023
-    - course: BEng in Chemistry
+    - course: BSc in Chemistry
       institution: Xi'an Normal University
       year: 2019
 
