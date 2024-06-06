@@ -8,13 +8,13 @@ last_name: Xu
 
 # Username (this should match the folder name)
 authors:
-  - 李晨晨
+  - 许膑
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Student of Biomedical Engneering
+role: PhD Student in Biomedical Engineering
 
 # Organizations/Affiliations
 organizations:

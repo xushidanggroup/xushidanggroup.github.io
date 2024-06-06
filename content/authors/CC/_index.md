@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Student of Biomedical Engneering
+role: PhD Student in Biomedical Engineering
 
 # Organizations/Affiliations
 organizations:

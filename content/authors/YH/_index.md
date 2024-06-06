@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Student of Chemistry
+role: Master's Student in Chemistry
 
 # Organizations/Affiliations
 organizations:
