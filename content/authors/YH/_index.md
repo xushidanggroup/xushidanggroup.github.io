@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Student of Biomedical Engneering
+role: Student of Chemistry
 
 # Organizations/Affiliations
 organizations:
