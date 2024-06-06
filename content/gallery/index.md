@@ -18,22 +18,12 @@ sections:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
-        align: left
-        background:
-          image:
-            filename: contact.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#555'
-      - title: Sthing
-        content: 'Cool!'
+      - title: New research group
+        content: 'but unlimited potential!'
         align: right
         background:
           image:
-            filename: welcome.jpg
+            filename: f1.jpg
             filters:
               brightness: 0.5
           position: center
