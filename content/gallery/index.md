@@ -16,17 +16,17 @@ sections:
             filename: cca.jpg
             filters:
               brightness: 0.7
-          position: right
+          position: center
           color: '#666'
       - title: ''
-        content: The first lipid droplet (LD)/nucleus dual-targeted ratiometric fluorescence probe, CQPP, for monitoring polarity change was developed.
+        content: The first lipid droplet (LD)/nucleus dual-targeted ratiometric fluorescence probe, CQPP, for monitoring polarity change was developed.
         align: center
         background:
           image:
             filename: psr.jpg
             filters:
               brightness: 0.5
-          position: right
+          position: center
           color: '#666'
         link:
           icon: graduation-cap
@@ -41,12 +41,12 @@ sections:
             filename: r.jpg
             filters:
               brightness: 0.7
-          position: right
+          position: center
           color: '#666'
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: ''
-      is_fullscreen: true
+      slide_height: '400px'
+      is_fullscreen: false
       # Automatically transition through slides?
       loop: false
       # Duration of transition between slides (in ms)
