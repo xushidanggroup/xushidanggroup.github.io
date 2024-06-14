@@ -1,5 +1,5 @@
 ---
-title:
+title: 
 date: 2024-6-1
 
 type: landing
