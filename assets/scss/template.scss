@@ -14,15 +14,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px; /* 可选，增加内边距 */
 }
 
 .slide {
   max-width: 600px; /* 根据需要调整宽度 */
   width: 100%;
+  padding: 20px; /* 可选，增加内边距 */
 }
 
 .slide-background {
   width: 100%;
   height: auto;
 }
+
