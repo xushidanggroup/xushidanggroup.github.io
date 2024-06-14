@@ -53,13 +53,17 @@ sections:
           display: flex;
           justify-content: center;
           align-items: center;
+          min-height: 400px;
         }
         .slide {
-          max-width: 600px; /* 根据需要调整宽度 */
+          max-width: 800px;
           width: 100%;
+          padding: 20px;
+          box-sizing: border-box;
         }
         .slide-background {
           width: 100%; 
           height: auto;
+          display: block;
         }
 ---

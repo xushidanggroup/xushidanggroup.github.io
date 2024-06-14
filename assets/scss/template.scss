@@ -14,16 +14,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 400px; /* 确保幻灯片容器有一定的高度 */
 }
 
 .slide {
-  max-width: 600px; /* 根据需要调整宽度 */
+  max-width: 800px; /* 根据需要调整宽度 */
   width: 100%;
-  padding: 20px; /* 可选，增加内边距 */
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .slide-background {
   width: 100%;
   height: auto;
+  display: block;
 }
-
