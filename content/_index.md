@@ -1,59 +1,35 @@
 ---
-title: Gallery
-date: 2024-6-1
-
+# Leave the homepage title empty to use the site title
+title:
+date: 2024-6-14
 type: landing
 
 sections:
-  - block: slider
+  - block: collection
     content:
-      slides:
-      - title: Undergraduate graduation project defense
-        content: 2024.5.30
-        align: center
-        background:
-          image:
-            filename: bs.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#666'
-      - title: Shimen Camping
-        content: 2024.1.7
-        align: center
-        background:
-          image:
-            filename: sm.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#666'
-      - title: Winter Solstice
-        content: 2023.12.22
-        align: center
-        background:
-          image:
-            filename: dz.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#666'
-      - title: Rafting
-        content: 2023.7.25
-        align: center
-        background:
-          image:
-            filename: rafting1.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#666'
+      title: Latest News
+      subtitle:
+      text:
+      count: 5
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: post
     design:
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: ''
-      is_fullscreen: true
-      # Automatically transition through slides?
-      loop: false
-      # Duration of transition between slides (in ms)
-      interval: 2000
+      view: card
+      columns: '1'
+
+  - block: markdown
+    content:
+      title:
+      subtitle:
+      text: |
+        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+    design:
+      columns: '1'
 ---
