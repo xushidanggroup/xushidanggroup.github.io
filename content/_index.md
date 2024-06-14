@@ -49,7 +49,7 @@ sections:
           position: center
           color: '#666'
     design:
-      slide_height: '400px'  # 强制设置幻灯片高度，例如400px
+      slide_height: '1000px'  # 强制设置幻灯片高度，例如400px
       is_fullscreen: false  # 不全屏显示
       loop: false
       interval: 2000
