@@ -57,12 +57,9 @@ sections:
         .slide {
           max-width: 600px; /* 根据需要调整宽度 */
           width: 100%;
-          padding: 20px; /* 可选，增加内边距 */
         }
         .slide-background {
-          max-width: 100%;
+          width: 100%; 
           height: auto;
-          display: block;
-          margin: 0 auto;
         }
 ---
