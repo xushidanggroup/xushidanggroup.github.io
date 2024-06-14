@@ -15,7 +15,7 @@ sections:
       text: |
         <br>
         
-        The **D Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2019.
+        The **D Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2022.
   
   - block: markdown
     content:
