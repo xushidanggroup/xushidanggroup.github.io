@@ -25,7 +25,7 @@ sections:
           image:
             filename: psr.jpg
             filters:
-              brightness: 0.7
+              brightness: 0.5
           position: center
           color: '#666'
         link:
@@ -57,6 +57,7 @@ sections:
         .slide {
           max-width: 600px; /* 根据需要调整宽度 */
           width: 100%;
+          padding: 20px; /* 可选，增加内边距 */
         }
         .slide-background {
           max-width: 100%;
