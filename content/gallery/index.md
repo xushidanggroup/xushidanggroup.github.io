@@ -25,7 +25,7 @@ sections:
           image:
             filename: psr.jpg
             filters:
-              brightness: 0.5
+              brightness: 0.7
           position: center
           color: '#666'
         link:
@@ -44,11 +44,24 @@ sections:
           position: center
           color: '#666'
     design:
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: '400px'
       is_fullscreen: false
-      # Automatically transition through slides?
       loop: false
-      # Duration of transition between slides (in ms)
       interval: 2000
+      custom_css: |
+        .slides-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .slide {
+          max-width: 600px; /* 根据需要调整宽度 */
+          width: 100%;
+        }
+        .slide-background {
+          max-width: 100%;
+          height: auto;
+          display: block;
+          margin: 0 auto;
+        }
 ---
