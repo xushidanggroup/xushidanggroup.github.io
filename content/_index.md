@@ -10,7 +10,7 @@ sections:
       slides:
       - title: Undergraduate graduation project defense
         content: 2024.5.30
-        align: bottom
+        align: center
         background:
           image:
             filename: bs.jpg
@@ -20,7 +20,7 @@ sections:
           color: '#666'
       - title: Shimen Camping
         content: 2024.1.7
-        align: bottom
+        align: center
         background:
           image:
             filename: sm.jpg
@@ -30,7 +30,7 @@ sections:
           color: '#666'
       - title: Winter Solstice
         content: 2023.12.22
-        align: bottom
+        align: center
         background:
           image:
             filename: dz.jpg
@@ -40,7 +40,7 @@ sections:
           color: '#666'
       - title: Rafting
         content: 2023.7.25
-        align: bottom
+        align: center
         background:
           image:
             filename: rafting1.jpg
@@ -49,7 +49,7 @@ sections:
           position: center
           color: '#666'
     design:
-      slide_height: '1000px'  # 强制设置幻灯片高度，例如400px
+      slide_height: '1000px'  # 调整幻灯片高度
       is_fullscreen: false  # 不全屏显示
       loop: false
       interval: 2000
