@@ -8,31 +8,41 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the group
-        content: Take a look at what we're working on...
+      - title: ''
+        content: Mitochondria-targeting AIE photosensitizer is specifically synthesized inside cancer cells, realizing precise photodynamic therapy
         align: center
         background:
           image:
-            filename: welcome.jpg
+            filename: cca.jpg
             filters:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: New research group
-        content: 'but unlimited potential!'
-        align: right
+      - title: ''
+        content: The first lipid droplet (LD)/nucleus dual-targeted ratiometric fluorescence probe, CQPP, for monitoring polarity change was developed.
+        align: center
         background:
           image:
-            filename: f1.jpg
+            filename: psr.jpg
             filters:
               brightness: 0.5
-          position: center
-          color: '#333'
+          position: right
+          color: '#666'
         link:
           icon: graduation-cap
           icon_pack: fas
           text: Join Us
           url: ../contact/
+      - title: ''
+        content: The design principles of AIE PSs and their biomedical applications are discussed in detail.
+        align: center
+        background:
+          image:
+            filename: r.jpg
+            filters:
+              brightness: 0.7
+          position: right
+          color: '#666'
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
