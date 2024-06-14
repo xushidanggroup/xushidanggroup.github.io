@@ -1,61 +1,56 @@
 ---
-# Leave the homepage title empty to use the site title
 title:
 date: 2024-6-1
+
 type: landing
 
 sections:
-  - block: hero
+  - block: slider
     content:
-      title: |
-        D
-        Research Group
-      image:
-        filename: welcome.jpg
-      text: |
-        <br>
-        
-        The **D Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2022.
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: look.jpg
-          filters:
-            brightness: 1
-          parallax: false
+      slides:
+      - title: Undergraduate graduation project defense
+        content: 2024.5.30
+        align: bottom
+        background:
+          image:
+            filename: bs.jpg
+            filters:
+              brightness: 0.7
           position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
+          color: '#666'
+      - title: Shimen Camping
+        content: 2024.1.7
+        align: bottom
+        background:
+          image:
+            filename: sm.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#666'
+      - title: Winter Solstice
+        content: 2023.12.22
+        align: bottom
+        background:
+          image:
+            filename: dz.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#666'
+      - title: Rafting
+        content: 2023.7.25
+        align: bottom
+        background:
+          image:
+            filename: rafting1.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#666'
     design:
-      view: citation
-      columns: '1'
-
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
+      slide_height: '400px'  # 强制设置幻灯片高度，例如400px
+      is_fullscreen: false  # 不全屏显示
+      loop: false
+      interval: 2000
 ---
