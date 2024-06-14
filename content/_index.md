@@ -10,13 +10,13 @@ sections:
       subtitle:
       text: |
         <div id="post-slider" class="post-slider">
-          {{ range first 5 .Site.RegularPages.ByDate.Reverse }}
+          {{% range first 5 .Site.RegularPages.ByDate.Reverse %}}
           <div class="slide">
             <h2>{{ .Title }}</h2>
             <p>{{ .Summary }}</p>
             <a href="{{ .RelPermalink }}">Read more</a>
           </div>
-          {{ end }}
+          {{% end %}}
         </div>
 
         <style>
