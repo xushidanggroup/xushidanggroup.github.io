@@ -17,6 +17,7 @@
   min-height: 100vh; /* 确保幻灯片容器占据整个视窗高度 */
   padding: 0 20px; /* 添加水平内边距以确保幻灯片不会紧贴屏幕边缘 */
   box-sizing: border-box; /* 确保内边距计算在内 */
+  margin: 0 auto; /* 确保容器在页面中央 */
 }
 
 .slide {
@@ -25,6 +26,7 @@
   padding: 20px;
   box-sizing: border-box; /* 确保内边距计算在内 */
   text-align: center; /* 确保文本居中 */
+  background: #fff; /* 添加白色背景，确保内容可见 */
 }
 
 .slide-background {
@@ -32,5 +34,6 @@
   height: auto;
   display: block;
 }
+
 
 

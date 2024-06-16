@@ -51,6 +51,7 @@ sections:
           min-height: 100vh;
           padding: 0 20px;
           box-sizing: border-box;
+          margin: 0 auto;
         }
         .slide {
           max-width: 800px;
@@ -58,6 +59,7 @@ sections:
           padding: 20px;
           box-sizing: border-box;
           text-align: center;
+          background: #fff;
         }
         .slide-background {
           width: 100%; 
