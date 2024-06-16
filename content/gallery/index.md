@@ -57,6 +57,7 @@ sections:
           width: 100%;
           padding: 20px;
           box-sizing: border-box;
+          text-align: center;
         }
         .slide-background {
           width: 100%; 
