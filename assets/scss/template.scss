@@ -8,29 +8,26 @@
   justify-content: center;
 }
 
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 16px;
-  padding: 16px;
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px; /* 根据需要调整高度 */
 }
 
-.gallery-item {
-  position: relative;
-  overflow: hidden;
-}
-
-.gallery-item img {
+.slider .slide {
+  max-width: 800px;
   width: 100%;
-  height: auto;
-  display: block;
-}
-
-.caption {
-  padding: 8px;
+  padding: 20px;
   text-align: center;
-  background: #f0f0f0;
-  color: #333;
+  background: rgba(255, 255, 255, 0.8); /* 半透明背景，确保文本可读 */
+  border-radius: 10px; /* 可选，增加圆角效果 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 可选，增加阴影效果 */
 }
 
+.slider .slide img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
 
