@@ -28,11 +28,6 @@ sections:
               brightness: 0.5
           position: center
           color: '#666'
-        link:
-          icon: graduation-cap
-          icon_pack: fas
-          text: Join Us
-          url: ../contact/
       - title: ''
         content: The design principles of AIE PSs and their biomedical applications are discussed in detail.
         align: center
@@ -53,13 +48,15 @@ sections:
           display: flex;
           justify-content: center;
           align-items: center;
-          min-height: 100vh; /* 确保幻灯片容器占据整个视窗高度 */
+          min-height: 100vh;
+          padding: 0 20px;
+          box-sizing: border-box;
         }
         .slide {
           max-width: 800px;
           width: 100%;
-          box-sizing: border-box;
           padding: 20px;
+          box-sizing: border-box;
         }
         .slide-background {
           width: 100%; 

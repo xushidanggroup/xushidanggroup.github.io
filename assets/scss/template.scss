@@ -15,13 +15,15 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh; /* 确保幻灯片容器占据整个视窗高度 */
+  padding: 0 20px; /* 添加水平内边距以确保幻灯片不会紧贴屏幕边缘 */
+  box-sizing: border-box; /* 确保内边距计算在内 */
 }
 
 .slide {
   max-width: 800px; /* 根据需要调整宽度 */
   width: 100%;
-  box-sizing: border-box;
-  padding: 20px; /* 增加内边距 */
+  padding: 20px;
+  box-sizing: border-box; /* 确保内边距计算在内 */
 }
 
 .slide-background {
