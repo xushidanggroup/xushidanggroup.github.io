@@ -39,30 +39,29 @@ sections:
           position: center
           color: '#666'
     design:
-      slide_height: '400px'
+      slide_height: '600px'
       is_fullscreen: false
       loop: false
-      interval: 2000
+      interval: 5000
       custom_css: |
-        .slides-container {
+        .slider {
+          position: relative;
           display: flex;
           justify-content: center;
           align-items: center;
-          min-height: 100vh;
-          padding: 0 20px;
-          box-sizing: border-box;
-          margin: 0 auto;
+          height: 100%;
+          min-height: 600px;
         }
         .slide {
           max-width: 800px;
           width: 100%;
+          margin: 0 auto;
           padding: 20px;
           box-sizing: border-box;
           text-align: center;
-          background: #fff;
         }
-        .slide-background {
-          width: 100%; 
+        .slide img {
+          width: 100%;
           height: auto;
           display: block;
         }

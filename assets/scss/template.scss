@@ -8,32 +8,29 @@
   justify-content: center;
 }
 
-/* 在 template.scss 中添加以下样式 */
-
-.slides-container {
+.slider {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* 确保幻灯片容器占据整个视窗高度 */
-  padding: 0 20px; /* 添加水平内边距以确保幻灯片不会紧贴屏幕边缘 */
-  box-sizing: border-box; /* 确保内边距计算在内 */
-  margin: 0 auto; /* 确保容器在页面中央 */
+  min-height: 600px; /* 根据需要调整高度 */
 }
 
-.slide {
-  max-width: 800px; /* 根据需要调整宽度 */
+.slider .slide {
+  max-width: 800px;
   width: 100%;
   padding: 20px;
-  box-sizing: border-box; /* 确保内边距计算在内 */
-  text-align: center; /* 确保文本居中 */
-  background: #fff; /* 添加白色背景，确保内容可见 */
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8); /* 半透明背景，确保文本可读 */
+  border-radius: 10px; /* 可选，增加圆角效果 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 可选，增加阴影效果 */
 }
 
-.slide-background {
-  width: 100%;
+.slider .slide img {
+  max-width: 100%;
   height: auto;
-  display: block;
+  margin-bottom: 20px;
 }
+
 
 
 
