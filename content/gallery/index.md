@@ -53,13 +53,13 @@ sections:
           display: flex;
           justify-content: center;
           align-items: center;
-          min-height: 400px;
+          min-height: 100vh; /* 确保幻灯片容器占据整个视窗高度 */
         }
         .slide {
           max-width: 800px;
           width: 100%;
-          padding: 20px;
           box-sizing: border-box;
+          padding: 20px;
         }
         .slide-background {
           width: 100%; 
