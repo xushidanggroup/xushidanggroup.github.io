@@ -81,7 +81,7 @@ date: 2023-06-19T12:00:00Z
     }
 
     function autoSwitchImages() {
-        autoSwitchInterval = setInterval(showNextImage, 3000);
+        autoSwitchInterval = setInterval(showNextImage, 5000);
     }
 
     function resetAutoSwitch() {
