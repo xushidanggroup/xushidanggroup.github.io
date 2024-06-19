@@ -13,7 +13,7 @@ sections:
           align: center
           background:
             image:
-              filename: cca.jpg
+              filename: /images/cca.jpg
               filters:
                 brightness: 0.7
             position: center
@@ -23,7 +23,7 @@ sections:
           align: center
           background:
             image:
-              filename: psr.jpg
+              filename: /images/psr.jpg
               filters:
                 brightness: 0.5
             position: center
@@ -33,7 +33,7 @@ sections:
           align: center
           background:
             image:
-              filename: r.jpg
+              filename: /images/r.jpg
               filters:
                 brightness: 0.7
             position: center
