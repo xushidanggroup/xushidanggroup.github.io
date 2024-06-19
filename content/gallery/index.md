@@ -175,12 +175,12 @@ date: 2023-06-19T12:00:00Z
 
     function showNextImage() {
         currentIndex = (currentIndex + 1) % images.length;
-        showImage(currentIndex);
+        showImage(currentIndex, true);
     }
 
     function showPreviousImage() {
         currentIndex = (currentIndex - 1 + images.length) % images.length;
-        showImage(currentIndex);
+        showImage(currentIndex, true);
     }
 
     function autoSwitchImages() {
