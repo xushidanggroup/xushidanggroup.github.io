@@ -1,17 +1,7 @@
 ---
-title:
+title: Gallery
 date: 2023-06-19T12:00:00Z
 ---
-
-<style>
-    .gallery-title {
-        text-align: center;
-        font-size: 2em;
-        margin-top: 20px;
-    }
-</style>
-
-<div class="gallery-title">Gallery</div>
 
 <div class="gallery">
     <div class="gallery-thumbnails">
