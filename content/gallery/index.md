@@ -51,17 +51,19 @@ date: 2023-06-19T12:00:00Z
     }
 
     .gallery-main {
-        width: 95%; /* 增加主图显示区域的宽度 */
+        width: 100%; /* 利用父容器的宽度 */
+        max-width: 1200px; /* 设置最大宽度 */
         text-align: center;
-        position: relative; /* 使左右按钮相对定位 */
+        position: relative;
+        margin: 0 auto; /* 水平居中 */
     }
 
     .gallery-main img {
-        width: 100%;
+        max-width: 100%; /* 图片最大宽度为100%，以免在小屏幕上拉伸过大 */
         height: auto;
         border: 2px solid #ddd;
         border-radius: 5px;
-        transition: opacity 2s ease-in-out; /* 将过渡效果时间增加到2秒 */
+        transition: opacity 2s ease-in-out; /* 过渡效果时间 */
         opacity: 1;
     }
 
