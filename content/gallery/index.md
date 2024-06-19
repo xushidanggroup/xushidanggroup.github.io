@@ -3,6 +3,12 @@ title: Gallery
 date: 2023-06-19T12:00:00Z
 ---
 
+<style>
+    h1 {
+        text-align: center;
+    }
+</style>
+
 <div class="gallery">
     <div class="gallery-thumbnails">
         <div class="thumbnail-container" onclick="showImage(0)">
