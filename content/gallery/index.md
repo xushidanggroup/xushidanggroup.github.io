@@ -51,8 +51,24 @@ date: 2023-06-19T12:00:00Z
 
     function showImage(index) {
         currentIndex = index;
-        document.getElementById('mainImage').src = images[index].src;
-        document.getElementById('mainImageDescription').textContent = images[index].description;
+        const mainImage = document.getElementById('mainImage');
+        const mainImageDescription = document.getElementById('mainImageDescription');
+
+        // 淡出效果
+        mainImage.classList.add('fade-out');
+        mainImageDescription.classList.add('fade-out');
+
+        setTimeout(() => {
+            mainImage.src = images[index].src;
+            mainImageDescription.textContent = images[index].description;
+
+            // 淡入效果
+            mainImage.classList.remove('fade-out');
+            mainImage.classList.add('fade-in');
+            mainImageDescription.classList.remove('fade-out');
+            mainImageDescription.classList.add('fade-in');
+        }, 300); // 与CSS过渡时间匹配
+
         resetAutoSwitch();
     }
 
@@ -134,12 +150,26 @@ date: 2023-06-19T12:00:00Z
         height: auto;
         border: 2px solid #ddd;
         border-radius: 5px;
+        transition: opacity 0.3s ease-in-out; /* 添加过渡效果 */
+        opacity: 1;
     }
 
     .gallery-main p {
         margin-top: 15px; /* 增加描述和图片之间的间距 */
         font-size: 1.2em; /* 增加描述文本的大小 */
         color: #555;
+        transition: opacity 0.3s ease-in-out; /* 添加过渡效果 */
+        opacity: 1;
+    }
+
+    .gallery-main img.fade-out,
+    .gallery-main p.fade-out {
+        opacity: 0;
+    }
+
+    .gallery-main img.fade-in,
+    .gallery-main p.fade-in {
+        opacity: 1;
     }
 
     .gallery-nav {
