@@ -1,5 +1,5 @@
 ---
-title: "Gallery"
+title:
 date: 2023-06-19T12:00:00Z
 ---
 
