@@ -46,8 +46,8 @@ sections:
       custom_css: |
         .slider {
           position: relative;
-          height: 100vh;  /* 使用视口高度作为幻灯片容器高度 */
-          overflow: hidden;  /* 隐藏溢出部分，确保只显示一个幻灯片 */
+          height: 100vh;
+          overflow: hidden;
         }
         .slide {
           width: 100%;
@@ -59,6 +59,6 @@ sections:
         .slide img {
           width: 100%;
           height: 100%;
-          object-fit: cover;  /* 使用cover方式填充图片，确保图片铺满整个幻灯片 */
+          object-fit: cover;
         }
 ---
