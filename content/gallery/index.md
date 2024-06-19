@@ -11,7 +11,7 @@ date: 2023-06-19T12:00:00Z
     }
 </style>
 
-<h1 class="gallery-title">Gallery</h1>
+<div class="gallery-title">Gallery</div>
 
 <div class="gallery">
     <div class="gallery-thumbnails">
