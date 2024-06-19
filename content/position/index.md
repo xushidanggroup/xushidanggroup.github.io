@@ -49,4 +49,5 @@ sections:
 
         If you are interested in joining us, please send your CV and relevant materials to [xusd@scut.edu.cn](mailto:xusd@scut.edu.cn). We look forward to your application and to advancing biomedical and AI research together!
 
-        For more information, please visit our [lab's homepage](https://dcorvod.github.io/contact/)
+        For more information, please visit our [lab's homepage](https://www.wangxiaohttps://dcorvod.github.io/lab.org/contact)
+---
