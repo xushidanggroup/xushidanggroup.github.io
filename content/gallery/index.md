@@ -40,7 +40,7 @@ date: 2023-06-19T12:00:00Z
     }
 
     .gallery-main {
-        width: 90%; /* 增加主图显示区域的宽度 */
+        width: 95%; /* 增加主图显示区域的宽度 */
         margin-bottom: 20px; /* 增加间距 */
         text-align: center;
     }
@@ -61,9 +61,9 @@ date: 2023-06-19T12:00:00Z
     .gallery-thumbnails {
         display: flex;
         justify-content: center;
-        gap: 15px; /* 增加缩略图之间的间距 */
+        gap: 20px; /* 增加缩略图之间的间距 */
         overflow-x: auto;
-        width: 90%; /* 增加缩略图显示区域的宽度 */
+        width: 95%; /* 增加缩略图显示区域的宽度 */
     }
 
     .thumbnail-container {
@@ -74,8 +74,8 @@ date: 2023-06-19T12:00:00Z
     }
 
     .thumbnail-container img {
-        width: 120px; /* 增加缩略图的宽度 */
-        height: 90px; /* 增加缩略图的高度 */
+        width: 150px; /* 增加缩略图的宽度 */
+        height: 110px; /* 增加缩略图的高度 */
         transition: transform 0.3s;
     }
 
