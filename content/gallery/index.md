@@ -5,29 +5,63 @@ date: 2023-06-19T12:00:00Z
 
 <div class="gallery">
     <div class="gallery-main">
+        <button class="gallery-nav left" onclick="showPreviousImage()">&#10094;</button>
         <img src="/images/dz.jpg" alt="Main Image" id="mainImage">
         <p id="mainImageDescription">Celebrate the Winter Solstice  Dec 22, 2023</p>
+        <button class="gallery-nav right" onclick="showNextImage()">&#10095;</button>
     </div>
     <div class="gallery-thumbnails">
-        <div class="thumbnail-container" onclick="showImage('/images/dz.jpg', 'Celebrate the Winter Solstice  Dec 22, 2023')">
+        <div class="thumbnail-container" onclick="showImage(0)">
             <img src="/images/dz.jpg" alt="Thumbnail dz">
         </div>
-        <div class="thumbnail-container" onclick="showImage('/images/f1.jpg', 'Camping trip at Shimen  Jan 7, 2024')">
+        <div class="thumbnail-container" onclick="showImage(1)">
             <img src="/images/f1.jpg" alt="Thumbnail f1">
         </div>
-        <div class="thumbnail-container" onclick="showImage('/images/rafting1.jpg', 'First team-building activity, white-water rafting  Jul 25, 2023')">
+        <div class="thumbnail-container" onclick="showImage(2)">
             <img src="/images/rafting1.jpg" alt="Thumbnail rafting1">
         </div>
-        <div class="thumbnail-container" onclick="showImage('/images/sm.jpg', 'Camping trip at Shimen  Jan 7, 2024')">
+        <div class="thumbnail-container" onclick="showImage(3)">
             <img src="/images/sm.jpg" alt="Thumbnail sm">
         </div>
     </div>
 </div>
 
 <script>
-    function showImage(src, description) {
-        document.getElementById('mainImage').src = src;
-        document.getElementById('mainImageDescription').textContent = description;
+    const images = [
+        {
+            src: '/images/dz.jpg',
+            description: 'Celebrate the Winter Solstice  Dec 22, 2023'
+        },
+        {
+            src: '/images/f1.jpg',
+            description: 'Camping trip at Shimen  Jan 7, 2024'
+        },
+        {
+            src: '/images/rafting1.jpg',
+            description: 'First team-building activity, white-water rafting  Jul 25, 2023'
+        },
+        {
+            src: '/images/sm.jpg',
+            description: 'Camping trip at Shimen  Jan 7, 2024'
+        }
+    ];
+
+    let currentIndex = 0;
+
+    function showImage(index) {
+        currentIndex = index;
+        document.getElementById('mainImage').src = images[index].src;
+        document.getElementById('mainImageDescription').textContent = images[index].description;
+    }
+
+    function showNextImage() {
+        currentIndex = (currentIndex + 1) % images.length;
+        showImage(currentIndex);
+    }
+
+    function showPreviousImage() {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        showImage(currentIndex);
     }
 </script>
 
@@ -43,6 +77,7 @@ date: 2023-06-19T12:00:00Z
         width: 95%; /* 增加主图显示区域的宽度 */
         margin-bottom: 20px; /* 增加间距 */
         text-align: center;
+        position: relative; /* 使左右按钮相对定位 */
     }
 
     .gallery-main img {
@@ -56,6 +91,27 @@ date: 2023-06-19T12:00:00Z
         margin-top: 15px; /* 增加描述和图片之间的间距 */
         font-size: 1.2em; /* 增加描述文本的大小 */
         color: #555;
+    }
+
+    .gallery-nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        border: none;
+        font-size: 2em;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .gallery-nav.left {
+        left: 0;
+    }
+
+    .gallery-nav.right {
+        right: 0;
     }
 
     .gallery-thumbnails {
