@@ -6,7 +6,7 @@ date: 2023-06-19T12:00:00Z
 <div class="gallery">
     <div class="gallery-main">
         <img src="/images/dz.jpg" alt="Main Image" id="mainImage">
-        <p id="mainImageDescription">Description for dz</p>
+        <p id="mainImageDescription">Celebrate the Winter Solstice  Dec 22, 2023</p>
     </div>
     <div class="gallery-thumbnails">
         <div class="thumbnail-container" onclick="showImage('/images/dz.jpg', 'Celebrate the Winter Solstice  Dec 22, 2023')">
