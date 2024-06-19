@@ -47,11 +47,13 @@ date: 2023-06-19T12:00:00Z
     ];
 
     let currentIndex = 0;
+    let autoSwitchInterval;
 
     function showImage(index) {
         currentIndex = index;
         document.getElementById('mainImage').src = images[index].src;
         document.getElementById('mainImageDescription').textContent = images[index].description;
+        resetAutoSwitch();
     }
 
     function showNextImage() {
@@ -63,6 +65,19 @@ date: 2023-06-19T12:00:00Z
         currentIndex = (currentIndex - 1 + images.length) % images.length;
         showImage(currentIndex);
     }
+
+    function autoSwitchImages() {
+        autoSwitchInterval = setInterval(showNextImage, 3000);
+    }
+
+    function resetAutoSwitch() {
+        clearInterval(autoSwitchInterval);
+        autoSwitchImages();
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        autoSwitchImages();
+    });
 </script>
 
 <style>
