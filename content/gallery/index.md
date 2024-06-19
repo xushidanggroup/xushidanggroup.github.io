@@ -65,7 +65,7 @@ date: 2023-06-19T12:00:00Z
             // 淡入效果
             mainImage.style.opacity = 1;
             mainImageDescription.style.opacity = 1;
-        }, 300); // 与CSS过渡时间匹配
+        }, 1000); // 与CSS过渡时间匹配
 
         resetAutoSwitch();
     }
@@ -81,7 +81,7 @@ date: 2023-06-19T12:00:00Z
     }
 
     function autoSwitchImages() {
-        autoSwitchInterval = setInterval(showNextImage, 5000);
+        autoSwitchInterval = setInterval(showNextImage, 5000); // 将间隔时间改为5000毫秒（5秒）
     }
 
     function resetAutoSwitch() {
@@ -148,7 +148,7 @@ date: 2023-06-19T12:00:00Z
         height: auto;
         border: 2px solid #ddd;
         border-radius: 5px;
-        transition: opacity 0.3s ease-in-out; /* 添加过渡效果 */
+        transition: opacity 1s ease-in-out; /* 将过渡效果时间增加到1秒 */
         opacity: 1;
     }
 
@@ -156,7 +156,7 @@ date: 2023-06-19T12:00:00Z
         margin-top: 15px; /* 增加描述和图片之间的间距 */
         font-size: 1.2em; /* 增加描述文本的大小 */
         color: #555;
-        transition: opacity 0.3s ease-in-out; /* 添加过渡效果 */
+        transition: opacity 1s ease-in-out; /* 将过渡效果时间增加到1秒 */
         opacity: 1;
     }
 
