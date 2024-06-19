@@ -55,18 +55,16 @@ date: 2023-06-19T12:00:00Z
         const mainImageDescription = document.getElementById('mainImageDescription');
 
         // 淡出效果
-        mainImage.classList.add('fade-out');
-        mainImageDescription.classList.add('fade-out');
+        mainImage.style.opacity = 0;
+        mainImageDescription.style.opacity = 0;
 
         setTimeout(() => {
             mainImage.src = images[index].src;
             mainImageDescription.textContent = images[index].description;
 
             // 淡入效果
-            mainImage.classList.remove('fade-out');
-            mainImage.classList.add('fade-in');
-            mainImageDescription.classList.remove('fade-out');
-            mainImageDescription.classList.add('fade-in');
+            mainImage.style.opacity = 1;
+            mainImageDescription.style.opacity = 1;
         }, 300); // 与CSS过渡时间匹配
 
         resetAutoSwitch();
@@ -159,16 +157,6 @@ date: 2023-06-19T12:00:00Z
         font-size: 1.2em; /* 增加描述文本的大小 */
         color: #555;
         transition: opacity 0.3s ease-in-out; /* 添加过渡效果 */
-        opacity: 1;
-    }
-
-    .gallery-main img.fade-out,
-    .gallery-main p.fade-out {
-        opacity: 0;
-    }
-
-    .gallery-main img.fade-in,
-    .gallery-main p.fade-in {
         opacity: 1;
     }
 
