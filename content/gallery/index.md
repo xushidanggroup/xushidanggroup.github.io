@@ -7,8 +7,8 @@ date: 2023-06-19T12:00:00Z
     <div class="gallery-main">
         <button class="gallery-nav left" onclick="showPreviousImage()">&#10094;</button>
         <img src="/images/dz.jpg" alt="Main Image" id="mainImage">
-        <p id="mainImageDescription">Celebrate the Winter Solstice  Dec 22, 2023</p>
         <button class="gallery-nav right" onclick="showNextImage()">&#10095;</button>
+        <p id="mainImageDescription">Celebrate the Winter Solstice  Dec 22, 2023</p>
     </div>
     <div class="gallery-thumbnails">
         <div class="thumbnail-container" onclick="showImage(0)">
@@ -97,7 +97,7 @@ date: 2023-06-19T12:00:00Z
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        background-color: rgba(0,0,0,0.5);
+        background-color: rgba(0, 0, 0, 0.5);
         color: white;
         border: none;
         font-size: 2em;
