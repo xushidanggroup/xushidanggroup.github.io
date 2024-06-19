@@ -1,11 +1,10 @@
 ---
 title: Publications
 
-# Listing view
-view: citation
-
-# Optional banner image (relative to `assets/media/` folder).
-banner:
-  caption: ''
-  image: ''
+sections:
+  - block: markdown
+    content:
+      title:
+      subtitle: ''
+      text: The content is still being updated
 ---
