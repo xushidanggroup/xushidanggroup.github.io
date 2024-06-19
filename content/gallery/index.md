@@ -9,21 +9,17 @@ date: 2023-06-19T12:00:00Z
         <p id="mainImageDescription">Description for dz</p>
     </div>
     <div class="gallery-thumbnails">
-        <div class="thumbnail-container" onclick="showImage('/images/dz.jpg', 'Description for dz')">
+        <div class="thumbnail-container" onclick="showImage('/images/dz.jpg', 'Celebrate the Winter Solstice  Dec 22, 2023')">
             <img src="/images/dz.jpg" alt="Thumbnail dz">
-            <p>Celebrate the Winter Solstice  Dec 22, 2023</p>
         </div>
-        <div class="thumbnail-container" onclick="showImage('/images/f1.jpg', 'Description for f1')">
+        <div class="thumbnail-container" onclick="showImage('/images/f1.jpg', 'Camping trip at Shimen  Jan 7, 2024')">
             <img src="/images/f1.jpg" alt="Thumbnail f1">
-            <p>Camping trip at Shimen  Jan 7, 2024</p>
         </div>
-        <div class="thumbnail-container" onclick="showImage('/images/rafting1.jpg', 'Description for rafting1')">
+        <div class="thumbnail-container" onclick="showImage('/images/rafting1.jpg', 'First team-building activity, white-water rafting  Jul 25, 2023')">
             <img src="/images/rafting1.jpg" alt="Thumbnail rafting1">
-            <p>First team-building activity, white-water rafting  Jul 25, 2023</p>
         </div>
-        <div class="thumbnail-container" onclick="showImage('/images/sm.jpg', 'Description for sm')">
+        <div class="thumbnail-container" onclick="showImage('/images/sm.jpg', 'Camping trip at Shimen  Jan 7, 2024')">
             <img src="/images/sm.jpg" alt="Thumbnail sm">
-            <p>Camping trip at Shimen  Jan 7, 2024</p>
         </div>
     </div>
 </div>
