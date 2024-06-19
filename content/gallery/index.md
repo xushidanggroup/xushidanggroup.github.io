@@ -1,7 +1,6 @@
 ---
 title: "Gallery"
 date: 2023-06-19T12:00:00Z
-hide_title: true
 ---
 
 <style>
@@ -12,9 +11,7 @@ hide_title: true
     }
 </style>
 
-<div class="gallery-title">
-    Gallery
-</div>
+<h1 class="gallery-title">Gallery</h1>
 
 <div class="gallery">
     <div class="gallery-thumbnails">
