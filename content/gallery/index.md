@@ -18,11 +18,11 @@ date: 2023-06-19T12:00:00Z
             <img src="/images/sm.jpg" alt="Thumbnail sm">
         </div>
     </div>
+    <p id="mainImageDescription">Celebrate the Winter Solstice  Dec 22, 2023</p>
     <div class="gallery-main">
         <button class="gallery-nav left" onclick="showPreviousImage()">&#10094;</button>
         <img src="/images/dz.jpg" alt="Main Image" id="mainImage">
         <button class="gallery-nav right" onclick="showNextImage()">&#10095;</button>
-        <p id="mainImageDescription">Celebrate the Winter Solstice  Dec 22, 2023</p>
     </div>
 </div>
 
@@ -108,7 +108,7 @@ date: 2023-06-19T12:00:00Z
         gap: 20px; /* 增加缩略图之间的间距 */
         overflow-x: auto;
         width: 95%; /* 增加缩略图显示区域的宽度 */
-        margin-bottom: 20px; /* 增加缩略图和主图之间的间距 */
+        margin-bottom: 10px; /* 增加缩略图和描述之间的间距 */
     }
 
     .thumbnail-container {
@@ -152,8 +152,9 @@ date: 2023-06-19T12:00:00Z
         opacity: 1;
     }
 
-    .gallery-main p {
-        margin-top: 15px; /* 增加描述和图片之间的间距 */
+    #mainImageDescription {
+        margin-top: 10px; /* 增加描述和缩略图之间的间距 */
+        margin-bottom: 10px; /* 增加描述和主图之间的间距 */
         font-size: 1.2em; /* 增加描述文本的大小 */
         color: #555;
         transition: opacity 1s ease-in-out; /* 将过渡效果时间增加到1秒 */
