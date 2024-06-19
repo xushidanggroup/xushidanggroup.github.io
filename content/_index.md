@@ -61,3 +61,4 @@ sections:
           height: 100%;
           object-fit: cover;  /* 使用cover方式填充图片，确保图片铺满整个幻灯片 */
         }
+---
