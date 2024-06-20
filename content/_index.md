@@ -42,8 +42,7 @@ sections:
           position: center
           color: '#000'  # 设置背景颜色为黑色
     design:
-      slide_height: ''  # 保持自动高度
-      is_fullscreen: true
+      slide_height: '500px'  # 设置固定高度为500px
+      is_fullscreen: false  # 不使用全屏模式
       loop: false
       interval: 2000
----
