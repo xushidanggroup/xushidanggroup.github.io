@@ -6,22 +6,19 @@ type: landing
 
 sections:
   - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text: |
-        <div style="text-align: center;">
-          ![My Image](/images/cca.jpg)
-          Mitochondria-targeting AIE photosensitizer is specifically synthesized inside cancer cells, realizing precise photodynamic therapy.
-        </div>
+    content: |
+      <div style="text-align: center;">
+        ![My Image](/images/cca.jpg)
+        <p>Mitochondria-targeting AIE photosensitizer is specifically synthesized inside cancer cells, realizing precise photodynamic therapy.</p>
+      </div>
 
-        <div style="text-align: center;">
-          ![My Image](/images/psr.jpg)
-          The first lipid droplet (LD)/nucleus dual-targeted ratiometric fluorescence probe, CQPP, for monitoring polarity change was developed.
-        </div>
+      <div style="text-align: center;">
+        ![My Image](/images/psr.jpg)
+        <p>The first lipid droplet (LD)/nucleus dual-targeted ratiometric fluorescence probe, CQPP, for monitoring polarity change was developed.</p>
+      </div>
 
-        <div style="text-align: center;">
-          ![My Image](/images/r.jpg)
-          The design principles of AIE PSs and their biomedical applications are discussed in detail.
-        </div>
+      <div style="text-align: center;">
+        ![My Image](/images/r.jpg)
+        <p>The design principles of AIE PSs and their biomedical applications are discussed in detail.</p>
+      </div>
 ---
