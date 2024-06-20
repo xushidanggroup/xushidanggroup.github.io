@@ -6,22 +6,23 @@ date: 2023-06-19T12:00:00Z
 <style>
     h1 {
         text-align: center;
+        margin-bottom: 10px; /* 减小标题下方的间距 */
     }
 
     .gallery {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 20px;
+        margin-top: 10px; /* 减小整个gallery的上边距 */
     }
 
     .gallery-thumbnails {
         display: flex;
         justify-content: center;
-        gap: 20px; /* 增加缩略图之间的间距 */
+        gap: 10px; /* 减小缩略图之间的间距 */
         overflow-x: auto;
-        width: 95%; /* 增加缩略图显示区域的宽度 */
-        margin-bottom: 10px; /* 增加缩略图和描述之间的间距 */
+        width: 100%; /* 利用更大区域来显示缩略图 */
+        margin-bottom: 5px; /* 减小缩略图和描述之间的间距 */
     }
 
     .thumbnail-container {
@@ -32,8 +33,8 @@ date: 2023-06-19T12:00:00Z
     }
 
     .thumbnail-container img {
-        width: 150px; /* 增加缩略图的宽度 */
-        height: 110px; /* 增加缩略图的高度 */
+        width: 130px; /* 调整缩略图的宽度 */
+        height: 90px; /* 调整缩略图的高度 */
         transition: transform 0.3s;
     }
 
@@ -44,8 +45,8 @@ date: 2023-06-19T12:00:00Z
     }
 
     .thumbnail-container p {
-        margin-top: 10px; /* 增加描述和缩略图之间的间距 */
-        font-size: 0.9em; /* 增加描述文本的大小 */
+        margin-top: 5px; /* 减小描述和缩略图之间的间距 */
+        font-size: 0.8em; /* 调整描述文本的大小 */
         color: #777;
         text-align: center;
     }
@@ -68,9 +69,9 @@ date: 2023-06-19T12:00:00Z
     }
 
     #mainImageDescription {
-        margin-top: 10px; /* 增加描述和缩略图之间的间距 */
-        margin-bottom: 10px; /* 增加描述和主图之间的间距 */
-        font-size: 1.2em; /* 增加描述文本的大小 */
+        margin-top: 5px; /* 减小描述和缩略图之间的间距 */
+        margin-bottom: 5px; /* 减小描述和主图之间的间距 */
+        font-size: 1em; /* 调整描述文本的大小 */
         color: #555;
         transition: opacity 2s ease-in-out; /* 将过渡效果时间增加到2秒 */
         opacity: 1;
@@ -83,8 +84,8 @@ date: 2023-06-19T12:00:00Z
         background-color: rgba(0, 0, 0, 0.5);
         color: white;
         border: none;
-        font-size: 2em;
-        padding: 10px;
+        font-size: 1.5em; /* 调整导航按钮的大小 */
+        padding: 5px; /* 减小按钮的内边距 */
         cursor: pointer;
         z-index: 1;
     }
