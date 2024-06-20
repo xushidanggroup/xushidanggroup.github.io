@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Gallery
 date: 2023-06-19T12:00:00Z
 ---
 
@@ -9,14 +9,14 @@ date: 2023-06-19T12:00:00Z
         margin-bottom: 2px; /* 减小标题下方的间距 */
     }
 
-    .Home {
+    .gallery {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 3px; /* 减小整个Home的上边距 */
+        margin-top: 3px; /* 减小整个gallery的上边距 */
     }
 
-    .Home-thumbnails {
+    .gallery-thumbnails {
         display: flex;
         justify-content: center;
         gap: 10px; /* 减小缩略图之间的间距 */
@@ -51,7 +51,7 @@ date: 2023-06-19T12:00:00Z
         text-align: center;
     }
 
-    .Home-main {
+    .gallery-main {
         width: 100%; /* 利用父容器的宽度 */
         max-width: 2000px; /* 设置最大宽度 */
         text-align: center;
@@ -59,7 +59,7 @@ date: 2023-06-19T12:00:00Z
         margin: 0 auto; /* 水平居中 */
     }
 
-    .Home-main img {
+    .gallery-main img {
         max-width: 100%; /* 图片最大宽度为100%，以免在小屏幕上拉伸过大 */
         height: auto;
         border: 2px solid #ddd;
@@ -77,7 +77,7 @@ date: 2023-06-19T12:00:00Z
         opacity: 1;
     }
 
-    .Home-nav {
+    .gallery-nav {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -90,17 +90,17 @@ date: 2023-06-19T12:00:00Z
         z-index: 1;
     }
 
-    .Home-nav.left {
+    .gallery-nav.left {
         left: 0;
     }
 
-    .Home-nav.right {
+    .gallery-nav.right {
         right: 0;
     }
 </style>
 
-<div class="Home">
-    <div class="Home-thumbnails">
+<div class="gallery">
+    <div class="gallery-thumbnails">
         <div class="thumbnail-container" onclick="showImage(0, true)">
             <img src="/images/dz.jpg" alt="Thumbnail dz">
         </div>
@@ -115,10 +115,10 @@ date: 2023-06-19T12:00:00Z
         </div>
     </div>
     <p id="mainImageDescription">Celebrate the Winter Solstice  Dec 22, 2023</p>
-    <div class="Home-main">
-        <button class="Home-nav left" onclick="showPreviousImage()">&#10094;</button>
+    <div class="gallery-main">
+        <button class="gallery-nav left" onclick="showPreviousImage()">&#10094;</button>
         <img src="/images/dz.jpg" alt="Main Image" id="mainImage">
-        <button class="Home-nav right" onclick="showNextImage()">&#10095;</button>
+        <button class="gallery-nav right" onclick="showNextImage()">&#10095;</button>
     </div>
 </div>
 
