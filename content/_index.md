@@ -102,4 +102,46 @@ date: 2023-06-19T12:00:00Z
             mainImage.style.transition = `opacity ${quickTransitionTime}ms ease-in-out`;
             mainImageDescription.style.transition = `opacity ${quickTransitionTime}ms ease-in-out`;
         } else {
-            mainImage.style.transition =
+            mainImage.style.transition = `opacity ${transitionTime}ms ease-in-out`;
+            mainImageDescription.style.transition = `opacity ${transitionTime}ms ease-in-out`;
+        }
+
+        // 淡出效果
+        mainImage.style.opacity = 0;
+        mainImageDescription.style.opacity = 0;
+
+        setTimeout(() => {
+            mainImage.src = images[index].src;
+            mainImageDescription.textContent = images[index].description;
+
+            // 淡入效果
+            mainImage.style.opacity = 1;
+            mainImageDescription.style.opacity = 1;
+        }, quick ? quickTransitionTime : transitionTime);
+
+        resetAutoSwitch();
+    }
+
+    function showNextImage() {
+        currentIndex = (currentIndex + 1) % images.length;
+        showImage(currentIndex, true);
+    }
+
+    function showPreviousImage() {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        showImage(currentIndex, true);
+    }
+
+    function autoSwitchImages() {
+        autoSwitchInterval = setInterval(showNextImage, 5000); // 将间隔时间改为5000毫秒（5秒）
+    }
+
+    function resetAutoSwitch() {
+        clearInterval(autoSwitchInterval);
+        autoSwitchImages();
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        autoSwitchImages();
+    });
+</script>
