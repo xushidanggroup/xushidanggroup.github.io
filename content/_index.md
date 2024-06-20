@@ -1,5 +1,8 @@
 ---
 title: Home
+date: 2024-06-04
+
+type: landing
 
 sections:
   - block: markdown
