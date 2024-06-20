@@ -15,6 +15,41 @@ date: 2023-06-19T12:00:00Z
         margin-top: 20px;
     }
 
+    .gallery-thumbnails {
+        display: flex;
+        justify-content: center;
+        gap: 20px; /* 增加缩略图之间的间距 */
+        overflow-x: auto;
+        width: 95%; /* 增加缩略图显示区域的宽度 */
+        margin-bottom: 10px; /* 增加缩略图和描述之间的间距 */
+    }
+
+    .thumbnail-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .thumbnail-container img {
+        width: 150px; /* 增加缩略图的宽度 */
+        height: 110px; /* 增加缩略图的高度 */
+        transition: transform 0.3s;
+    }
+
+    .thumbnail-container img:hover {
+        transform: scale(1.1);
+        border: 2px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .thumbnail-container p {
+        margin-top: 10px; /* 增加描述和缩略图之间的间距 */
+        font-size: 0.9em; /* 增加描述文本的大小 */
+        color: #777;
+        text-align: center;
+    }
+
     .gallery-main {
         width: 100%; /* 利用父容器的宽度 */
         max-width: 1200px; /* 设置最大宽度 */
@@ -64,10 +99,24 @@ date: 2023-06-19T12:00:00Z
 </style>
 
 <div class="gallery">
-    <p id="mainImageDescription">Mitochondria-targeting AIE photosensitizer is specifically synthesized inside cancer cells, realizing precise photodynamic therapy</p>
+    <div class="gallery-thumbnails">
+        <div class="thumbnail-container" onclick="showImage(0, true)">
+            <img src="/images/dz.jpg" alt="Thumbnail dz">
+        </div>
+        <div class="thumbnail-container" onclick="showImage(1, true)">
+            <img src="/images/f1.jpg" alt="Thumbnail f1">
+        </div>
+        <div class="thumbnail-container" onclick="showImage(2, true)">
+            <img src="/images/rafting1.jpg" alt="Thumbnail rafting1">
+        </div>
+        <div class="thumbnail-container" onclick="showImage(3, true)">
+            <img src="/images/sm.jpg" alt="Thumbnail sm">
+        </div>
+    </div>
+    <p id="mainImageDescription">Celebrate the Winter Solstice  Dec 22, 2023</p>
     <div class="gallery-main">
         <button class="gallery-nav left" onclick="showPreviousImage()">&#10094;</button>
-        <img src="/static/images/cca.jpg" alt="Main Image" id="mainImage">
+        <img src="/images/dz.jpg" alt="Main Image" id="mainImage">
         <button class="gallery-nav right" onclick="showNextImage()">&#10095;</button>
     </div>
 </div>
@@ -75,16 +124,20 @@ date: 2023-06-19T12:00:00Z
 <script>
     const images = [
         {
-            src: '/static/images/cca.jpg',
-            description: 'Mitochondria-targeting AIE photosensitizer is specifically synthesized inside cancer cells, realizing precise photodynamic therapy'
+            src: '/images/dz.jpg',
+            description: 'Celebrate the Winter Solstice  Dec 22, 2023'
         },
         {
-            src: '/static/images/psr.jpg',
-            description: 'The first lipid droplet (LD)/nucleus dual-targeted ratiometric fluorescence probe, CQPP, for monitoring polarity change was developed.'
+            src: '/images/f1.jpg',
+            description: 'Camping trip at Shimen  Jan 7, 2024'
         },
         {
-            src: '/static/images/r.jpg',
-            description: 'The design principles of AIE PSs and their biomedical applications are discussed in detail.'
+            src: '/images/rafting1.jpg',
+            description: 'First team-building activity, white-water rafting  Jul 25, 2023'
+        },
+        {
+            src: '/images/sm.jpg',
+            description: 'Camping trip at Shimen  Jan 7, 2024'
         }
     ];
 
@@ -102,8 +155,7 @@ date: 2023-06-19T12:00:00Z
             mainImage.style.transition = `opacity ${quickTransitionTime}ms ease-in-out`;
             mainImageDescription.style.transition = `opacity ${quickTransitionTime}ms ease-in-out`;
         } else {
-            mainImage.style.transition =
-            `opacity ${transitionTime}ms ease-in-out`;
+            mainImage.style.transition = `opacity ${transitionTime}ms ease-in-out`;
             mainImageDescription.style.transition = `opacity ${transitionTime}ms ease-in-out`;
         }
 
