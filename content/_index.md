@@ -7,7 +7,10 @@ type: landing
 sections:
   - block: markdown
     content:
-      title:
+      title: Welcome to Our Website
       subtitle: ''
-      text: The content is still being updated
+      text: |
+        This is a simple homepage.
+
+        ![My Image](/images/cca.jpg)
 ---
