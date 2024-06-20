@@ -102,16 +102,16 @@ date: 2023-06-19T12:00:00Z
 <div class="gallery">
     <div class="gallery-thumbnails">
         <div class="thumbnail-container" onclick="showImage(0, true)">
-            <img src="/images/dz.jpg" alt="Thumbnail dz">
+            <img src="/static/images/dz.jpg" alt="Thumbnail dz">
         </div>
         <div class="thumbnail-container" onclick="showImage(1, true)">
-            <img src="/images/f1.jpg" alt="Thumbnail f1">
+            <img src="/static/images/f1.jpg" alt="Thumbnail f1">
         </div>
         <div class="thumbnail-container" onclick="showImage(2, true)">
-            <img src="/images/rafting1.jpg" alt="Thumbnail rafting1">
+            <img src="/static/images/rafting1.jpg" alt="Thumbnail rafting1">
         </div>
         <div class="thumbnail-container" onclick="showImage(3, true)">
-            <img src="/images/sm.jpg" alt="Thumbnail sm">
+            <img src="/static/images/sm.jpg" alt="Thumbnail sm">
         </div>
     </div>
     <p id="mainImageDescription">Celebrate the Winter Solstice  Dec 22, 2023</p>
