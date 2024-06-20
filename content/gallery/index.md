@@ -6,7 +6,7 @@ date: 2023-06-19T12:00:00Z
 <style>
     h1 {
         text-align: center;
-        margin-bottom: 10px; /* 减小标题下方的间距 */
+        margin-bottom: 5px; /* 减小标题下方的间距 */
     }
 
     .gallery {
@@ -46,14 +46,14 @@ date: 2023-06-19T12:00:00Z
 
     .thumbnail-container p {
         margin-top: 5px; /* 减小描述和缩略图之间的间距 */
-        font-size: 0.8em; /* 调整描述文本的大小 */
+        font-size: 0.9em; /* 调整描述文本的大小 */
         color: #777;
         text-align: center;
     }
 
     .gallery-main {
         width: 100%; /* 利用父容器的宽度 */
-        max-width: 1200px; /* 设置最大宽度 */
+        max-width: 1400px; /* 设置最大宽度 */
         text-align: center;
         position: relative;
         margin: 0 auto; /* 水平居中 */
@@ -69,8 +69,8 @@ date: 2023-06-19T12:00:00Z
     }
 
     #mainImageDescription {
-        margin-top: 5px; /* 减小描述和缩略图之间的间距 */
-        margin-bottom: 5px; /* 减小描述和主图之间的间距 */
+        margin-top: 2px; /* 减小描述和缩略图之间的间距 */
+        margin-bottom: 2px; /* 减小描述和主图之间的间距 */
         font-size: 1em; /* 调整描述文本的大小 */
         color: #555;
         transition: opacity 2s ease-in-out; /* 将过渡效果时间增加到2秒 */
