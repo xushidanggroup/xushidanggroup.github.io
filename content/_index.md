@@ -3,8 +3,8 @@ title: Home
 date: 2024-06-04
 ---
 
-# Welcome to My Website
+# Welcome to Our Website
 
-Welcome to the home page of my website. Below is an example image.
+This is a simple homepage.
 
-![Example Image](/images/example.jpg)
+![My Image](/images/cca.jpg)
