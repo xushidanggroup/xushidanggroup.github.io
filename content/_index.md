@@ -1,6 +1,6 @@
 ---
 title: Home
-date: 2023-06-19T12:00:00Z
+date: 2024-6-20
 ---
 
 <style>
@@ -142,6 +142,7 @@ date: 2023-06-19T12:00:00Z
     }
 
     document.addEventListener('DOMContentLoaded', () => {
+        console.log('DOMContentLoaded event fired');
         autoSwitchImages();
     });
 </script>
