@@ -46,3 +46,4 @@ sections:
       is_fullscreen: true
       loop: false
       interval: 2000
+---
