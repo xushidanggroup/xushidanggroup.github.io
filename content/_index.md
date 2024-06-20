@@ -1,10 +1,7 @@
 ---
-title: Home
-date: 2024-06-04
+title: "Welcome to the Website"
 ---
 
-# Welcome to Our Website
+# Welcome to the Website
 
-This is a simple homepage.
-
-![My Image](/images/cca.jpg)
+This is the homepage of the website.
