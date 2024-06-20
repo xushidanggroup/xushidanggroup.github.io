@@ -46,3 +46,4 @@ sections:
       is_fullscreen: false  # 不使用全屏模式
       loop: false
       interval: 2000
+---
