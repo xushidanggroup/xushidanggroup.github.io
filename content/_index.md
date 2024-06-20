@@ -8,35 +8,6 @@ date: 2023-06-19T12:00:00Z
         text-align: center;
     }
 
-    .gallery {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
-    }
-
-    .gallery-main {
-        width: 100%;
-        max-width: 1200px;
-        text-align: center;
-        position: relative;
-        margin: 0 auto;
-    }
-
-    .gallery-main img {
-        max-width: 100%;
-        height: auto;
-        border: 2px solid #ddd;
-        border-radius: 5px;
-    }
-
-    .description {
-        margin-top: 10px;
-        font-size: 1em;
-        color: #555;
-        text-align: center;
-    }
-
     .slideshow-container {
         max-width: 1000px;
         position: relative;
@@ -76,7 +47,7 @@ date: 2023-06-19T12:00:00Z
     }
 
     .text {
-        color: #f2f2f2;
+        color: #555;
         font-size: 15px;
         padding: 8px 12px;
         position: absolute;
@@ -126,38 +97,36 @@ date: 2023-06-19T12:00:00Z
     }
 </style>
 
-<h1>Gallery</h1>
+<h1>Welcome to Our Website</h1>
 
-<div class="gallery">
-    <div class="slideshow-container">
-        <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="/static/images/cca.jpg" style="width:100%">
-            <div class="text">Mitochondria-targeting AIE photosensitizer is specifically synthesized inside cancer cells, realizing precise photodynamic therapy</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="/static/images/psr.jpg" style="width:100%">
-            <div class="text">The first lipid droplet (LD)/nucleus dual-targeted ratiometric fluorescence probe, CQPP, for monitoring polarity change was developed.</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="/static/images/r.jpg" style="width:100%">
-            <div class="text">The design principles of AIE PSs and their biomedical applications are discussed in detail.</div>
-        </div>
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+<div class="slideshow-container">
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="/static/images/cca.jpg" alt="Image 1">
+        <div class="text">Mitochondria-targeting AIE photosensitizer is specifically synthesized inside cancer cells, realizing precise photodynamic therapy</div>
     </div>
-    <br>
 
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span> 
-        <span class="dot" onclick="currentSlide(2)"></span> 
-        <span class="dot" onclick="currentSlide(3)"></span> 
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="/static/images/psr.jpg" alt="Image 2">
+        <div class="text">The first lipid droplet (LD)/nucleus dual-targeted ratiometric fluorescence probe, CQPP, for monitoring polarity change was developed.</div>
     </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="/static/images/r.jpg" alt="Image 3">
+        <div class="text">The design principles of AIE PSs and their biomedical applications are discussed in detail.</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
 
 <script>
