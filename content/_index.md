@@ -1,7 +1,10 @@
 ---
-title: "Welcome to the Website"
+title:
+
+sections:
+  - block: markdown
+    content:
+      title:
+      subtitle: ''
+      text: The content is still being updated
 ---
-
-# Welcome to the Website
-
-This is the homepage of the website.
