@@ -1,6 +1,6 @@
 ---
 title: Home
-date: 2024-6-20
+date: 2023-06-19T12:00:00Z
 ---
 
 <style>
@@ -16,28 +16,28 @@ date: 2024-6-20
     }
 
     .homepage-main {
-        width: 100%; /* 利用父容器的宽度 */
-        max-width: 1200px; /* 设置最大宽度 */
+        width: 100%;
+        max-width: 1200px;
         text-align: center;
         position: relative;
-        margin: 0 auto; /* 水平居中 */
+        margin: 0 auto;
     }
 
     .homepage-main img {
-        max-width: 100%; /* 图片最大宽度为100%，以免在小屏幕上拉伸过大 */
+        max-width: 100%;
         height: auto;
         border: 2px solid #ddd;
         border-radius: 5px;
-        transition: opacity 2s ease-in-out; /* 过渡效果时间 */
+        transition: opacity 2s ease-in-out;
         opacity: 1;
     }
 
     #mainImageDescription {
-        margin-top: 10px; /* 增加描述和缩略图之间的间距 */
-        margin-bottom: 10px; /* 增加描述和主图之间的间距 */
-        font-size: 1.2em; /* 增加描述文本的大小 */
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.2em;
         color: #555;
-        transition: opacity 2s ease-in-out; /* 将过渡效果时间增加到2秒 */
+        transition: opacity 2s ease-in-out;
         opacity: 1;
     }
 
@@ -67,7 +67,7 @@ date: 2024-6-20
     <p id="mainImageDescription">Mitochondria-targeting AIE photosensitizer is specifically synthesized inside cancer cells, realizing precise photodynamic therapy</p>
     <div class="homepage-main">
         <button class="homepage-nav left" onclick="showPreviousImage()">&#10094;</button>
-        <img src="/static/images/cca.jpg" alt="Main Image" id="mainImage">
+        <img src="/images/cca.jpg" alt="Main Image" id="mainImage">
         <button class="homepage-nav right" onclick="showNextImage()">&#10095;</button>
     </div>
 </div>
@@ -75,23 +75,23 @@ date: 2024-6-20
 <script>
     const images = [
         {
-            src: '/static/images/cca.jpg',
+            src: '/images/cca.jpg',
             description: 'Mitochondria-targeting AIE photosensitizer is specifically synthesized inside cancer cells, realizing precise photodynamic therapy'
         },
         {
-            src: '/static/images/psr.jpg',
+            src: '/images/psr.jpg',
             description: 'The first lipid droplet (LD)/nucleus dual-targeted ratiometric fluorescence probe, CQPP, for monitoring polarity change was developed.'
         },
         {
-            src: '/static/images/r.jpg',
+            src: '/images/r.jpg',
             description: 'The design principles of AIE PSs and their biomedical applications are discussed in detail.'
         }
     ];
 
     let currentIndex = 0;
     let autoSwitchInterval;
-    const transitionTime = 2000; // 2秒
-    const quickTransitionTime = 500; // 0.5秒
+    const transitionTime = 2000;
+    const quickTransitionTime = 500;
 
     function showImage(index, quick = false) {
         currentIndex = index;
@@ -106,7 +106,6 @@ date: 2024-6-20
             mainImageDescription.style.transition = `opacity ${transitionTime}ms ease-in-out`;
         }
 
-        // 淡出效果
         mainImage.style.opacity = 0;
         mainImageDescription.style.opacity = 0;
 
@@ -114,7 +113,6 @@ date: 2024-6-20
             mainImage.src = images[index].src;
             mainImageDescription.textContent = images[index].description;
 
-            // 淡入效果
             mainImage.style.opacity = 1;
             mainImageDescription.style.opacity = 1;
         }, quick ? quickTransitionTime : transitionTime);
@@ -133,7 +131,7 @@ date: 2024-6-20
     }
 
     function autoSwitchImages() {
-        autoSwitchInterval = setInterval(showNextImage, 5000); // 将间隔时间改为5000毫秒（5秒）
+        autoSwitchInterval = setInterval(showNextImage, 5000);
     }
 
     function resetAutoSwitch() {
@@ -142,7 +140,6 @@ date: 2024-6-20
     }
 
     document.addEventListener('DOMContentLoaded', () => {
-        console.log('DOMContentLoaded event fired');
         autoSwitchImages();
     });
 </script>
