@@ -4,8 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: D Research Group # Website name
-baseURL: 'https://xushidanggroup.github.io/' # Website URL
-theme: 'your-theme-name'
+baseURL: 'https://example.com/' # Website URL
 
 ############################
 ## LANGUAGE
