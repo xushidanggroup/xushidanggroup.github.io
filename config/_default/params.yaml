@@ -101,6 +101,7 @@ features:
     provider: 'mapnik'
     api_key: ''
     zoom: 15
+  slider: true
 
 # Extensions
 
@@ -117,7 +118,3 @@ publications:
   date_format: January 2006
   citation_style: apa
 
-# Add this section to enable slider in your theme, if required by your theme configuration
-features:
-  slider:
-    enable: true
