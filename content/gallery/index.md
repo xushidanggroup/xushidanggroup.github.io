@@ -18,15 +18,17 @@ date: 2023-06-19T12:00:00Z
 
     .gallery-thumbnails {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start; /* 使缩略图从左边开始排列 */
         gap: 10px; /* 减小缩略图之间的间距 */
-        overflow-x: auto;
+        overflow-x: auto; /* 添加水平滚动条 */
+        white-space: nowrap; /* 防止缩略图换行 */
         width: 100%; /* 利用更大区域来显示缩略图 */
         margin-bottom: 2px; /* 减小缩略图和描述之间的间距 */
+        padding: 5px; /* 添加一些内边距以增加滚动条的可见性 */
     }
 
     .thumbnail-container {
-        display: flex;
+        display: inline-flex; /* 使容器显示为行内块级元素 */
         flex-direction: column;
         align-items: center;
         cursor: pointer;
@@ -97,6 +99,24 @@ date: 2023-06-19T12:00:00Z
     .gallery-nav.right {
         right: 0;
     }
+
+    /* 添加滚动条样式 */
+    .gallery-thumbnails::-webkit-scrollbar {
+        height: 8px; /* 滚动条的高度 */
+    }
+
+    .gallery-thumbnails::-webkit-scrollbar-thumb {
+        background: #888; /* 滚动条的颜色 */
+        border-radius: 4px;
+    }
+
+    .gallery-thumbnails::-webkit-scrollbar-thumb:hover {
+        background: #555; /* 滚动条悬停时的颜色 */
+    }
+
+    .gallery-thumbnails::-webkit-scrollbar-track {
+        background: #f1f1f1; /* 滚动条轨道的颜色 */
+    }
 </style>
 
 <div class="gallery">
@@ -122,11 +142,11 @@ date: 2023-06-19T12:00:00Z
         <div class="thumbnail-container" onclick="showImage(6, true)">
             <img src="/images/龙林毕业聚餐.jpg" alt="Thumbnail 龙林毕业聚餐">
         </div>
-        <div class="thumbnail-container" onclick="showImage(6, true)">
+        <div class="thumbnail-container" onclick="showImage(7, true)">
             <img src="/images/羽毛球赛.jpg" alt="Thumbnail 羽毛球赛">
         </div>
     </div>
-    <p id="mainImageDescription">Celebrate the Winter Solstice  Dec 22, 2023</p>
+    <p id="mainImageDescription">Celebrate the Winter Solstice - Dec 22, 2023</p>
     <div class="gallery-main">
         <button class="gallery-nav left" onclick="showPreviousImage()">&#10094;</button>
         <img src="/images/dz.jpg" alt="Main Image" id="mainImage">
