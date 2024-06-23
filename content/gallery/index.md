@@ -115,10 +115,13 @@ date: 2023-06-19T12:00:00Z
         </div>
         <div class="thumbnail-container" onclick="showImage(4, true)">
             <img src="/images/课题组合照.jpg" alt="Thumbnail 课题组合照">
+        </div>
         <div class="thumbnail-container" onclick="showImage(5, true)">
             <img src="/images/毕业典礼合照.jpg" alt="Thumbnail 毕业典礼合照">
+        </div>
         <div class="thumbnail-container" onclick="showImage(6, true)">
             <img src="/images/龙林毕业聚餐.jpg" alt="Thumbnail 龙林毕业聚餐">
+        </div>
     </div>
     <p id="mainImageDescription">Celebrate the Winter Solstice  Dec 22, 2023</p>
     <div class="gallery-main">
