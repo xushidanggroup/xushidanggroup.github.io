@@ -122,6 +122,9 @@ date: 2023-06-19T12:00:00Z
         <div class="thumbnail-container" onclick="showImage(6, true)">
             <img src="/images/龙林毕业聚餐.jpg" alt="Thumbnail 龙林毕业聚餐">
         </div>
+        <div class="thumbnail-container" onclick="showImage(6, true)">
+            <img src="/images/羽毛球赛.jpg" alt="Thumbnail 羽毛球赛">
+        </div>
     </div>
     <p id="mainImageDescription">Celebrate the Winter Solstice  Dec 22, 2023</p>
     <div class="gallery-main">
@@ -160,6 +163,10 @@ date: 2023-06-19T12:00:00Z
         {
             src: '/images/龙林毕业聚餐.jpg',
             description: 'Undergraduate graduation dinner - Jun 19, 2024'
+        },
+        {
+            src: '/images/羽毛球赛.jpg',
+            description: 'Graduate student badminton friendly match - May 21, 2024'
         }
     ];
 
