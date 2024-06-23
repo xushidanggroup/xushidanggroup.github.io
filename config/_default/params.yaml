@@ -101,7 +101,7 @@ features:
     provider: 'mapnik'
     api_key: ''
     zoom: 15
-  slider: ture
+  slider: true
 
 # Extensions
 
