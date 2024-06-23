@@ -113,6 +113,12 @@ date: 2023-06-19T12:00:00Z
         <div class="thumbnail-container" onclick="showImage(3, true)">
             <img src="/images/sm.jpg" alt="Thumbnail sm">
         </div>
+        <div class="thumbnail-container" onclick="showImage(4, true)">
+            <img src="/images/课题组合照.jpg" alt="Thumbnail sm">
+        <div class="thumbnail-container" onclick="showImage(5, true)">
+            <img src="/images/毕业典礼合照.jpg" alt="Thumbnail sm">
+        <div class="thumbnail-container" onclick="showImage(6, true)">
+            <img src="/images/龙林毕业聚餐.jpg" alt="Thumbnail sm">
     </div>
     <p id="mainImageDescription">Celebrate the Winter Solstice  Dec 22, 2023</p>
     <div class="gallery-main">
@@ -126,19 +132,31 @@ date: 2023-06-19T12:00:00Z
     const images = [
         {
             src: '/images/dz.jpg',
-            description: 'Celebrate the Winter Solstice  Dec 22, 2023'
+            description: 'Celebrate the Winter Solstice - Dec 22, 2023'
         },
         {
             src: '/images/f1.jpg',
-            description: 'Camping trip at Shimen  Jan 7, 2024'
+            description: 'Camping trip at Shimen - Jan 7, 2024'
         },
         {
             src: '/images/rafting1.jpg',
-            description: 'First team-building activity, white-water rafting  Jul 25, 2023'
+            description: 'First team-building activity, white-water rafting - Jul 25, 2023'
         },
         {
             src: '/images/sm.jpg',
-            description: 'Camping trip at Shimen  Jan 7, 2024'
+            description: 'Camping trip at Shimen - Jan 7, 2024'
+        },
+        {
+            src: '/images/课题组合照.jpg',
+            description: 'College photo day - Jun 7, 2024'
+        },
+        {
+            src: '/images/毕业典礼合照.jpg',
+            description: 'College graduation ceremony - Jun 18, 2024'
+        },
+        {
+            src: '/images/龙林毕业聚餐.jpg',
+            description: 'Undergraduate graduation dinner - Jun 19, 2024'
         }
     ];
 
