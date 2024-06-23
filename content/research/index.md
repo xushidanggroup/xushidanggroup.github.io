@@ -49,3 +49,4 @@ sections:
         We focus on developing high-performance biomaterials for various applications, including drug delivery systems, tissue engineering scaffolds, and biosensors. Our approach combines domain-specific knowledge with cutting-edge machine learning to create robust, predictive models that guide the design of new materials. This synergy not only accelerates the discovery and optimization of biomaterials but also ensures their safety and efficacy in real-world applications.
 
         Through our work in biomaterials design, we aim to push the boundaries of what is possible, creating innovative solutions that address critical challenges in healthcare and beyond. Our ultimate goal is to develop biomaterials that improve patient outcomes, enhance the quality of life, and contribute to sustainable technological advancements.
+---
