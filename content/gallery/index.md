@@ -6,38 +6,37 @@ date: 2023-06-19T12:00:00Z
 <style>
     h1 {
         text-align: center;
-        margin-bottom: 2px; /* Reduce the margin below the title */
+        margin-bottom: 2px; /* Reduce the space below the title */
     }
 
     .gallery {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 3px; /* Reduce the margin above the gallery */
+        margin-top: 3px; /* Reduce the top margin of the gallery */
     }
 
     .gallery-thumbnails {
         display: flex;
         justify-content: flex-start; /* Align thumbnails to the left */
-        gap: 10px; /* Reduce the gap between thumbnails */
-        overflow-x: auto; /* Add a horizontal scrollbar */
+        gap: 10px; /* Reduce the space between thumbnails */
+        overflow-x: auto; /* Add horizontal scroll bar */
         white-space: nowrap; /* Prevent thumbnails from wrapping */
-        width: 100%; /* Use a larger area to display thumbnails */
-        margin-bottom: 2px; /* Reduce the margin between thumbnails and description */
-        padding: 5px; /* Add padding to make the scrollbar more visible */
-        box-sizing: border-box;
+        width: 100%; /* Use more area to display thumbnails */
+        margin-bottom: 2px; /* Reduce the space between thumbnails and description */
+        padding: 5px; /* Add some padding to increase scrollbar visibility */
     }
 
     .thumbnail-container {
-        display: inline-flex; /* Make the container an inline block element */
+        display: inline-flex; /* Display the container as an inline block element */
         flex-direction: column;
         align-items: center;
         cursor: pointer;
     }
 
     .thumbnail-container img {
-        width: 130px; /* Adjust the width of the thumbnails */
-        height: 90px; /* Adjust the height of the thumbnails */
+        width: 130px; /* Adjust the width of thumbnails */
+        height: 90px; /* Adjust the height of thumbnails */
         transition: transform 0.3s;
     }
 
@@ -48,35 +47,37 @@ date: 2023-06-19T12:00:00Z
     }
 
     .thumbnail-container p {
-        margin-top: 2px; /* Reduce the margin between the description and the thumbnail */
-        font-size: 0.9em; /* Adjust the size of the description text */
+        margin-top: 2px; /* Reduce the space between the description and the thumbnail */
+        font-size: 0.9em; /* Adjust the description text size */
         color: #777;
         text-align: center;
     }
 
     .gallery-main {
-        width: 100%; /* Utilize the width of the parent container */
-        max-width: 90vw; /* Set the maximum width to 90% of the viewport width */
+        width: 100%; /* Use the width of the parent container */
+        max-width: 70vw; /* Set maximum width to 70% of the viewport width */
         text-align: center;
         position: relative;
         margin: 0 auto; /* Center horizontally */
+        height: 80vh; /* Set the height to 80% of the viewport height */
     }
 
     .gallery-main img {
-        max-width: 100%; /* Make the image's max width 100% to prevent stretching on smaller screens */
-        height: auto;
+        max-width: 100%; /* The image's maximum width is 100%, to avoid stretching on small screens */
+        height: 100%; /* Set image height to 100% to match the container */
+        object-fit: cover; /* Ensure the image covers the entire container */
         border: 2px solid #ddd;
         border-radius: 5px;
-        transition: opacity 2s ease-in-out; /* Transition effect duration */
+        transition: opacity 2s ease-in-out; /* Transition effect time */
         opacity: 1;
     }
 
     #mainImageDescription {
-        margin-top: 2px; /* Reduce the margin between the description and the thumbnail */
-        margin-bottom: 2px; /* Reduce the margin between the description and the main image */
-        font-size: 1em; /* Adjust the size of the description text */
+        margin-top: 2px; /* Reduce the space between the description and the thumbnail */
+        margin-bottom: 2px; /* Reduce the space between the description and the main image */
+        font-size: 1em; /* Adjust the description text size */
         color: #555;
-        transition: opacity 2s ease-in-out; /* Increase the transition effect duration to 2 seconds */
+        transition: opacity 2s ease-in-out; /* Increase transition effect time to 2 seconds */
         opacity: 1;
     }
 
@@ -87,8 +88,8 @@ date: 2023-06-19T12:00:00Z
         background-color: rgba(0, 0, 0, 0.5);
         color: white;
         border: none;
-        font-size: 2em; /* Adjust the size of the navigation buttons */
-        padding: 10px; /* Increase the padding of the buttons */
+        font-size: 2em; /* Adjust the size of navigation buttons */
+        padding: 10px; /* Increase padding for buttons */
         cursor: pointer;
         z-index: 1;
     }
@@ -112,7 +113,7 @@ date: 2023-06-19T12:00:00Z
     }
 
     .gallery-thumbnails::-webkit-scrollbar-thumb:hover {
-        background: #555; /* Color of the scrollbar on hover */
+        background: #555; /* Color of the scrollbar when hovered */
     }
 
     .gallery-thumbnails::-webkit-scrollbar-track {
@@ -193,7 +194,7 @@ date: 2023-06-19T12:00:00Z
 
     let currentIndex = 0;
     let autoSwitchInterval;
-    const transitionTime = 1500; // 2 seconds
+    const transitionTime = 2000; // 2 seconds
     const quickTransitionTime = 500; // 0.5 seconds
 
     function showImage(index, quick = false) {
@@ -236,7 +237,7 @@ date: 2023-06-19T12:00:00Z
     }
 
     function autoSwitchImages() {
-        autoSwitchInterval = setInterval(showNextImage, 5000); // Change interval time to 5000 milliseconds (5 seconds)
+        autoSwitchInterval = setInterval(showNextImage, 5000); // Change the interval to 5000 milliseconds (5 seconds)
     }
 
     function resetAutoSwitch() {
@@ -245,6 +246,7 @@ date: 2023-06-19T12:00:00Z
     }
 
     document.addEventListener('DOMContentLoaded', () => {
+        showImage(currentIndex);
         autoSwitchImages();
     });
 </script>
