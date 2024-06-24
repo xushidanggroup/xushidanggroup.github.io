@@ -25,10 +25,10 @@ sections:
 
 <style>
     body {
-        background-color: #f0f0f0; /* 设置背景颜色为浅灰色 */
+        background-color: #d8d8d8; /* 设置背景颜色为浅灰色 */
     }
 
     .page-content {
-        background-color: #f0f0f0; /* 设置背景颜色为浅灰色 */
+        background-color: #d8d8d8; /* 设置背景颜色为浅灰色 */
     }
 </style>
