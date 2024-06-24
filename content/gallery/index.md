@@ -6,37 +6,37 @@ date: 2023-06-19T12:00:00Z
 <style>
     h1 {
         text-align: center;
-        margin-bottom: 2px; /* Reduce the space below the title */
+        margin-bottom: 2px; /* 减小标题下方的间距 */
     }
 
     .gallery {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 3px; /* Reduce the top margin of the gallery */
+        margin-top: 3px; /* 减小整个gallery的上边距 */
     }
 
     .gallery-thumbnails {
         display: flex;
-        justify-content: flex-start; /* Align thumbnails to the left */
-        gap: 10px; /* Reduce the space between thumbnails */
-        overflow-x: auto; /* Add horizontal scroll bar */
-        white-space: nowrap; /* Prevent thumbnails from wrapping */
-        width: 100%; /* Use more area to display thumbnails */
-        margin-bottom: 2px; /* Reduce the space between thumbnails and description */
-        padding: 5px; /* Add some padding to increase scrollbar visibility */
+        justify-content: flex-start; /* 使缩略图从左边开始排列 */
+        gap: 10px; /* 减小缩略图之间的间距 */
+        overflow-x: auto; /* 添加水平滚动条 */
+        white-space: nowrap; /* 防止缩略图换行 */
+        width: 100%; /* 利用更大区域来显示缩略图 */
+        margin-bottom: 2px; /* 减小缩略图和描述之间的间距 */
+        padding: 5px; /* 添加一些内边距以增加滚动条的可见性 */
     }
 
     .thumbnail-container {
-        display: inline-flex; /* Display the container as an inline block element */
+        display: inline-flex; /* 使容器显示为行内块级元素 */
         flex-direction: column;
         align-items: center;
         cursor: pointer;
     }
 
     .thumbnail-container img {
-        width: 130px; /* Adjust the width of thumbnails */
-        height: 90px; /* Adjust the height of thumbnails */
+        width: 130px; /* 调整缩略图的宽度 */
+        height: 90px; /* 调整缩略图的高度 */
         transition: transform 0.3s;
     }
 
@@ -47,37 +47,35 @@ date: 2023-06-19T12:00:00Z
     }
 
     .thumbnail-container p {
-        margin-top: 2px; /* Reduce the space between the description and the thumbnail */
-        font-size: 0.9em; /* Adjust the description text size */
+        margin-top: 2px; /* 减小描述和缩略图之间的间距 */
+        font-size: 0.9em; /* 调整描述文本的大小 */
         color: #777;
         text-align: center;
     }
 
     .gallery-main {
-        width: 100%; /* Use the width of the parent container */
-        max-width: 70vw; /* Set maximum width to 70% of the viewport width */
+        width: 100%; /* 利用父容器的宽度 */
+        max-width: 90vw; /* 设置最大宽度为视口宽度的90% */
         text-align: center;
         position: relative;
-        margin: 0 auto; /* Center horizontally */
-        height: 80vh; /* Set the height to 80% of the viewport height */
+        margin: 0 auto; /* 水平居中 */
     }
 
     .gallery-main img {
-        max-width: 100%; /* The image's maximum width is 100%, to avoid stretching on small screens */
-        max-height: 100%; /* The image's maximum height is 100%, to avoid stretching on small screens */
-        object-fit: contain; /* Ensure the image is contained within the container without cropping */
+        max-width: 100%; /* 图片最大宽度为100%，以免在小屏幕上拉伸过大 */
+        height: auto;
         border: 2px solid #ddd;
         border-radius: 5px;
-        transition: opacity 2s ease-in-out; /* Transition effect time */
+        transition: opacity 2s ease-in-out; /* 过渡效果时间 */
         opacity: 1;
     }
 
     #mainImageDescription {
-        margin-top: 2px; /* Reduce the space between the description and the thumbnail */
-        margin-bottom: 2px; /* Reduce the space between the description and the main image */
-        font-size: 1em; /* Adjust the description text size */
+        margin-top: 2px; /* 减小描述和缩略图之间的间距 */
+        margin-bottom: 2px; /* 减小描述和主图之间的间距 */
+        font-size: 1em; /* 调整描述文本的大小 */
         color: #555;
-        transition: opacity 2s ease-in-out; /* Increase transition effect time to 2 seconds */
+        transition: opacity 2s ease-in-out; /* 将过渡效果时间增加到2秒 */
         opacity: 1;
     }
 
@@ -88,8 +86,8 @@ date: 2023-06-19T12:00:00Z
         background-color: rgba(0, 0, 0, 0.5);
         color: white;
         border: none;
-        font-size: 2em; /* Adjust the size of navigation buttons */
-        padding: 10px; /* Increase padding for buttons */
+        font-size: 2em; /* 调整导航按钮的大小 */
+        padding: 10px; /* 增加按钮的内边距 */
         cursor: pointer;
         z-index: 1;
     }
@@ -102,22 +100,22 @@ date: 2023-06-19T12:00:00Z
         right: 0;
     }
 
-    /* Add scrollbar styles */
+    /* 添加滚动条样式 */
     .gallery-thumbnails::-webkit-scrollbar {
-        height: 8px; /* Height of the scrollbar */
+        height: 8px; /* 滚动条的高度 */
     }
 
     .gallery-thumbnails::-webkit-scrollbar-thumb {
-        background: #888; /* Color of the scrollbar */
+        background: #888; /* 滚动条的颜色 */
         border-radius: 4px;
     }
 
     .gallery-thumbnails::-webkit-scrollbar-thumb:hover {
-        background: #555; /* Color of the scrollbar when hovered */
+        background: #555; /* 滚动条悬停时的颜色 */
     }
 
     .gallery-thumbnails::-webkit-scrollbar-track {
-        background: #f1f1f1; /* Color of the scrollbar track */
+        background: #f1f1f1; /* 滚动条轨道的颜色 */
     }
 </style>
 
@@ -194,8 +192,8 @@ date: 2023-06-19T12:00:00Z
 
     let currentIndex = 0;
     let autoSwitchInterval;
-    const transitionTime = 2000; // 2 seconds
-    const quickTransitionTime = 500; // 0.5 seconds
+    const transitionTime = 2000; // 2秒
+    const quickTransitionTime = 500; // 0.5秒
 
     function showImage(index, quick = false) {
         currentIndex = index;
@@ -210,7 +208,7 @@ date: 2023-06-19T12:00:00Z
             mainImageDescription.style.transition = `opacity ${transitionTime}ms ease-in-out`;
         }
 
-        // Fade-out effect
+        // 淡出效果
         mainImage.style.opacity = 0;
         mainImageDescription.style.opacity = 0;
 
@@ -218,7 +216,7 @@ date: 2023-06-19T12:00:00Z
             mainImage.src = images[index].src;
             mainImageDescription.textContent = images[index].description;
 
-            // Fade-in effect
+            // 淡入效果
             mainImage.style.opacity = 1;
             mainImageDescription.style.opacity = 1;
         }, quick ? quickTransitionTime : transitionTime);
@@ -237,7 +235,7 @@ date: 2023-06-19T12:00:00Z
     }
 
     function autoSwitchImages() {
-        autoSwitchInterval = setInterval(showNextImage, 5000); // Auto switch every 5 seconds
+        autoSwitchInterval = setInterval(showNextImage, 5000); // 将间隔时间改为5000毫秒（5秒）
     }
 
     function resetAutoSwitch() {
@@ -246,7 +244,6 @@ date: 2023-06-19T12:00:00Z
     }
 
     document.addEventListener('DOMContentLoaded', () => {
-        showImage(currentIndex);
         autoSwitchImages();
     });
 </script>
