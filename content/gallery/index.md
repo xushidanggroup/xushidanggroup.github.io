@@ -23,10 +23,8 @@ date: 2023-06-19T12:00:00Z
         overflow-x: auto; /* 添加水平滚动条 */
         white-space: nowrap; /* 防止缩略图换行 */
         width: 100%; /* 利用更大区域来显示缩略图 */
-        max-width: 100vw; /* 最大宽度为视口宽度 */
-        box-sizing: border-box; /* 包含内边距和边框 */
-        padding: 10px; /* 添加一些内边距 */
-        border: 1px solid #ddd; /* 添加边框以区分内容 */
+        margin-bottom: 2px; /* 减小缩略图和描述之间的间距 */
+        padding: 5px; /* 添加一些内边距以增加滚动条的可见性 */
     }
 
     .thumbnail-container {
@@ -122,7 +120,6 @@ date: 2023-06-19T12:00:00Z
 </style>
 
 <div class="gallery">
-    <h1>Gallery</h1>
     <div class="gallery-thumbnails">
         <div class="thumbnail-container" onclick="showImage(0, true)">
             <img src="/images/dz.jpg" alt="Thumbnail dz">
