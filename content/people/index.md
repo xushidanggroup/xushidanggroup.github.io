@@ -22,13 +22,3 @@ sections:
       show_role: true
       show_social: true
 ---
-
-<style>
-    body {
-        background-color: #d8d8d8; /* 设置背景颜色为浅灰色 */
-    }
-
-    .page-content {
-        background-color: #d8d8d8; /* 设置背景颜色为浅灰色 */
-    }
-</style>
