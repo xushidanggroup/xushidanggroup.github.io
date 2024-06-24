@@ -19,7 +19,7 @@ date: 2023-06-19T12:00:00Z
     .gallery-thumbnails {
         display: flex;
         justify-content: flex-start; /* 使缩略图从左边开始排列 */
-        gap: 10px; /* 减小缩略图之间的间距 */
+        gap: 5px; /* 减小缩略图之间的间距 */
         overflow-x: auto; /* 添加水平滚动条 */
         white-space: nowrap; /* 防止缩略图换行 */
         width: 100%; /* 利用更大区域来显示缩略图 */
@@ -59,11 +59,13 @@ date: 2023-06-19T12:00:00Z
         text-align: center;
         position: relative;
         margin: 0 auto; /* 水平居中 */
+        height: 80vh; /* 设置高度为视口高度的80% */
     }
 
     .gallery-main img {
         max-width: 100%; /* 图片最大宽度为100%，以免在小屏幕上拉伸过大 */
-        height: auto;
+        max-height: 100%; /* 图片最大高度为100%，以免在小屏幕上拉伸过大 */
+        object-fit: contain; /* 确保图片完整显示 */
         border: 2px solid #ddd;
         border-radius: 5px;
         transition: opacity 2s ease-in-out; /* 过渡效果时间 */
