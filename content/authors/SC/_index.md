@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Shicheng Lang 稂世成
+title: |
+  Shicheng Lang
+  稂世成
 
 # Full name (for SEO)
 first_name: Shicheng

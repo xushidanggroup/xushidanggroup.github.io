@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Bo Niu 牛博
+title: |
+  Bo Niu
+  牛博
 
 # Full name (for SEO)
 first_name: Bo

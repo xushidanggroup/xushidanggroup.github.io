@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Jingcheng Mo 莫景丞
+title: |
+  Jingcheng Mo
+  莫景丞
 
 # Full name (for SEO)
 first_name: Jingcheng

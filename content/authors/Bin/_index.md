@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Bin Xu 许膑
+title: |
+  Bin Xu
+  许膑
 
 # Full name (for SEO)
 first_name: Bin

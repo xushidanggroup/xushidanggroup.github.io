@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Yinghao Liu 刘英豪
+title: |
+  Yinghao Liu
+  刘英豪
 
 # Full name (for SEO)
 first_name: Yinghao

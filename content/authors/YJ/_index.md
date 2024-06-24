@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Yujian Liu 刘宇健
+title: |
+  Yujian Liu
+  刘宇健
 
 # Full name (for SEO)
 first_name: Yujian

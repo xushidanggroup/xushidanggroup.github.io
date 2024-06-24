@@ -1,7 +1,8 @@
 ---
 # Display name
-title: Junchi Ouyang
-欧阳骏驰
+title: |
+  Junchi Ouyang
+  欧阳骏驰
 
 # Full name (for SEO)
 first_name: Junchi

@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Jinda Yan 闫缙达
+title: |
+  Jinda Yan
+  闫缙达
 
 # Full name (for SEO)
 first_name: Jinda

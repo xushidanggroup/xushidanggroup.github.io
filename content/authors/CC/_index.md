@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Chenchen Li 李晨晨
+title: |
+  Chenchen Li
+  李晨晨
 
 # Full name (for SEO)
 first_name: Chenchen

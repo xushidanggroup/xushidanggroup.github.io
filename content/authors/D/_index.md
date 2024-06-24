@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Shidang Xu 许适当
+title: |
+  Shidang Xu
+  许适当
 
 # Full name (for SEO)
 first_name: Shidang

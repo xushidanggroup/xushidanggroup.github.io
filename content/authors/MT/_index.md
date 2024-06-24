@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Meitang Peng 彭美堂
+title: |
+  Meitang Peng
+  彭美堂
 
 # Full name (for SEO)
 first_name: Meitang
