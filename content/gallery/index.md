@@ -83,7 +83,7 @@ date: 2023-06-19T12:00:00Z
 
     .gallery-nav {
         position: absolute;
-        top: 50%;
+        top: 0%;
         transform: translateY(-50%);
         background-color: rgba(0, 0, 0, 0.5);
         color: white;
