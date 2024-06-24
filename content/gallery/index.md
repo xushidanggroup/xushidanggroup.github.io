@@ -55,7 +55,7 @@ date: 2023-06-19T12:00:00Z
 
     .gallery-main {
         width: 100%; /* 利用父容器的宽度 */
-        max-width: 2000px; /* 设置最大宽度 */
+        max-width: 90vw; /* 设置最大宽度为视口宽度的90% */
         text-align: center;
         position: relative;
         margin: 0 auto; /* 水平居中 */
@@ -86,8 +86,8 @@ date: 2023-06-19T12:00:00Z
         background-color: rgba(0, 0, 0, 0.5);
         color: white;
         border: none;
-        font-size: 1.5em; /* 调整导航按钮的大小 */
-        padding: 5px; /* 减小按钮的内边距 */
+        font-size: 2em; /* 调整导航按钮的大小 */
+        padding: 10px; /* 增加按钮的内边距 */
         cursor: pointer;
         z-index: 1;
     }
