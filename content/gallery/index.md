@@ -83,8 +83,6 @@ date: 2023-06-19T12:00:00Z
 
     .gallery-nav {
         position: absolute;
-        top: 0%;
-        transform: translateY(-50%);
         background-color: rgba(0, 0, 0, 0.5);
         color: white;
         border: none;
@@ -95,11 +93,15 @@ date: 2023-06-19T12:00:00Z
     }
 
     .gallery-nav.left {
-        left: 0;
+        top: 0; /* 调整按钮位置到左上角 */
+        left: 0; /* 调整按钮位置到左上角 */
+        transform: translateY(0); /* 取消垂直居中 */
     }
 
     .gallery-nav.right {
-        right: 0;
+        top: 0; /* 调整按钮位置到右上角 */
+        right: 0; /* 调整按钮位置到右上角 */
+        transform: translateY(0); /* 取消垂直居中 */
     }
 
     /* 添加滚动条样式 */
