@@ -64,8 +64,8 @@ date: 2023-06-19T12:00:00Z
 
     .gallery-main img {
         max-width: 100%; /* The image's maximum width is 100%, to avoid stretching on small screens */
-        height: 100%; /* Set image height to 100% to match the container */
-        object-fit: cover; /* Ensure the image covers the entire container */
+        max-height: 100%; /* The image's maximum height is 100%, to avoid stretching on small screens */
+        object-fit: contain; /* Ensure the image is contained within the container without cropping */
         border: 2px solid #ddd;
         border-radius: 5px;
         transition: opacity 2s ease-in-out; /* Transition effect time */
@@ -237,7 +237,7 @@ date: 2023-06-19T12:00:00Z
     }
 
     function autoSwitchImages() {
-        autoSwitchInterval = setInterval(showNextImage, 5000); // Change the interval to 5000 milliseconds (5 seconds)
+        autoSwitchInterval = setInterval(showNextImage, 5000); // Auto switch every 5 seconds
     }
 
     function resetAutoSwitch() {
