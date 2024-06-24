@@ -59,7 +59,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Grad Students
+  - Master's Students
 ---
 
 Yinghao is a Master's student in Chemistry at the Xu Group, having joined in 2023. He is currently focused on the chemical modifications of RNA and proteins with the aim of making mRNA translation more efficient, stable, and controllable and making protein-protein interactions more controllable and monitorable through chemical modifications. He is also exploring how to use machine learning and deep learning to study such chemical modifications. 

@@ -59,7 +59,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Grad Students
+  - Master's Students
 ---
 
 Yujian is a Master in Biomedical Engineering at the Xu Group, having joined in 2023. Currently, he has a keen interest in the design of algorithms for AIGC (VAE\Diffusion model), representation learning (CNN\GNN\Trans) and their applications in image recognition, property molecule generation and protein-drug interactions.

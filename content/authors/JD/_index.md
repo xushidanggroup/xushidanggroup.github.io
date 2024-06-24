@@ -62,7 +62,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Grad Students
+  - PhD Students
 ---
 
 Jinda Yan is a Ph.D. student in Materials and Chemical Engineering at Xu Group, having joined in 2024. His research focuses on data mining, pattern recognition, and machine learning. Currently, he is mainly interested in medical artificial intelligence, especially the medical image processing.

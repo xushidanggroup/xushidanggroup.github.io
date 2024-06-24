@@ -62,7 +62,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Grad Students
+  - PhD Students
 ---
 
 Chenchen Li is a Ph.D. student in Biomedical Engineering at Xu group , having joined in 2023. Her research focuses on enhancing machine learning's capability in guiding and predicting organic reactions, as well as facilitating selective modifications of compounds such as amino acids. she holds a profound interest in exploring how AI can expedite experimental procedures.

@@ -59,7 +59,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Grad Students
+  - Master's Students
 ---
 
 MT is a Master's student in Biomedical Engineering at the Xu Group, having joined in 2023. His research focuses on the integration of machine learning and quantum computing for the discovery of biomaterials, drug discovery, and controlled carrier delivery. MT has a keen interest in automated experimental technologies, dedicating his efforts to optimizing bioengineering processes and material properties through innovative computational approaches.
