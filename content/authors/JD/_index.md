@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: PhD Student in Materials and Chemical Engineering
+role: 24 PhD Student in Materials and Chemical Engineering
 
 # Organizations/Affiliations
 organizations:
@@ -35,7 +35,7 @@ education:
     - course: PhD in Materials and Chemical Engineering
       institution: South China University of Technology
       year: Currently Enrolled (2024 - Present)
-    - course: MSc in Computer Technology, 2024
+    - course: MSc in Computer Technology
       institution: Soochow University
       year: 2024
     - course: BSc in Computer Science and Technology

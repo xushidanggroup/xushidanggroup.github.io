@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Master's Student in Biomedical Engineering
+role: 24 Master's Student in Biomedical Engineering
 
 # Organizations/Affiliations
 organizations:
@@ -32,7 +32,7 @@ interests:
 
 education:
   courses:
-    - course: MEng in Biomedical Engneering
+    - course: MEng in Pharmacy
       institution: South China University of Techology
       year: Currently Enrolled (2024 - Present)
     - course: BEng in Biomedical Engneering
