@@ -81,22 +81,23 @@ date: 2023-06-19T12:00:00Z
 
     .gallery-nav {
         position: absolute;
-        top: 10px; /* 将按钮移动到图片上方 */
+        top: 50%;
+        transform: translateY(-50%);
         background-color: rgba(0, 0, 0, 0.5);
         color: white;
         border: none;
-        font-size: 1.5em; /* 调整导航按钮的大小 */
+        font-size: 2em; /* 调整导航按钮的大小 */
         padding: 10px; /* 增加按钮的内边距 */
         cursor: pointer;
         z-index: 1;
     }
 
     .gallery-nav.left {
-        left: 10px; /* 将左边按钮放在左上角 */
+        left: 0;
     }
 
     .gallery-nav.right {
-        right: 10px; /* 将右边按钮放在右上角 */
+        right: 0;
     }
 
     /* 添加滚动条样式 */
