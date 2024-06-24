@@ -19,7 +19,7 @@ date: 2023-06-19T12:00:00Z
     .gallery-thumbnails {
         display: flex;
         justify-content: flex-start; /* 使缩略图从左边开始排列 */
-        gap: 5px; /* 减小缩略图之间的间距 */
+        gap: 10px; /* 减小缩略图之间的间距 */
         overflow-x: auto; /* 添加水平滚动条 */
         white-space: nowrap; /* 防止缩略图换行 */
         width: 100%; /* 利用更大区域来显示缩略图 */
@@ -59,13 +59,11 @@ date: 2023-06-19T12:00:00Z
         text-align: center;
         position: relative;
         margin: 0 auto; /* 水平居中 */
-        height: 80vh; /* 设置高度为视口高度的80% */
     }
 
     .gallery-main img {
         max-width: 100%; /* 图片最大宽度为100%，以免在小屏幕上拉伸过大 */
-        max-height: 100%; /* 图片最大高度为100%，以免在小屏幕上拉伸过大 */
-        object-fit: contain; /* 确保图片完整显示 */
+        height: auto;
         border: 2px solid #ddd;
         border-radius: 5px;
         transition: opacity 2s ease-in-out; /* 过渡效果时间 */
@@ -83,25 +81,22 @@ date: 2023-06-19T12:00:00Z
 
     .gallery-nav {
         position: absolute;
+        top: 10px; /* 将按钮移动到图片上方 */
         background-color: rgba(0, 0, 0, 0.5);
         color: white;
         border: none;
-        font-size: 2em; /* 调整导航按钮的大小 */
+        font-size: 1.5em; /* 调整导航按钮的大小 */
         padding: 10px; /* 增加按钮的内边距 */
         cursor: pointer;
         z-index: 1;
     }
 
     .gallery-nav.left {
-        top: 0; /* 调整按钮位置到左上角 */
-        left: 0; /* 调整按钮位置到左上角 */
-        transform: translateY(0); /* 取消垂直居中 */
+        left: 10px; /* 将左边按钮放在左上角 */
     }
 
     .gallery-nav.right {
-        top: 0; /* 调整按钮位置到右上角 */
-        right: 0; /* 调整按钮位置到右上角 */
-        transform: translateY(0); /* 取消垂直居中 */
+        right: 10px; /* 将右边按钮放在右上角 */
     }
 
     /* 添加滚动条样式 */
