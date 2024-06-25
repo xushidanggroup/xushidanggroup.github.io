@@ -24,6 +24,7 @@ sections:
         - 'Monday 10:00 to 13:00'
         - 'Wednesday 09:00 to 10:00'
       appointment_url: 'https://calendly.com/xushidang'
+
       #contact_links:
       #  - icon: comments
       #    icon_pack: fas
@@ -41,10 +42,14 @@ sections:
         netlify:
           # Enable CAPTCHA challenge to reduce spam?
           captcha: false
-      text: |-
-        ![Map](/images/Map.jpg)
-        ![Map1](/images/Map1.jpg)
-        ![SCUT](/images/SCUT.jpg)
+
+      images:
+        - src: '/images/Map.jpg'
+          alt: 'Map'
+        - src: '/images/Map1.jpg'
+          alt: 'Map1'
+        - src: '/images/SCUT.jpg'
+          alt: 'SCUT'
     design:
       columns: '1'
 ---
