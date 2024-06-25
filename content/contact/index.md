@@ -10,6 +10,9 @@ sections:
       title: Contact
       text: |-
         Join Our Research Group
+
+        ![Map](/images/Map.jpg)
+        ![Map1](/images/Map1.jpg)
       email: xusd@scut.edu.cn
       phone: 13717051839
       address:
@@ -41,11 +44,6 @@ sections:
         netlify:
           # Enable CAPTCHA challenge to reduce spam?
           captcha: false
-      images:
-        - src: '/images/Map.jpg'
-          alt: 'Map'
-        - src: '/images/Map1.jpg'
-          alt: 'Map1'
     design:
       columns: '1'
 ---
