@@ -125,24 +125,21 @@ date: 2023-06-19T12:00:00Z
             <img src="/images/dz.jpg" alt="Thumbnail dz">
         </div>
         <div class="thumbnail-container" onclick="showImage(1, true)">
-            <img src="/images/f1.jpg" alt="Thumbnail f1">
-        </div>
-        <div class="thumbnail-container" onclick="showImage(2, true)">
             <img src="/images/rafting1.jpg" alt="Thumbnail rafting1">
         </div>
-        <div class="thumbnail-container" onclick="showImage(3, true)">
+        <div class="thumbnail-container" onclick="showImage(2, true)">
             <img src="/images/sm.jpg" alt="Thumbnail sm">
         </div>
-        <div class="thumbnail-container" onclick="showImage(4, true)">
+        <div class="thumbnail-container" onclick="showImage(3, true)">
             <img src="/images/课题组合照.jpg" alt="Thumbnail 课题组合照">
         </div>
-        <div class="thumbnail-container" onclick="showImage(5, true)">
+        <div class="thumbnail-container" onclick="showImage(4, true)">
             <img src="/images/毕业典礼合照.jpg" alt="Thumbnail 毕业典礼合照">
         </div>
-        <div class="thumbnail-container" onclick="showImage(6, true)">
+        <div class="thumbnail-container" onclick="showImage(5, true)">
             <img src="/images/龙林毕业聚餐.jpg" alt="Thumbnail 龙林毕业聚餐">
         </div>
-        <div class="thumbnail-container" onclick="showImage(7, true)">
+        <div class="thumbnail-container" onclick="showImage(6, true)">
             <img src="/images/羽毛球赛.jpg" alt="Thumbnail 羽毛球赛">
         </div>
     </div>
@@ -159,10 +156,6 @@ date: 2023-06-19T12:00:00Z
         {
             src: '/images/dz.jpg',
             description: 'Celebrate the Winter Solstice - Dec 22, 2023'
-        },
-        {
-            src: '/images/f1.jpg',
-            description: 'Camping trip at Shimen - Jan 7, 2024'
         },
         {
             src: '/images/rafting1.jpg',
