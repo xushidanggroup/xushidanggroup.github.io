@@ -9,22 +9,19 @@ main:
     weight: 10
   - name: Gallery
     url: gallery
-    weight: 60
+    weight: 50
   - name: News
     url: post
     weight: 40
   - name: People
     url: people
     weight: 30
-  # - name: Positions
-  #   url: position
-  #   weight: 50
   - name: Research
     url: research
     weight: 20
 #  - name: Publications
 #    url: publication
-#    weight: 70
+#    weight: 60
   - name: Contact
     url: contact
-    weight: 80
+    weight: 70
