@@ -10,18 +10,8 @@ sections:
       title: Contact
       text: |-
         Join Our Research Group
-
-        ![Map](/images/Map.jpg)
-        ![Map1](/images/Map1.jpg)
       email: xusd@scut.edu.cn
       phone: 13717051839
-      address:
-        street: No. 777, Xingye Avenue
-        city: Guangzhou
-        region: 
-        postcode: '510006'
-        country: China
-        country_code: CN
       directions: Enter Building C1 and take the stairs to Office 508 on Floor 5
       office_hours:
         - 'Monday 10:00 to 13:00'
@@ -44,6 +34,22 @@ sections:
         netlify:
           # Enable CAPTCHA challenge to reduce spam?
           captcha: false
+
+      address:
+        street: No. 777, Xingye Avenue
+        city: Guangzhou
+        region: 
+        postcode: '510006'
+        country: China
+        country_code: CN
+
+      images:
+        - src: '/images/Map.jpg'
+          alt: 'Map'
+        - src: '/images/Map1.jpg'
+          alt: 'Map1'
+        - src: '/images/SCUT.jpg'
+          alt: 'SCUT'
     design:
       columns: '1'
 ---
