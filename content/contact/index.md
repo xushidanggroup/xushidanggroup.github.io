@@ -41,6 +41,11 @@ sections:
         netlify:
           # Enable CAPTCHA challenge to reduce spam?
           captcha: false
+      images:
+        - src: '/images/Map.jpg'
+          alt: 'Map'
+        - src: '/images/Map1.jpg'
+          alt: 'Map1'
     design:
       columns: '1'
 ---

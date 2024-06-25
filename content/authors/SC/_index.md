@@ -27,7 +27,7 @@ organizations:
 bio: My research interests include Marching Learning and Big Data Analytics
 
 interests:
-  - Marching Learning
+  - Machine Learning
   - Big Data Analytics
 
 education:
