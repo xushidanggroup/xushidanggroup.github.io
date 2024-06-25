@@ -24,13 +24,6 @@ sections:
         - 'Monday 10:00 to 13:00'
         - 'Wednesday 09:00 to 10:00'
       appointment_url: 'https://calendly.com/xushidang'
-
-      #contact_links:
-      #  - icon: comments
-      #    icon_pack: fas
-      #    name: Discuss on Forum
-      #    link: 'https://discourse.gohugo.io'
-    
       # Automatically link email and phone or display as text?
       autolink: true
     
@@ -42,14 +35,10 @@ sections:
         netlify:
           # Enable CAPTCHA challenge to reduce spam?
           captcha: false
-
-      images:
-        - src: '/images/Map.jpg'
-          alt: 'Map'
-        - src: '/images/Map1.jpg'
-          alt: 'Map1'
-        - src: '/images/SCUT.jpg'
-          alt: 'SCUT'
+      text_after_url: |-
+        ![Map](/images/Map.jpg)
+        ![Map1](/images/Map1.jpg)
+        ![SCUT](/images/SCUT.jpg)
     design:
       columns: '1'
 ---
