@@ -1,6 +1,7 @@
 {{ define "main" }}
 <section>
   <div class="people-container">
+    <p>Custom layout is being applied</p> <!-- 调试信息 -->
     {{ range .Site.Pages }}
       {{ if eq .Type "author" }}
       <div class="person">
