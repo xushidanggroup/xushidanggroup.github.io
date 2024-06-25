@@ -61,7 +61,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Master's Students
+  - Graduate Students
 ---
 
 Jingcheng is a Master’s student in Pharmacy at the Xu Group, having joined in 2024. His research focuses on the use of machine learning to improve organic reactivity and drug discovery. He has a keen interest in exploring how artificial intelligence can speed up experimental procedures and works on optimising drug properties through innovative computational approaches as well.

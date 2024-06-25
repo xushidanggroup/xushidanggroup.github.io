@@ -24,10 +24,11 @@ organizations:
     url: 'https://www.scut.edu.cn/new/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio: My research interests include Artificial Intelligence and Bioinformatics. 
 
 interests:
-  - 
+  - Artifical intelligence 
+  - Bioinformatics 
 
 education:
   courses:
@@ -58,7 +59,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Master's Students
+  - Graduate Students
 ---
 
 Luo Lipeng is a biomedical engineering master's student in Xu's research group and joined the research group in 2024.

@@ -73,7 +73,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Professors
+  - Principle Investigator
 ---
 
 Professor Xu received his Ph.D. from the National University of Singapore in 2020 and continued his postdoctoral research there from 2020 to 2022. In 2022, he joined the School of Biomedical Sciences and Engineering at South China University of Technology as a professor and Ph.D. advisor. Professor Xu currently leads several national-level youth talent projects, National Natural Science Foundation of China (NSFC) grants, and key sub-projects under the Ministry of Science and Technology.

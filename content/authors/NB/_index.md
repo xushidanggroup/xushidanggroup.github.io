@@ -61,7 +61,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Master's Students
+  - Graduate Students
 ---
 
 NiuBo is a master's student in pharmacy majoring in Xu's Group and joined Xu's Group in 2024. His research focuses on applying artificial intelligence and machine learning to drug design and the discovery of biomedical materials. He is committed to accelerating the discovery and development process of new drugs and biomedical materials through computational modeling and simulation technology, and achieving efficient drug screening and material testing.

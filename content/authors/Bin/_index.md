@@ -64,7 +64,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - PhD Students
+  - Graduate Students
 ---
 
 Bin obtained his Master of Medicine degree from Southern Medical University in 2022 and shortly thereafter joined the Shidang Team. His research focuses on the development and application of integrated diagnosis and treatment biomaterials in tumor targeting and immune therapy drug delivery. Currently, he is committed to applying artificial intelligence to early tumor diagnosis, designing and developing drug delivery carriers, and enhancing precise prediction of drug efficacy.

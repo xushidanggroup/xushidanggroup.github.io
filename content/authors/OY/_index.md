@@ -59,7 +59,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Master's Students
+  - Graduate Students
 ---
 
 Ouyang Junchi is a biomedical engineering master's student in Xu's research group and joined the research group in 2024. Ouyang Junchi is very interested in applying artificial intelligence to the field of medical design and development, and believes that artificial intelligence has great potential in a large number of fields.
