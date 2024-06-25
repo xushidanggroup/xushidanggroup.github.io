@@ -7,3 +7,9 @@
 .cta-group {
   justify-content: center;
 }
+
+.people-image {
+  display: block;
+  margin: 0 auto 0 0; // 使图片左对齐
+  width: auto; // 根据需要调整
+}
