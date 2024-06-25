@@ -10,10 +10,6 @@ sections:
       title: Contact
       text: |-
         Join Our Research Group
-
-        ![Map](/images/Map.jpg)
-        ![Map1](/images/Map1.jpg)
-        ![SCUT](/images/SCUT.jpg)
       address:
         street: No. 777, Xingye Avenue
         city: Guangzhou
@@ -45,6 +41,10 @@ sections:
         netlify:
           # Enable CAPTCHA challenge to reduce spam?
           captcha: false
+      text: |-
+        ![Map](/images/Map.jpg)
+        ![Map1](/images/Map1.jpg)
+        ![SCUT](/images/SCUT.jpg)
     design:
       columns: '1'
 ---
