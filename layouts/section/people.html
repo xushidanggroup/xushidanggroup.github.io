@@ -1,0 +1,17 @@
+{{ define "main" }}
+<section>
+  <div class="people-container">
+    {{ range .Site.Pages }}
+      {{ if eq .Type "author" }}
+      <div class="person">
+        <img src="{{ .Params.avatar }}" alt="{{ .Title }}" class="avatar-left">
+        <div class="details">
+          <h2>{{ .Title }}</h2>
+          <p>{{ .Params.bio }}</p>
+        </div>
+      </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
