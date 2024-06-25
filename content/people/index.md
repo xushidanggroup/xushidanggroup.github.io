@@ -25,25 +25,25 @@ sections:
     content:
       title: Undergraduate Students
       text: |
-        <img src="path/to/image.jpg" class="people-image"> Qingquan Wang 王庆全  
+        Qingquan Wang 王庆全  
         Biomedical Engineering at SCUT (2022)  
 
-        <img src="path/to/image.jpg" class="people-image"> Yutong Wang 王雨桐  
+        Yutong Wang 王雨桐  
         Biomedical Engineering at SCUT (2022)
 
   - block: markdown
     content:
       title: Alumni
       text: |
-        <img src="path/to/image.jpg" class="people-image"> Yuan Chen 陈源  
+        Yuan Chen 陈源  
         Biomedical Engineering at SCUT (2020-2024)  
 
-        <img src="path/to/image.jpg" class="people-image"> Fangxi Lian 练方熙  
+        Fangxi Lian 练方熙  
         Biomedical Engineering at SCUT (2020-2024)  
 
-        <img src="path/to/image.jpg" class="people-image"> Zihuang Lu 卢梓煌  
+        Zihuang Lu 卢梓煌  
         Biomedical Engineering at SCUT (2020-2024)  
 
-        <img src="path/to/image.jpg" class="people-image"> Ruoxuan Wu 吴若萱  
+        Ruoxuan Wu 吴若萱  
         Biomedical Engineering at SCUT (2020-2024)
 ---
