@@ -49,34 +49,14 @@ sections:
       title: Xu's Research Group Positions Available
       subtitle: ''
       text: |
-        ### Research Platforms
+        ### We are recruiting!
 
-        The research group operates within the School of Biomedical Sciences and Engineering at South China University of Technology and the National Engineering Research Center for Tissue Restoration and Reconstruction. The group aims to conduct cutting-edge research at the intersection of chemistry, medicine, biology, materials science, and artificial intelligence.
+        We are actively looking for new group members at all levels.
 
-        ### Positions Available
-
-        The research group is currently recruiting for the following positions:
-
-        - Master's/Ph.D. students
-        - Research assistants/Postdoctoral fellows
-
-        ### We Welcome
-
-        Candidates with the following backgrounds who are passionate about research:
-
-        - Biology
-        - Artificial Intelligence
-        - Medicine
-        - Organic Chemistry
-        - Computational Chemistry
-        - Materials Science
-        - Physics
-
-        ### Contact Us
-
-        If you are interested in joining us, please send your CV and relevant materials to [xusd@scut.edu.cn](mailto:xusd@scut.edu.cn). We look forward to your application and to advancing biomedical and AI research together!
-
-        For more information, please visit our [lab's contact page](https://xushidanggroup.github.io/contact/)
+        - SCUT undergraduate students interested in joining the group please shoot Shidang an email.
+        - Undergraduate students interested in joining the group for their PhD/Master are encouraged to apply for admission to an SCUT graduate program.
+        - Graduate students admitted to BMSE and also to other departments at SCUT who are interested in working with us should contact Shidang.
+        - We are also on the lookout for outstading postdoctoral researchers/research assistants with a background in any combination of the following: Biology, Artificial Intelligence, Medicine, Organic Chemistry, Computational Chemistry, Materials Science, or Physics. Python chops and experience using databases are a big plus.
 ---
 
 <style>
