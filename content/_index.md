@@ -46,7 +46,7 @@ sections:
 
   - block: markdown
     content:
-      title: Xu's Research Group Positions Available
+      title: 
       subtitle: ''
       text: |
         ### We are recruiting!
