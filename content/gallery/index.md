@@ -6,37 +6,37 @@ date: 2023-06-19T12:00:00Z
 <style>
     h1 {
         text-align: center;
-        margin-bottom: 2px; /* 减小标题下方的间距 */
+        margin-bottom: 2px;
     }
 
     .gallery {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 3px; /* 减小整个gallery的上边距 */
+        margin-top: 3px;
     }
 
     .gallery-thumbnails {
         display: flex;
-        justify-content: flex-start; /* 使缩略图从左边开始排列 */
-        gap: 10px; /* 减小缩略图之间的间距 */
-        overflow-x: auto; /* 添加水平滚动条 */
-        white-space: nowrap; /* 防止缩略图换行 */
-        width: 100%; /* 利用更大区域来显示缩略图 */
-        margin-bottom: 2px; /* 减小缩略图和描述之间的间距 */
-        padding: 5px; /* 添加一些内边距以增加滚动条的可见性 */
+        justify-content: flex-start;
+        gap: 10px;
+        overflow-x: auto;
+        white-space: nowrap;
+        width: 100%;
+        margin-bottom: 2px;
+        padding: 5px;
     }
 
     .thumbnail-container {
-        display: inline-flex; /* 使容器显示为行内块级元素 */
+        display: inline-flex;
         flex-direction: column;
         align-items: center;
         cursor: pointer;
     }
 
     .thumbnail-container img {
-        width: 130px; /* 调整缩略图的宽度 */
-        height: 90px; /* 调整缩略图的高度 */
+        width: 130px;
+        height: 90px;
         transition: transform 0.3s;
     }
 
@@ -47,36 +47,40 @@ date: 2023-06-19T12:00:00Z
     }
 
     .thumbnail-container p {
-        margin-top: 2px; /* 减小描述和缩略图之间的间距 */
-        font-size: 0.9em; /* 调整描述文本的大小 */
+        margin-top: 2px;
+        font-size: 0.9em;
         color: #777;
         text-align: center;
     }
 
     .gallery-main {
-        width: 100%; /* 利用父容器的宽度 */
-        max-width: 90vw; /* 设置最大宽度为视口宽度的90% */
+        width: 100%;
+        max-width: 90vw;
         text-align: center;
         position: relative;
-        margin: 0 auto; /* 水平居中 */
+        margin: 0 auto;
     }
 
     .gallery-main img {
-        max-width: 100%; /* 图片最大宽度为100%，以免在小屏幕上拉伸过大 */
+        max-width: 100%;
         height: auto;
         border: 2px solid #ddd;
         border-radius: 5px;
-        transition: opacity 2s ease-in-out; /* 过渡效果时间 */
+        transition: opacity 2s ease-in-out;
         opacity: 1;
     }
 
-    #mainImageDescription {
-        margin-top: 2px; /* 减小描述和缩略图之间的间距 */
-        margin-bottom: 2px; /* 减小描述和主图之间的间距 */
-        font-size: 1em; /* 调整描述文本的大小 */
+    .gallery-main .image-description {
+        margin-top: 2px;
+        font-size: 1em;
         color: #555;
-        transition: opacity 2s ease-in-out; /* 将过渡效果时间增加到2秒 */
+        transition: opacity 2s ease-in-out;
         opacity: 1;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
     }
 
     .gallery-nav {
@@ -86,8 +90,8 @@ date: 2023-06-19T12:00:00Z
         background-color: rgba(0, 0, 0, 0.5);
         color: white;
         border: none;
-        font-size: 2em; /* 调整导航按钮的大小 */
-        padding: 10px; /* 增加按钮的内边距 */
+        font-size: 2em;
+        padding: 10px;
         cursor: pointer;
         z-index: 1;
     }
@@ -100,22 +104,21 @@ date: 2023-06-19T12:00:00Z
         right: 0;
     }
 
-    /* 添加滚动条样式 */
     .gallery-thumbnails::-webkit-scrollbar {
-        height: 8px; /* 滚动条的高度 */
+        height: 8px;
     }
 
     .gallery-thumbnails::-webkit-scrollbar-thumb {
-        background: #888; /* 滚动条的颜色 */
+        background: #888;
         border-radius: 4px;
     }
 
     .gallery-thumbnails::-webkit-scrollbar-thumb:hover {
-        background: #555; /* 滚动条悬停时的颜色 */
+        background: #555;
     }
 
     .gallery-thumbnails::-webkit-scrollbar-track {
-        background: #f1f1f1; /* 滚动条轨道的颜色 */
+        background: #f1f1f1;
     }
 </style>
 
@@ -152,10 +155,10 @@ date: 2023-06-19T12:00:00Z
             <img src="/images/龙林毕业聚餐.jpg" alt="Thumbnail 龙林毕业聚餐">
         </div>
     </div>
-    <p id="mainImageDescription">Celebrate the Winter Solstice - Dec 22, 2023</p>
     <div class="gallery-main">
         <button class="gallery-nav left" onclick="showPreviousImage()">&#10094;</button>
         <img src="/images/dz.jpg" alt="Main Image" id="mainImage">
+        <div id="mainImageDescription" class="image-description">Celebrate the Winter Solstice - Dec 22, 2023</div>
         <button class="gallery-nav right" onclick="showNextImage()">&#10095;</button>
     </div>
 </div>
@@ -249,7 +252,7 @@ date: 2023-06-19T12:00:00Z
     }
 
     function autoSwitchImages() {
-        autoSwitchInterval = setInterval(showNextImage, 5000); // 将间隔时间改为5000毫秒（5秒）
+        autoSwitchInterval = setInterval(showNextImage, 5000);
     }
 
     function resetAutoSwitch() {
