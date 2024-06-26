@@ -122,26 +122,36 @@ date: 2023-06-19T12:00:00Z
 <div class="gallery">
     <div class="gallery-thumbnails">
         <div class="thumbnail-container" onclick="showImage(0, true)">
-            <img src="/images/dz.jpg" alt="Thumbnail dz">
+            <img src="/images/Qingyuan rafting.jpg" alt="Thumbnail Qingyuan rafting">
         </div>
         <div class="thumbnail-container" onclick="showImage(1, true)">
-            <img src="/images/rafting1.jpg" alt="Thumbnail rafting1">
+            <img src="/images/dz.jpg" alt="Thumbnail dz">
         </div>
         <div class="thumbnail-container" onclick="showImage(2, true)">
             <img src="/images/sm.jpg" alt="Thumbnail sm">
         </div>
         <div class="thumbnail-container" onclick="showImage(3, true)">
-            <img src="/images/课题组合照.jpg" alt="Thumbnail 课题组合照">
+            <img src="/images/Shimen 1.jpg" alt="Thumbnail Shimen 1">
         </div>
         <div class="thumbnail-container" onclick="showImage(4, true)">
-            <img src="/images/毕业典礼合照.jpg" alt="Thumbnail 毕业典礼合照">
+            <img src="/images/Shimen 2.jpg" alt="Thumbnail Shimen 2">
         </div>
         <div class="thumbnail-container" onclick="showImage(5, true)">
-            <img src="/images/龙林毕业聚餐.jpg" alt="Thumbnail 龙林毕业聚餐">
+            <img src="/images/Honglinhuahai.jpg" alt="Thumbnail Honglinhuahai">
         </div>
         <div class="thumbnail-container" onclick="showImage(6, true)">
             <img src="/images/羽毛球赛.jpg" alt="Thumbnail 羽毛球赛">
         </div>
+        <div class="thumbnail-container" onclick="showImage(7, true)">
+            <img src="/images/课题组合照.jpg" alt="Thumbnail 课题组合照">
+        </div>
+        <div class="thumbnail-container" onclick="showImage(8, true)">
+            <img src="/images/毕业典礼合照.jpg" alt="Thumbnail 毕业典礼合照">
+        </div>
+        <div class="thumbnail-container" onclick="showImage(9, true)">
+            <img src="/images/龙林毕业聚餐.jpg" alt="Thumbnail 龙林毕业聚餐">
+        </div>
+
     </div>
     <p id="mainImageDescription">Celebrate the Winter Solstice - Dec 22, 2023</p>
     <div class="gallery-main">
@@ -154,16 +164,32 @@ date: 2023-06-19T12:00:00Z
 <script>
     const images = [
         {
+            src: '/images/Qingyuan rafting.jpg',
+            description: 'First team-building activity, white-water rafting - Jul 25, 2023'
+        },
+        {
             src: '/images/dz.jpg',
             description: 'Celebrate the Winter Solstice - Dec 22, 2023'
         },
         {
-            src: '/images/rafting1.jpg',
-            description: 'First team-building activity, white-water rafting - Jul 25, 2023'
-        },
-        {
             src: '/images/sm.jpg',
             description: 'Camping trip at Shimen - Jan 7, 2024'
+        },
+        {
+            src: '/images/Shimen 1.jpg',
+            description: 'Camping trip at Shimen - Jan 7, 2024'
+        },
+        {
+            src: '/images/Shimen 2.jpg',
+            description: 'Camping trip at Shimen - Jan 7, 2024'
+        },
+        {
+            src: '/images/Honglinhuahai.jpg',
+            description: 'Gathering at Honglin Flower Sea Restaurant to Welcome Niu Bo - Feb 29, 2024'
+        },
+        {
+            src: '/images/羽毛球赛.jpg',
+            description: 'Graduate student badminton friendly match - May 21, 2024'
         },
         {
             src: '/images/课题组合照.jpg',
@@ -176,10 +202,6 @@ date: 2023-06-19T12:00:00Z
         {
             src: '/images/龙林毕业聚餐.jpg',
             description: 'Undergraduate graduation dinner - Jun 19, 2024'
-        },
-        {
-            src: '/images/羽毛球赛.jpg',
-            description: 'Graduate student badminton friendly match - May 21, 2024'
         }
     ];
 

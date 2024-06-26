@@ -1,5 +1,5 @@
 ---
-title: Winter Solstice
+title: Winter Solstice Dinner Event
 date: 2023-12-22
 ---
 
