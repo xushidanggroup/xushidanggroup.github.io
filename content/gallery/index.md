@@ -6,14 +6,13 @@ date: 2023-06-19T12:00:00Z
 <style>
     h1 {
         text-align: center;
-        margin-bottom: 2px; /* 减小标题下方的间距 */
+        margin-bottom: 5px; /* 减小标题下方的间距 */
     }
 
     .gallery {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 3px; /* 减小整个gallery的上边距 */
     }
 
     .gallery-thumbnails {
@@ -23,7 +22,7 @@ date: 2023-06-19T12:00:00Z
         overflow-x: auto; /* 添加水平滚动条 */
         white-space: nowrap; /* 防止缩略图换行 */
         width: 100%; /* 利用更大区域来显示缩略图 */
-        margin-bottom: 0px; /* 减小缩略图和主图之间的间距 */
+        margin-bottom: 5px; /* 减小缩略图和描述之间的间距 */
         padding: 5px; /* 添加一些内边距以增加滚动条的可见性 */
     }
 
@@ -70,17 +69,12 @@ date: 2023-06-19T12:00:00Z
         opacity: 1;
     }
 
-    .gallery-main .image-description {
+    #mainImageDescription {
         margin-top: 2px; /* 减小描述和缩略图之间的间距 */
         font-size: 0.8em; /* 调整描述文本的大小 */
         color: #555;
         transition: opacity 2s ease-in-out; /* 将过渡效果时间增加到2秒 */
         opacity: 1;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        background-color: rgba(255, 255, 255, 0.8);
-        padding: 5px;
     }
 
     .gallery-nav {
@@ -104,6 +98,7 @@ date: 2023-06-19T12:00:00Z
         right: 0;
     }
 
+    /* 添加滚动条样式 */
     .gallery-thumbnails::-webkit-scrollbar {
         height: 8px; /* 滚动条的高度 */
     }
@@ -123,6 +118,7 @@ date: 2023-06-19T12:00:00Z
 </style>
 
 <div class="gallery">
+    <h1>Gallery</h1>
     <div class="gallery-thumbnails">
         <div class="thumbnail-container" onclick="showImage(0, true)">
             <img src="/images/Qingyuan rafting.jpg" alt="Thumbnail Qingyuan rafting">
@@ -158,7 +154,7 @@ date: 2023-06-19T12:00:00Z
     <div class="gallery-main">
         <button class="gallery-nav left" onclick="showPreviousImage()">&#10094;</button>
         <img src="/images/dz.jpg" alt="Main Image" id="mainImage">
-        <div id="mainImageDescription" class="image-description">Celebrate the Winter Solstice - Dec 22, 2023</div>
+        <p id="mainImageDescription">First team-building activity, white-water rafting - Jul 25, 2023</p>
         <button class="gallery-nav right" onclick="showNextImage()">&#10095;</button>
     </div>
 </div>
