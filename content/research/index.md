@@ -32,7 +32,9 @@ sections:
 
         &emsp;&emsp;Through representation learning, we seek to transform how we model, predict, and understand molecular behavior, enabling more efficient and accurate discoveries in drug development, materials science, and beyond. This approach not only optimizes the use of available data but also opens new pathways for innovation by providing deeper insights into the fundamental properties and interactions of molecules.
 
-        ![Representation Learning](2.png)
+        <div style="text-align: center;">
+          <img src="2.png" alt="Representation Learning" style="width: 100%;">
+        </div>
 
         ---
 
@@ -56,5 +58,7 @@ sections:
 
         &emsp;&emsp;Through our work in biomaterials design, we aim to push the boundaries of what is possible, creating innovative solutions that address critical challenges in healthcare and beyond. Our ultimate goal is to develop biomaterials that improve patient outcomes, enhance the quality of life, and contribute to sustainable technological advancements.
 
-        ![Biomaterials Design](4.png)
+        <div style="text-align: center;">
+          <img src="4.png" alt="Biomaterials Design" style="width: 100%;">
+        </div>
 ---
