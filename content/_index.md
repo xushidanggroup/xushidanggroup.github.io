@@ -9,31 +9,31 @@ sections:
     content:
       slides:
         - title:
-          content: Mitochondria-targeting AIE photosensitizer is specifically synthesized inside cancer cells, realizing precise photodynamic therapy.
+          content: A comprehensive workflow integrating molecular design rules, DFT calculations, and machine learning for the prediction and optimization of photophysical properties in molecular systems.
           align: center
           background:
             image:
-              filename: cca.jpg
+              filename: 1.jpg
               filters:
                 brightness: 0.8
             position: center
             color: '#ffffff'
         - title:
-          content: The first lipid droplet (LD)/nucleus dual-targeted ratiometric fluorescence probe, CQPP, for monitoring polarity change was developed.
+          content: Application of advanced machine learning algorithms to predict aggregation-induced emission (AIE) characteristics, achieving high accuracy in identifying promising molecular candidates.
           align: center
           background:
             image:
-              filename: psr.jpg
+              filename: 2.jpg
               filters:
                 brightness: 0.8
             position: center
             color: '#ffffff'
         - title:
-          content: The design principles of AIE PSs and their biomedical applications are discussed in detail.
+          content: Visual representation of molecular assembly and interaction using a creative, Lego-inspired 3D modeling approach to highlight the modularity and precision in chemical design.
           align: center
           background:
             image:
-              filename: r.jpg
+              filename: 3.jpg
               filters:
                 brightness: 0.8
             position: center
