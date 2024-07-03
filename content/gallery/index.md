@@ -29,6 +29,7 @@ date: 2023-06-19T12:00:00Z
         display: inline-block;
         cursor: pointer;
         position: relative;
+        pointer-events: none;
     }
 
     .thumbnail-container img {
@@ -37,6 +38,7 @@ date: 2023-06-19T12:00:00Z
         width: auto;
         height: auto;
         transition: transform 0.3s, border 0.3s;
+        pointer-events: auto;
     }
 
     .thumbnail-container img:hover {
