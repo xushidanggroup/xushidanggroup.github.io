@@ -10,10 +10,6 @@ sections:
       title: Contact
       text: |-
         Join Our Research Group
-
-        ![Map](/images/Map.jpg)
-        ![Map1](/images/Map1.jpg)
-        ![SCUT](/images/SCUT.jpg)
       address:
         street: No. 777, Xingye Avenue
         city: Guangzhou
@@ -28,17 +24,54 @@ sections:
         - 'Monday 10:00 to 13:00'
         - 'Wednesday 09:00 to 10:00'
       appointment_url: 'https://calendly.com/xushidang'
-      # Automatically link email and phone or display as text?
       autolink: true
     
-      # Email form provider
       form:
         provider: netlify
         formspree:
           id:
         netlify:
-          # Enable CAPTCHA challenge to reduce spam?
           captcha: false
     design:
       columns: '1'
+
+  - block: markdown
+    content:
+      title:
+      subtitle: ''
+      text:
+    design:
+      columns: '1'
+      background:
+        image: 
+          filename: Map.jpg
+          filters:
+            brightness: 1
+          parallax: false
+          position: center
+          size: cover
+          text_color_light: true
+      spacing:
+        padding: ['20px', '0', '20px', '0']
+      css_class: fullscreen
+
+  - block: markdown
+    content:
+      title:
+      subtitle: ''
+      text:
+    design:
+      columns: '1'
+      background:
+        image: 
+          filename: SCUT.jpg
+          filters:
+            brightness: 1
+          parallax: false
+          position: center
+          size: cover
+          text_color_light: true
+      spacing:
+        padding: ['20px', '0', '20px', '0']
+      css_class: fullscreen
 ---
