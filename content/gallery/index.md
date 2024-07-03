@@ -43,8 +43,7 @@ date: 2023-06-19T12:00:00Z
 
     .thumbnail-container img:hover {
         transform: scale(1.1);
-        border: 3px solid #555;
-        border-radius: 5px;
+        border: none;
     }
 
     .gallery-main {
@@ -59,8 +58,7 @@ date: 2023-06-19T12:00:00Z
         max-width: 100%;
         max-height: 100vh;
         height: auto;
-        border: 5px solid #555;
-        border-radius: 5px;
+        border: none;
         transition: opacity 1s ease-in-out;
     }
 
