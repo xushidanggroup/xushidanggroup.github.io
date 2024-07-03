@@ -6,7 +6,7 @@ date: 2023-06-19T12:00:00Z
 <style>
     h1 {
         text-align: center;
-        margin-bottom: 10px; /* Reduced space below title */
+        margin-bottom: 20px;
     }
 
     .gallery {
@@ -17,13 +17,13 @@ date: 2023-06-19T12:00:00Z
 
     .gallery-thumbnails {
         display: flex;
-        justify-content: flex-start;
-        gap: 5px; /* Space between thumbnails */
-        overflow-x: auto; /* Horizontal scroll */
+        justify-content: center;
+        gap: 10px;
+        overflow-x: auto;
         white-space: nowrap;
         width: 100%;
-        margin-bottom: 10px; /* Reduced space below thumbnails */
-        padding: 5px;
+        margin-bottom: 20px;
+        padding: 10px;
     }
 
     .thumbnail-container {
@@ -34,20 +34,20 @@ date: 2023-06-19T12:00:00Z
     }
 
     .thumbnail-container img {
-        width: 130px; /* Thumbnail width */
-        height: 90px; /* Thumbnail height */
-        transition: transform 0.3s;
+        width: 150px;
+        height: 100px;
+        transition: transform 0.3s, border 0.3s;
     }
 
     .thumbnail-container img:hover {
         transform: scale(1.1);
-        border: 2px solid #ddd;
+        border: 3px solid #555;
         border-radius: 5px;
     }
 
     .thumbnail-container p {
-        margin-top: 5px; /* Space between image and text */
-        font-size: 0.9em; /* Text size */
+        margin-top: 5px;
+        font-size: 0.9em;
         color: #777;
         text-align: center;
     }
@@ -62,16 +62,9 @@ date: 2023-06-19T12:00:00Z
     .gallery-main img {
         max-width: 100%;
         height: auto;
-        border: 2px solid #ddd;
+        border: 5px solid #555;
         border-radius: 5px;
-        transition: opacity 1s ease-in-out; /* Reduced transition time */
-    }
-
-    .gallery-main .image-description {
-        margin-top: 5px; /* Reduced space below image */
-        font-size: 0.9em; /* Text size */
-        color: #555;
-        transition: opacity 1s ease-in-out; /* Reduced transition time */
+        transition: opacity 1s ease-in-out;
     }
 
     .gallery-nav {
@@ -88,15 +81,15 @@ date: 2023-06-19T12:00:00Z
     }
 
     .gallery-nav.left {
-        left: 0;
+        left: -50px;
     }
 
     .gallery-nav.right {
-        right: 0;
+        right: -50px;
     }
 
     .gallery-thumbnails::-webkit-scrollbar {
-        height: 8px; /* Scrollbar height */
+        height: 8px;
     }
 
     .gallery-thumbnails::-webkit-scrollbar-thumb {
@@ -157,16 +150,16 @@ date: 2023-06-19T12:00:00Z
 
 <script>
     const images = [
-        { src: '/images/清远漂流.jpg', description: 'First team-building activity, white-water rafting - Jul 25, 2023' },
-        { src: '/images/冬至.jpg', description: 'Celebrate the Winter Solstice - Dec 22, 2023' },
-        { src: '/images/石门.jpg', description: 'Camping trip at Shimen - Jan 7, 2024' },
-        { src: '/images/石门1.jpg', description: 'Camping trip at Shimen - Jan 7, 2024' },
-        { src: '/images/石门2.jpg', description: 'Camping trip at Shimen - Jan 7, 2024' },
-        { src: '/images/红林花海.jpg', description: 'Gathering at Honglin Flower Sea Restaurant to Welcome Niu Bo - Feb 29, 2024' },
-        { src: '/images/羽毛球赛.jpg', description: 'Graduate student badminton friendly match - May 21, 2024' },
-        { src: '/images/课题组合照.jpg', description: 'College photo day - Jun 7, 2024' },
-        { src: '/images/毕业典礼合照.jpg', description: 'College graduation ceremony - Jun 18, 2024' },
-        { src: '/images/龙林毕业聚餐.jpg', description: 'Undergraduate graduation dinner - Jun 19, 2024' }
+        { src: '/images/清远漂流.jpg'},
+        { src: '/images/冬至.jpg' },
+        { src: '/images/石门.jpg' },
+        { src: '/images/石门1.jpg' },
+        { src: '/images/石门2.jpg' },
+        { src: '/images/红林花海.jpg' },
+        { src: '/images/羽毛球赛.jpg' },
+        { src: '/images/课题组合照.jpg' },
+        { src: '/images/毕业典礼合照.jpg' },
+        { src: '/images/龙林毕业聚餐.jpg' }
     ];
 
     let currentIndex = 1;
