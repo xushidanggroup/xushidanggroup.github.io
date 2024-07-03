@@ -28,6 +28,7 @@ date: 2023-06-19T12:00:00Z
     .thumbnail-container {
         display: inline-block;
         cursor: pointer;
+        position: relative;
     }
 
     .thumbnail-container img {
