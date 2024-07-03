@@ -22,7 +22,6 @@ date: 2023-06-19T12:00:00Z
         overflow-x: auto;
         white-space: nowrap;
         width: 100%;
-        height: 60px;
         padding: 1px;
     }
 
