@@ -53,27 +53,27 @@ sections:
           <tr>
             <td style="width: 30%; padding: 8px; vertical-align: middle;">Lu Qiu 邱璐</td>
             <td style="width: 50%; padding: 8px; vertical-align: middle;">Biomedical Engineering at SCUT (2019-2023)</td>
-            <td style="width: 20%; padding: 8px; vertical-align: middle;">Master of Biostatistics, CU (2023)</td>
+            <td style="width: 20%; padding: 8px; vertical-align: middle;">Master of Biostatistics,  Columbia University (2023)</td>
           </tr>
           <tr>
             <td style="width: 30%; padding: 8px; vertical-align: middle;">Yunlong Zhu 朱云龙</td>
             <td style="width: 50%; padding: 8px; vertical-align: middle;">Biomedical Engineering at SCUT (2019-2023)</td>
-            <td style="width: 20%; padding: 8px; vertical-align: middle;">Master of science and engineering, JHU (2023)</td>
+            <td style="width: 20%; padding: 8px; vertical-align: middle;">Master of science and engineering, Johns Hopkins University (2023)</td>
           </tr>
           <tr>
             <td style="width: 30%; padding: 8px; vertical-align: middle;">Ying Chen 陈颖</td>
             <td style="width: 50%; padding: 8px; vertical-align: middle;">Biomedical Engineering at SCUT (2019-2023)</td>
-            <td style="width: 20%; padding: 8px; vertical-align: middle;">Master of Biomedical engineering, UESTC (2023)</td>
+            <td style="width: 20%; padding: 8px; vertical-align: middle;">Master of Biomedical engineering, University of Electronic Science and Technology of China (2023)</td>
           </tr>
           <tr>
             <td style="width: 30%; padding: 8px; vertical-align: middle;">Ranxuan Zhang 张然轩</td>
             <td style="width: 50%; padding: 8px; vertical-align: middle;">Biomedical Engineering at SCUT (2019-2023)</td>
-            <td style="width: 20%; padding: 8px; vertical-align: middle;">Master of Biomedical engineering, CTH (2023)</td>
+            <td style="width: 20%; padding: 8px; vertical-align: middle;">Master of Biomedical engineering, Chalmers University of Technology (2023)</td>
           </tr>
           <tr>
             <td style="width: 30%; padding: 8px; vertical-align: middle;">Yuan Chen 陈源</td>
             <td style="width: 50%; padding: 8px; vertical-align: middle;">Biomedical Engineering at SCUT (2020-2024)</td>
-            <td style="width: 20%; padding: 8px; vertical-align: middle;">PhD in Chemistry, NTU (2024)</td>
+            <td style="width: 20%; padding: 8px; vertical-align: middle;">PhD in Chemistry, Nanyang Technological University (2024)</td>
           </tr>
           <tr>
             <td style="width: 30%; padding: 8px; vertical-align: middle;">Fangxi Lian 练方熙</td>
@@ -83,12 +83,12 @@ sections:
           <tr>
             <td style="width: 30%; padding: 8px; vertical-align: middle;">Zihuang Lu 卢梓煌</td>
             <td style="width: 50%; padding: 8px; vertical-align: middle;">Biomedical Engineering at SCUT (2020-2024)</td>
-            <td style="width: 20%; padding: 8px; vertical-align: middle;">Master of Bioinformatics, USTC (2024)</td>
+            <td style="width: 20%; padding: 8px; vertical-align: middle;">Master of Bioinformatics, University of Science and Technology of China (2024)</td>
           </tr>
           <tr>
             <td style="width: 30%; padding: 8px; vertical-align: middle;">Ruoxuan Wu 吴若萱</td>
             <td style="width: 50%; padding: 8px; vertical-align: middle;">Biomedical Engineering at SCUT (2020-2024)</td>
-            <td style="width: 20%; padding: 8px; vertical-align: middle;">PhD in Biomedical engineering, UTSW (2024)</td>
+            <td style="width: 20%; padding: 8px; vertical-align: middle;">PhD in Biomedical engineering, University of Texas, Southwestern Medical Center at Dallas (2024)</td>
           </tr>
         </table>
 ---
