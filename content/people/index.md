@@ -22,25 +22,73 @@ sections:
     content:
       title: Undergraduate Students
       text: |
-        <table>
-          <tr><td>Ruoqi Chen 陈若琪</td><td>Biomedical Engineering at SCUT (2021)</td><td></td></tr>
-          <tr><td>Xinjie Shen 沈鑫杰</td><td>Artificial Intelligence at SCUT (2021)</td><td></td></tr>
-          <tr><td>Qingquan Wang 王庆全</td><td>Biomedical Engineering at SCUT (2022)</td><td></td></tr>
-          <tr><td>Yutong Wang 王雨桐</td><td>Biomedical Engineering at SCUT (2022)</td><td></td></tr>
+        <table style="width:100%; border-collapse: collapse;">
+          <tr>
+            <td style="width: 30%; padding: 8px;">Ruoqi Chen 陈若琪</td>
+            <td style="width: 50%; padding: 8px;">Biomedical Engineering at SCUT (2021)</td>
+            <td style="width: 20%; padding: 8px;"></td>
+          </tr>
+          <tr>
+            <td style="width: 30%; padding: 8px;">Xinjie Shen 沈鑫杰</td>
+            <td style="width: 50%; padding: 8px;">Artificial Intelligence at SCUT (2021)</td>
+            <td style="width: 20%; padding: 8px;"></td>
+          </tr>
+          <tr>
+            <td style="width: 30%; padding: 8px;">Qingquan Wang 王庆全</td>
+            <td style="width: 50%; padding: 8px;">Biomedical Engineering at SCUT (2022)</td>
+            <td style="width: 20%; padding: 8px;"></td>
+          </tr>
+          <tr>
+            <td style="width: 30%; padding: 8px;">Yutong Wang 王雨桐</td>
+            <td style="width: 50%; padding: 8px;">Biomedical Engineering at SCUT (2022)</td>
+            <td style="width: 20%; padding: 8px;"></td>
+          </tr>
         </table>
 
   - block: markdown
     content:
       title: Alumni
       text: |
-        <table>
-          <tr><td>Lu Qiu 邱璐</td><td>Biomedical Engineering at SCUT (2019-2023)</td><td>Master of Biostatistics, CU (2023)</td></tr>
-          <tr><td>Yunlong Zhu 朱云龙</td><td>Biomedical Engineering at SCUT (2019-2023)</td><td>Master of science and engineering, JHU (2023)</td></tr>
-          <tr><td>Ying Chen 陈颖</td><td>Biomedical Engineering at SCUT (2019-2023)</td><td>Master of Biomedical engineering, UESTC (2023)</td></tr>
-          <tr><td>Ranxuan Zhang 张然轩</td><td>Biomedical Engineering at SCUT (2019-2023)</td><td>Master of Biomedical engineering, CTH (2023)</td></tr>
-          <tr><td>Yuan Chen 陈源</td><td>Biomedical Engineering at SCUT (2020-2024)</td><td>PhD in Chemistry, NTU (2024)</td></tr>
-          <tr><td>Fangxi Lian 练方熙</td><td>Biomedical Engineering at SCUT (2020-2024)</td><td>Working at Lubangdi International Logistics Service Co.Ltd (2024)</td></tr>
-          <tr><td>Zihuang Lu 卢梓煌</td><td>Biomedical Engineering at SCUT (2020-2024)</td><td>Master of Bioinformatics, USTC (2024)</td></tr>
-          <tr><td>Ruoxuan Wu 吴若萱</td><td>Biomedical Engineering at SCUT (2020-2024)</td><td>PhD in Biomedical engineering, UTSW (2024)</td></tr>
+        <table style="width:100%; border-collapse: collapse;">
+          <tr>
+            <td style="width: 30%; padding: 8px;">Lu Qiu 邱璐</td>
+            <td style="width: 50%; padding: 8px;">Biomedical Engineering at SCUT (2019-2023)</td>
+            <td style="width: 20%; padding: 8px;">Master of Biostatistics, CU (2023)</td>
+          </tr>
+          <tr>
+            <td style="width: 30%; padding: 8px;">Yunlong Zhu 朱云龙</td>
+            <td style="width: 50%; padding: 8px;">Biomedical Engineering at SCUT (2019-2023)</td>
+            <td style="width: 20%; padding: 8px;">Master of science and engineering, JHU (2023)</td>
+          </tr>
+          <tr>
+            <td style="width: 30%; padding: 8px;">Ying Chen 陈颖</td>
+            <td style="width: 50%; padding: 8px;">Biomedical Engineering at SCUT (2019-2023)</td>
+            <td style="width: 20%; padding: 8px;">Master of Biomedical engineering, UESTC (2023)</td>
+          </tr>
+          <tr>
+            <td style="width: 30%; padding: 8px;">Ranxuan Zhang 张然轩</td>
+            <td style="width: 50%; padding: 8px;">Biomedical Engineering at SCUT (2019-2023)</td>
+            <td style="width: 20%; padding: 8px;">Master of Biomedical engineering, CTH (2023)</td>
+          </tr>
+          <tr>
+            <td style="width: 30%; padding: 8px;">Yuan Chen 陈源</td>
+            <td style="width: 50%; padding: 8px;">Biomedical Engineering at SCUT (2020-2024)</td>
+            <td style="width: 20%; padding: 8px;">PhD in Chemistry, NTU (2024)</td>
+          </tr>
+          <tr>
+            <td style="width: 30%; padding: 8px;">Fangxi Lian 练方熙</td>
+            <td style="width: 50%; padding: 8px;">Biomedical Engineering at SCUT (2020-2024)</td>
+            <td style="width: 20%; padding: 8px;">Working at Lubangdi International Logistics Service Co.Ltd (2024)</td>
+          </tr>
+          <tr>
+            <td style="width: 30%; padding: 8px;">Zihuang Lu 卢梓煌</td>
+            <td style="width: 50%; padding: 8px;">Biomedical Engineering at SCUT (2020-2024)</td>
+            <td style="width: 20%; padding: 8px;">Master of Bioinformatics, USTC (2024)</td>
+          </tr>
+          <tr>
+            <td style="width: 30%; padding: 8px;">Ruoxuan Wu 吴若萱</td>
+            <td style="width: 50%; padding: 8px;">Biomedical Engineering at SCUT (2020-2024)</td>
+            <td style="width: 20%; padding: 8px;">PhD in Biomedical engineering, UTSW (2024)</td>
+          </tr>
         </table>
 ---
