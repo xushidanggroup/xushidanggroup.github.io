@@ -17,14 +17,13 @@ date: 2023-06-19T12:00:00Z
 
     .gallery-thumbnails {
         display: flex;
-        justify-content: center;
+        justify-content: start; /* 修改为start以确保从头开始排列 */
         gap: 10px;
         overflow-x: auto;
         white-space: nowrap;
         width: 100%;
         padding: 1px;
-        padding-right: 30px; /* 增加右侧填充 */
-        margin-right: -30px; /* 确保右侧填充不影响布局 */
+        box-sizing: border-box; /* 确保padding和内容一起计算宽度 */
     }
 
     .thumbnail-container {
