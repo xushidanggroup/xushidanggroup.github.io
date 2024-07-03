@@ -1,12 +1,12 @@
 ---
-title: Gallery
+title:
 date: 2023-06-19T12:00:00Z
 ---
 
 <style>
     h1 {
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .gallery {
@@ -21,9 +21,8 @@ date: 2023-06-19T12:00:00Z
         gap: 10px;
         overflow-x: auto;
         white-space: nowrap;
-        width: 90%;
-        margin-bottom: 10px;
-        padding: 5px;
+        width: 100%;
+        padding: 10px;
     }
 
     .thumbnail-container {
@@ -34,8 +33,9 @@ date: 2023-06-19T12:00:00Z
     .thumbnail-container img {
         max-width: 150px;
         max-height: 100px;
+        width: auto;
+        height: auto;
         transition: transform 0.3s, border 0.3s;
-        object-fit: contain; /* Preserve aspect ratio */
     }
 
     .thumbnail-container img:hover {
@@ -49,11 +49,12 @@ date: 2023-06-19T12:00:00Z
         max-width: 90vw;
         text-align: center;
         position: relative;
+        margin-top: 10px;
     }
 
     .gallery-main img {
         max-width: 100%;
-        max-height: 80vh; /* Increase main image display area */
+        max-height: 80vh;
         height: auto;
         border: 5px solid #555;
         border-radius: 5px;
@@ -173,7 +174,6 @@ date: 2023-06-19T12:00:00Z
 
         setTimeout(() => {
             mainImage.src = images[index].src;
-
             mainImage.style.opacity = 1;
         }, quick ? quickTransitionTime : transitionTime);
 
