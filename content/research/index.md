@@ -32,6 +32,8 @@ sections:
 
         &emsp;&emsp;Through representation learning, we seek to transform how we model, predict, and understand molecular behavior, enabling more efficient and accurate discoveries in drug development, materials science, and beyond. This approach not only optimizes the use of available data but also opens new pathways for innovation by providing deeper insights into the fundamental properties and interactions of molecules.
 
+        ![Representation Learning](2.png)
+
         ---
 
         **3. Artificial Intelligence-driven Drug Discovery (AIDD)**
@@ -53,4 +55,6 @@ sections:
         &emsp;&emsp;We focus on developing high-performance biomaterials for various applications, including drug delivery systems, tissue engineering scaffolds, and biosensors. Our approach combines domain-specific knowledge with cutting-edge machine learning to create robust, predictive models that guide the design of new materials. This synergy not only accelerates the discovery and optimization of biomaterials but also ensures their safety and efficacy in real-world applications.
 
         &emsp;&emsp;Through our work in biomaterials design, we aim to push the boundaries of what is possible, creating innovative solutions that address critical challenges in healthcare and beyond. Our ultimate goal is to develop biomaterials that improve patient outcomes, enhance the quality of life, and contribute to sustainable technological advancements.
+
+        ![Biomaterials Design](4.png)
 ---
