@@ -33,7 +33,7 @@ sections:
         &emsp;&emsp;Through representation learning, we seek to transform how we model, predict, and understand molecular behavior, enabling more efficient and accurate discoveries in drug development, materials science, and beyond. This approach not only optimizes the use of available data but also opens new pathways for innovation by providing deeper insights into the fundamental properties and interactions of molecules.
 
         <div style="text-align: center;">
-          <img src="2.png" alt="Representation Learning" style="width: 100%;">
+          <img src="2.png" alt="Representation Learning" >
         </div>
 
         ---
