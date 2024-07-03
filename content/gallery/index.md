@@ -10,6 +10,7 @@ date: 2023-06-19T12:00:00Z
     }
 
     .gallery {
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -23,6 +24,7 @@ date: 2023-06-19T12:00:00Z
         white-space: nowrap;
         width: 100%;
         padding: 1px;
+        min-width: fit-content;
     }
 
     .thumbnail-container {
