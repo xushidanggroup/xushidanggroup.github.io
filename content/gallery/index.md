@@ -1,5 +1,5 @@
 ---
-title:
+title: Gallery
 date: 2023-06-19T12:00:00Z
 ---
 
@@ -21,37 +21,27 @@ date: 2023-06-19T12:00:00Z
         gap: 10px;
         overflow-x: auto;
         white-space: nowrap;
-        width: 100%;
-        margin-bottom: 20px;
-        padding: 10px;
+        width: 90%;
+        margin-bottom: 10px;
+        padding: 5px;
     }
 
     .thumbnail-container {
-        display: inline-flex;
-        flex-direction: column;
-        align-items: center;
+        display: inline-block;
+        cursor: pointer;
     }
 
     .thumbnail-container img {
         max-width: 150px;
         max-height: 100px;
-        width: auto;
-        height: auto;
-        cursor: pointer;
         transition: transform 0.3s, border 0.3s;
+        object-fit: contain; /* Preserve aspect ratio */
     }
 
     .thumbnail-container img:hover {
         transform: scale(1.1);
         border: 3px solid #555;
         border-radius: 5px;
-    }
-
-    .thumbnail-container p {
-        margin-top: 5px;
-        font-size: 0.9em;
-        color: #777;
-        text-align: center;
     }
 
     .gallery-main {
@@ -63,6 +53,7 @@ date: 2023-06-19T12:00:00Z
 
     .gallery-main img {
         max-width: 100%;
+        max-height: 80vh; /* Increase main image display area */
         height: auto;
         border: 5px solid #555;
         border-radius: 5px;
@@ -83,11 +74,11 @@ date: 2023-06-19T12:00:00Z
     }
 
     .gallery-nav.left {
-        left: -50px;
+        left: 10px;
     }
 
     .gallery-nav.right {
-        right: -50px;
+        right: 10px;
     }
 
     .gallery-thumbnails::-webkit-scrollbar {
@@ -111,35 +102,35 @@ date: 2023-06-19T12:00:00Z
 <div class="gallery">
     <h1>Gallery</h1>
     <div class="gallery-thumbnails">
-        <div class="thumbnail-container">
-            <img src="/images/清远漂流.jpg" alt="Thumbnail 清远漂流" onclick="showImage(0, true)">
+        <div class="thumbnail-container" onclick="showImage(0, true)">
+            <img src="/images/清远漂流.jpg" alt="Thumbnail 清远漂流">
         </div>
-        <div class="thumbnail-container">
-            <img src="/images/冬至.jpg" alt="Thumbnail 冬至" onclick="showImage(1, true)">
+        <div class="thumbnail-container" onclick="showImage(1, true)">
+            <img src="/images/冬至.jpg" alt="Thumbnail 冬至">
         </div>
-        <div class="thumbnail-container">
-            <img src="/images/石门.jpg" alt="Thumbnail 石门" onclick="showImage(2, true)">
+        <div class="thumbnail-container" onclick="showImage(2, true)">
+            <img src="/images/石门.jpg" alt="Thumbnail 石门">
         </div>
-        <div class="thumbnail-container">
-            <img src="/images/石门1.jpg" alt="Thumbnail 石门1" onclick="showImage(3, true)">
+        <div class="thumbnail-container" onclick="showImage(3, true)">
+            <img src="/images/石门1.jpg" alt="Thumbnail 石门1">
         </div>
-        <div class="thumbnail-container">
-            <img src="/images/石门2.jpg" alt="Thumbnail 石门2" onclick="showImage(4, true)">
+        <div class="thumbnail-container" onclick="showImage(4, true)">
+            <img src="/images/石门2.jpg" alt="Thumbnail 石门2">
         </div>
-        <div class="thumbnail-container">
-            <img src="/images/红林花海.jpg" alt="Thumbnail 红林花海" onclick="showImage(5, true)">
+        <div class="thumbnail-container" onclick="showImage(5, true)">
+            <img src="/images/红林花海.jpg" alt="Thumbnail 红林花海">
         </div>
-        <div class="thumbnail-container">
-            <img src="/images/羽毛球赛.jpg" alt="Thumbnail 羽毛球赛" onclick="showImage(6, true)">
+        <div class="thumbnail-container" onclick="showImage(6, true)">
+            <img src="/images/羽毛球赛.jpg" alt="Thumbnail 羽毛球赛">
         </div>
-        <div class="thumbnail-container">
-            <img src="/images/课题组合照.jpg" alt="Thumbnail 课题组合照" onclick="showImage(7, true)">
+        <div class="thumbnail-container" onclick="showImage(7, true)">
+            <img src="/images/课题组合照.jpg" alt="Thumbnail 课题组合照">
         </div>
-        <div class="thumbnail-container">
-            <img src="/images/毕业典礼合照.jpg" alt="Thumbnail 毕业典礼合照" onclick="showImage(8, true)">
+        <div class="thumbnail-container" onclick="showImage(8, true)">
+            <img src="/images/毕业典礼合照.jpg" alt="Thumbnail 毕业典礼合照">
         </div>
-        <div class="thumbnail-container">
-            <img src="/images/龙林毕业聚餐.jpg" alt="Thumbnail 龙林毕业聚餐" onclick="showImage(9, true)">
+        <div class="thumbnail-container" onclick="showImage(9, true)">
+            <img src="/images/龙林毕业聚餐.jpg" alt="Thumbnail 龙林毕业聚餐">
         </div>
     </div>
     <div class="gallery-main">
@@ -182,6 +173,7 @@ date: 2023-06-19T12:00:00Z
 
         setTimeout(() => {
             mainImage.src = images[index].src;
+
             mainImage.style.opacity = 1;
         }, quick ? quickTransitionTime : transitionTime);
 
