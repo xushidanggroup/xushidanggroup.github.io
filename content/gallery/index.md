@@ -6,7 +6,7 @@ date: 2023-06-19T12:00:00Z
 <style>
     h1 {
         text-align: center;
-        margin-bottom: 10px;
+        margin-bottom: 1px;
     }
 
     .gallery {
@@ -22,7 +22,7 @@ date: 2023-06-19T12:00:00Z
         overflow-x: auto;
         white-space: nowrap;
         width: 100%;
-        padding: 10px;
+        padding: 1px;
     }
 
     .thumbnail-container {
@@ -32,8 +32,8 @@ date: 2023-06-19T12:00:00Z
     }
 
     .thumbnail-container img {
-        max-width: 150px;
-        max-height: 100px;
+        max-width: 100px;
+        max-height: 50px;
         width: auto;
         height: auto;
         transition: transform 0.3s, border 0.3s;
@@ -50,12 +50,12 @@ date: 2023-06-19T12:00:00Z
         max-width: 90vw;
         text-align: center;
         position: relative;
-        margin-top: 10px;
+        margin-top: 1px;
     }
 
     .gallery-main img {
         max-width: 100%;
-        max-height: 80vh;
+        max-height: 100vh;
         height: auto;
         border: 5px solid #555;
         border-radius: 5px;
@@ -70,17 +70,17 @@ date: 2023-06-19T12:00:00Z
         color: white;
         border: none;
         font-size: 2em;
-        padding: 10px;
+        padding: 5px;
         cursor: pointer;
         z-index: 1;
     }
 
     .gallery-nav.left {
-        left: 10px;
+        left: 5px;
     }
 
     .gallery-nav.right {
-        right: 10px;
+        right: 5px;
     }
 
     .gallery-thumbnails::-webkit-scrollbar {
