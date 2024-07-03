@@ -1,8 +1,8 @@
 ---
 title: People
-date: 2024-06-04
+date: 2024-07-03
 
-type: people
+type: landing
 
 sections:
   - block: people
