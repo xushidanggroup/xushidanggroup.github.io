@@ -6,24 +6,23 @@ date: 2023-06-19T12:00:00Z
 <style>
     h1 {
         text-align: center;
-        margin-bottom: 2px;
+        margin-bottom: 10px; /* Reduced space below title */
     }
 
     .gallery {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 3px;
     }
 
     .gallery-thumbnails {
         display: flex;
         justify-content: flex-start;
-        gap: 5px;
-        overflow-x: auto;
+        gap: 5px; /* Space between thumbnails */
+        overflow-x: auto; /* Horizontal scroll */
         white-space: nowrap;
         width: 100%;
-        margin-bottom: 0px;
+        margin-bottom: 10px; /* Reduced space below thumbnails */
         padding: 5px;
     }
 
@@ -35,8 +34,8 @@ date: 2023-06-19T12:00:00Z
     }
 
     .thumbnail-container img {
-        width: 130px;
-        height: 90px;
+        width: 130px; /* Thumbnail width */
+        height: 90px; /* Thumbnail height */
         transition: transform 0.3s;
     }
 
@@ -47,8 +46,8 @@ date: 2023-06-19T12:00:00Z
     }
 
     .thumbnail-container p {
-        margin-top: 2px;
-        font-size: 0.9em;
+        margin-top: 5px; /* Space between image and text */
+        font-size: 0.9em; /* Text size */
         color: #777;
         text-align: center;
     }
@@ -58,7 +57,6 @@ date: 2023-06-19T12:00:00Z
         max-width: 90vw;
         text-align: center;
         position: relative;
-        margin: 0 auto;
     }
 
     .gallery-main img {
@@ -66,21 +64,14 @@ date: 2023-06-19T12:00:00Z
         height: auto;
         border: 2px solid #ddd;
         border-radius: 5px;
-        transition: opacity 2s ease-in-out;
-        opacity: 1;
+        transition: opacity 1s ease-in-out; /* Reduced transition time */
     }
 
     .gallery-main .image-description {
-        margin-top: 2px;
-        font-size: 0.8em;
+        margin-top: 5px; /* Reduced space below image */
+        font-size: 0.9em; /* Text size */
         color: #555;
-        transition: opacity 2s ease-in-out;
-        opacity: 1;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        background-color: rgba(255, 255, 255, 0.8);
-        padding: 5px;
+        transition: opacity 1s ease-in-out; /* Reduced transition time */
     }
 
     .gallery-nav {
@@ -105,7 +96,7 @@ date: 2023-06-19T12:00:00Z
     }
 
     .gallery-thumbnails::-webkit-scrollbar {
-        height: 8px;
+        height: 8px; /* Scrollbar height */
     }
 
     .gallery-thumbnails::-webkit-scrollbar-thumb {
@@ -123,6 +114,7 @@ date: 2023-06-19T12:00:00Z
 </style>
 
 <div class="gallery">
+    <h1>Gallery</h1>
     <div class="gallery-thumbnails">
         <div class="thumbnail-container" onclick="showImage(0, true)">
             <img src="/images/清远漂流.jpg" alt="Thumbnail 清远漂流">
@@ -165,52 +157,22 @@ date: 2023-06-19T12:00:00Z
 
 <script>
     const images = [
-        {
-            src: '/images/清远漂流.jpg',
-            description: 'First team-building activity, white-water rafting - Jul 25, 2023'
-        },
-        {
-            src: '/images/冬至.jpg',
-            description: 'Celebrate the Winter Solstice - Dec 22, 2023'
-        },
-        {
-            src: '/images/石门.jpg',
-            description: 'Camping trip at Shimen - Jan 7, 2024'
-        },
-        {
-            src: '/images/石门1.jpg',
-            description: 'Camping trip at Shimen - Jan 7, 2024'
-        },
-        {
-            src: '/images/石门2.jpg',
-            description: 'Camping trip at Shimen - Jan 7, 2024'
-        },
-        {
-            src: '/images/红林花海.jpg',
-            description: 'Gathering at Honglin Flower Sea Restaurant to Welcome Niu Bo - Feb 29, 2024'
-        },
-        {
-            src: '/images/羽毛球赛.jpg',
-            description: 'Graduate student badminton friendly match - May 21, 2024'
-        },
-        {
-            src: '/images/课题组合照.jpg',
-            description: 'College photo day - Jun 7, 2024'
-        },
-        {
-            src: '/images/毕业典礼合照.jpg',
-            description: 'College graduation ceremony - Jun 18, 2024'
-        },
-        {
-            src: '/images/龙林毕业聚餐.jpg',
-            description: 'Undergraduate graduation dinner - Jun 19, 2024'
-        }
+        { src: '/images/清远漂流.jpg', description: 'First team-building activity, white-water rafting - Jul 25, 2023' },
+        { src: '/images/冬至.jpg', description: 'Celebrate the Winter Solstice - Dec 22, 2023' },
+        { src: '/images/石门.jpg', description: 'Camping trip at Shimen - Jan 7, 2024' },
+        { src: '/images/石门1.jpg', description: 'Camping trip at Shimen - Jan 7, 2024' },
+        { src: '/images/石门2.jpg', description: 'Camping trip at Shimen - Jan 7, 2024' },
+        { src: '/images/红林花海.jpg', description: 'Gathering at Honglin Flower Sea Restaurant to Welcome Niu Bo - Feb 29, 2024' },
+        { src: '/images/羽毛球赛.jpg', description: 'Graduate student badminton friendly match - May 21, 2024' },
+        { src: '/images/课题组合照.jpg', description: 'College photo day - Jun 7, 2024' },
+        { src: '/images/毕业典礼合照.jpg', description: 'College graduation ceremony - Jun 18, 2024' },
+        { src: '/images/龙林毕业聚餐.jpg', description: 'Undergraduate graduation dinner - Jun 19, 2024' }
     ];
 
-    let currentIndex = 0;
+    let currentIndex = 1;
     let autoSwitchInterval;
-    const transitionTime = 2000; // 2秒
-    const quickTransitionTime = 500; // 0.5秒
+    const transitionTime = 1000; // 1 second
+    const quickTransitionTime = 500; // 0.5 second
 
     function showImage(index, quick = false) {
         currentIndex = index;
@@ -225,7 +187,6 @@ date: 2023-06-19T12:00:00Z
             mainImageDescription.style.transition = `opacity ${transitionTime}ms ease-in-out`;
         }
 
-        // 淡出效果
         mainImage.style.opacity = 0;
         mainImageDescription.style.opacity = 0;
 
@@ -233,7 +194,6 @@ date: 2023-06-19T12:00:00Z
             mainImage.src = images[index].src;
             mainImageDescription.textContent = images[index].description;
 
-            // 淡入效果
             mainImage.style.opacity = 1;
             mainImageDescription.style.opacity = 1;
         }, quick ? quickTransitionTime : transitionTime);
@@ -252,7 +212,7 @@ date: 2023-06-19T12:00:00Z
     }
 
     function autoSwitchImages() {
-        autoSwitchInterval = setInterval(showNextImage, 5000); // 将间隔时间改为5000毫秒（5秒）
+        autoSwitchInterval = setInterval(showNextImage, 5000); // 5 seconds
     }
 
     function resetAutoSwitch() {
