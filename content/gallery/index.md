@@ -23,7 +23,8 @@ date: 2023-06-19T12:00:00Z
         white-space: nowrap;
         width: 100%;
         padding: 1px;
-        padding-right: 15px; /* 确保最后几张缩略图不会被切掉 */
+        padding-right: 30px; /* 增加右侧填充 */
+        margin-right: -30px; /* 确保右侧填充不影响布局 */
     }
 
     .thumbnail-container {
