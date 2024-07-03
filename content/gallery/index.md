@@ -9,12 +9,6 @@ date: 2023-06-19T12:00:00Z
         margin-bottom: 20px;
     }
 
-    .gallery {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .gallery-thumbnails {
         display: flex;
         justify-content: center;
@@ -34,8 +28,10 @@ date: 2023-06-19T12:00:00Z
     }
 
     .thumbnail-container img {
-        width: 150px;
-        height: 100px;
+        max-width: 150px;
+        max-height: 100px;
+        width: auto;
+        height: auto;
         transition: transform 0.3s, border 0.3s;
     }
 
@@ -143,7 +139,6 @@ date: 2023-06-19T12:00:00Z
     <div class="gallery-main">
         <button class="gallery-nav left" onclick="showPreviousImage()">&#10094;</button>
         <img src="/images/冬至.jpg" alt="Main Image" id="mainImage">
-        <div id="mainImageDescription" class="image-description">Celebrate the Winter Solstice - Dec 22, 2023</div>
         <button class="gallery-nav right" onclick="showNextImage()">&#10095;</button>
     </div>
 </div>
@@ -170,25 +165,18 @@ date: 2023-06-19T12:00:00Z
     function showImage(index, quick = false) {
         currentIndex = index;
         const mainImage = document.getElementById('mainImage');
-        const mainImageDescription = document.getElementById('mainImageDescription');
 
         if (quick) {
             mainImage.style.transition = `opacity ${quickTransitionTime}ms ease-in-out`;
-            mainImageDescription.style.transition = `opacity ${quickTransitionTime}ms ease-in-out`;
         } else {
             mainImage.style.transition = `opacity ${transitionTime}ms ease-in-out`;
-            mainImageDescription.style.transition = `opacity ${transitionTime}ms ease-in-out`;
         }
 
         mainImage.style.opacity = 0;
-        mainImageDescription.style.opacity = 0;
 
         setTimeout(() => {
             mainImage.src = images[index].src;
-            mainImageDescription.textContent = images[index].description;
-
             mainImage.style.opacity = 1;
-            mainImageDescription.style.opacity = 1;
         }, quick ? quickTransitionTime : transitionTime);
 
         resetAutoSwitch();
