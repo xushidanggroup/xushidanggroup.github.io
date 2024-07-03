@@ -22,6 +22,7 @@ date: 2023-06-19T12:00:00Z
         overflow-x: auto;
         white-space: nowrap;
         width: 100%;
+        height: 60px;
         padding: 1px;
     }
 
@@ -33,8 +34,8 @@ date: 2023-06-19T12:00:00Z
     }
 
     .thumbnail-container img {
-        max-width: 100px;
-        max-height: 50px;
+        max-width: 150px;
+        max-height: 100px;
         width: auto;
         height: auto;
         transition: transform 0.3s, border 0.3s;
