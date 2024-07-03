@@ -7,26 +7,3 @@
 .cta-group {
   justify-content: center;
 }
-
-.avatar-left {
-  display: inline-block;
-  float: left;
-  margin-right: 20px;  // 根据需要调整
-  width: 150px;  // 根据需要调整
-}
-
-.people-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column; // 确保每个人在新的一行
-}
-
-.person {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;  // 根据需要调整
-}
-
-.details {
-  flex-grow: 1;
-}
