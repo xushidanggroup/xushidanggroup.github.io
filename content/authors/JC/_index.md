@@ -16,7 +16,7 @@ authors:
 superuser: false
 
 # Role/position
-role: 24 Master's Student in Biomedical Engineering
+role: 24 Master's Student in Pharmacy
 
 # Organizations/Affiliations
 organizations:
