@@ -17,13 +17,13 @@ date: 2023-06-19T12:00:00Z
 
     .gallery-thumbnails {
         display: flex;
-        justify-content: start;
+        justify-content: start; /* 修改为start以确保从头开始排列 */
         gap: 10px;
         overflow-x: auto;
         white-space: nowrap;
         width: 100%;
         padding: 1px;
-        box-sizing: border-box;
+        box-sizing: border-box; /* 确保padding和内容一起计算宽度 */
     }
 
     .thumbnail-container {
@@ -49,17 +49,16 @@ date: 2023-06-19T12:00:00Z
 
     .gallery-main {
         width: 100%;
-        max-width: 100vw; /* 修改最大宽度 */
-        height: 100vh; /* 修改高度为全屏 */
+        max-width: 90vw;
         text-align: center;
         position: relative;
         margin-top: 1px;
     }
 
     .gallery-main img {
-        width: 100%; /* 宽度设为100%以填满容器 */
-        height: auto; /* 高度自动调整 */
-        max-height: 100%; /* 确保图片不会超过容器高度 */
+        max-width: 100%;
+        max-height: 100vh;
+        height: auto;
         border: none;
         transition: opacity 1s ease-in-out;
     }
