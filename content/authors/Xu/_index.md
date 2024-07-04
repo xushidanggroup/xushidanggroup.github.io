@@ -24,12 +24,12 @@ organizations:
     url: 'https://www.scut.edu.cn/new/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Development of biomedical AI algorithms, AI-driven biomaterial/molecule design, AI-assisted medical imaging analysis.
+bio: My research interests include Combining Biology/Chemistry-Based Priors with Machine Learning, Representation Learning for Molecular Structures, AI-driven Drug Discovery and Biomaterials Design.
 
 interests:
-  - Development of biomedical AI algorithms
-  - AI-driven biomaterial/molecule design
-  - AI-assisted medical imaging analysis
+  - Combining Biology/Chemistry-Based Priors with Machine Learning
+  - Representation Learning for Molecular Structures
+  - AI-driven Drug Discovery and Biomaterials Design
 
 education:
   courses:
