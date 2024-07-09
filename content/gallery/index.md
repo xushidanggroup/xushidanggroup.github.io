@@ -121,18 +121,21 @@ date: 2023-06-19T12:00:00Z
             <img src="/images/石门2.jpg" alt="Thumbnail 石门2">
         </div>
         <div class="thumbnail-container" onclick="showImage(5, true)">
-            <img src="/images/红林花海.jpg" alt="Thumbnail 红林花海">
+            <img src="/images/石门音乐.jpg" alt="Thumbnail 石门音乐">
         </div>
         <div class="thumbnail-container" onclick="showImage(6, true)">
-            <img src="/images/羽毛球赛.jpg" alt="Thumbnail 羽毛球赛">
+            <img src="/images/红林花海.jpg" alt="Thumbnail 红林花海">
         </div>
         <div class="thumbnail-container" onclick="showImage(7, true)">
-            <img src="/images/课题组合照.jpg" alt="Thumbnail 课题组合照">
+            <img src="/images/羽毛球赛.jpg" alt="Thumbnail 羽毛球赛">
         </div>
         <div class="thumbnail-container" onclick="showImage(8, true)">
-            <img src="/images/毕业典礼合照.jpg" alt="Thumbnail 毕业典礼合照">
+            <img src="/images/课题组合照.jpg" alt="Thumbnail 课题组合照">
         </div>
         <div class="thumbnail-container" onclick="showImage(9, true)">
+            <img src="/images/毕业典礼合照.jpg" alt="Thumbnail 毕业典礼合照">
+        </div>
+        <div class="thumbnail-container" onclick="showImage(10, true)">
             <img src="/images/龙林毕业聚餐.jpg" alt="Thumbnail 龙林毕业聚餐">
         </div>
     </div>
@@ -150,6 +153,7 @@ date: 2023-06-19T12:00:00Z
         { src: '/images/石门.jpg' },
         { src: '/images/石门1.jpg' },
         { src: '/images/石门2.jpg' },
+        { src: '/images/石门音乐.jpg' },
         { src: '/images/红林花海.jpg' },
         { src: '/images/羽毛球赛.jpg' },
         { src: '/images/课题组合照.jpg' },
