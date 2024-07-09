@@ -278,5 +278,10 @@ sections:
             <td style="width: 35%; padding: 8px; vertical-align: middle;">Biomedical Engineering at SCUT (2020-2024)</td>
             <td style="width: 45%; padding: 8px; vertical-align: middle;">PhD in Biomedical engineering, University of Texas, Southwestern Medical Center at Dallas (2024)</td>
           </tr>
+          <tr>
+            <td style="width: 20%; padding: 8px; vertical-align: middle;">Mingyu Lin 林明宇</td>
+            <td style="width: 35%; padding: 8px; vertical-align: middle;">Biomedical Engineering at SCUT (2020-2024)</td>
+            <td style="width: 45%; padding: 8px; vertical-align: middle;">Master in Biomedical Engineering, National University of Singapore (2024)</td>
+          </tr>
         </table>
 ---
