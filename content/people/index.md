@@ -169,7 +169,7 @@ sections:
           </div>
           <div class="person">
             <img src="NB/avatar.jpg" alt="Graduate Student">
-            <p class="name">Bo Biu 牛博</p>
+            <p class="name">Bo Niu 牛博</p>
             <p class="details">24 Master’s Student in Pharmacy</p>
             <div class="email" onclick="copyToClipboard('niubo7645@gmail.com')">
               <i class="fas fa-envelope"></i><span>niubo7645@gmail.com</span>
