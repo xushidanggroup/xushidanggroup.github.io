@@ -129,7 +129,7 @@ sections:
           </div>
           <div class="person">
             <img src="JC/avatar.jpg" alt="Graduate Student">
-            <p class="name">Jincheng Mo 莫景丞</p>
+            <p class="name">Jingcheng Mo 莫景丞</p>
             <p class="details">24 Master’s Student in Pharmacy</p>
             <div class="email" onclick="copyToClipboard('jingchengmo@foxmail.com')">
               <i class="fas fa-envelope"></i><span>jingchengmo@foxmail.com</span>
