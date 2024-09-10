@@ -128,11 +128,11 @@ sections:
             </div>
           </div>
           <div class="person">
-            <img src="JC/avatar.jpg" alt="Graduate Student">
-            <p class="name">Jingcheng Mo 莫景丞</p>
+            <img src="NB/avatar.jpg" alt="Graduate Student">
+            <p class="name">Bo Niu 牛博</p>
             <p class="details">24 Master’s Student in Pharmacy</p>
-            <div class="email" onclick="copyToClipboard('jingchengmo@foxmail.com')">
-              <i class="fas fa-envelope"></i><span>jingchengmo@foxmail.com</span>
+            <div class="email" onclick="copyToClipboard('niubo7645@gmail.com')">
+              <i class="fas fa-envelope"></i><span>niubo7645@gmail.com</span>
             </div>
           </div>
           <div class="person">
@@ -152,6 +152,22 @@ sections:
             </div>
           </div>
           <div class="person">
+            <img src="JC/avatar.jpg" alt="Graduate Student">
+            <p class="name">Jingcheng Mo 莫景丞</p>
+            <p class="details">24 Master’s Student in Pharmacy</p>
+            <div class="email" onclick="copyToClipboard('jingchengmo@foxmail.com')">
+              <i class="fas fa-envelope"></i><span>jingchengmo@foxmail.com</span>
+            </div>
+          </div>
+          <div class="person">
+            <img src="OY/avatar.jpg" alt="Graduate Student">
+            <p class="name">Junchi Ouyang 欧阳骏驰</p>
+            <p class="details">24 Master’s Student in Biomedical Engineering</p>
+            <div class="email" onclick="copyToClipboard('oyjc_scut@126.com')">
+              <i class="fas fa-envelope"></i><span>oyjc_scut@126.com</span>
+            </div>
+          </div>
+          <div class="person">
             <img src="LP/avatar.jpg" alt="Graduate Student">
             <p class="name">Lipeng Luo 罗丽鹏</p>
             <p class="details">24 Master’s Student in Biomedical Engineering</p>
@@ -165,22 +181,6 @@ sections:
             <p class="details">23 Master’s Student in Biomedical Engineering</p>
             <div class="email" onclick="copyToClipboard('mailto:meitangpeng@gmail.com')">
               <i class="fas fa-envelope"></i><span>mailto:meitangpeng@gmail.com</span>
-            </div>
-          </div>
-          <div class="person">
-            <img src="NB/avatar.jpg" alt="Graduate Student">
-            <p class="name">Bo Niu 牛博</p>
-            <p class="details">24 Master’s Student in Pharmacy</p>
-            <div class="email" onclick="copyToClipboard('niubo7645@gmail.com')">
-              <i class="fas fa-envelope"></i><span>niubo7645@gmail.com</span>
-            </div>
-          </div>
-          <div class="person">
-            <img src="OY/avatar.jpg" alt="Graduate Student">
-            <p class="name">Junchi Ouyang 欧阳骏驰</p>
-            <p class="details">24 Master’s Student in Biomedical Engineering</p>
-            <div class="email" onclick="copyToClipboard('oyjc_scut@126.com')">
-              <i class="fas fa-envelope"></i><span>oyjc_scut@126.com</span>
             </div>
           </div>
           <div class="person">
