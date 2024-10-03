@@ -39,7 +39,7 @@ publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
 publication: In *Materials Horizons*
-publication_short: In *: Mater. Horiz.*
+publication_short: In * Mater. Horiz.*
 
 abstract: A new second near-infrared (NIR II) conjugated polymer (CP) was designed and synthesized. The CP nanoparticles have good biocompatibility, excellent photostability and high imaging contrast, and have been successfully used to demonstrate the first example of NIR II photoacoustic imaging of orthotopic brain tumors. In comparison with existing contrast agents for photoacoustic imaging, the NIR II CP nanoparticles showed more efficient skull penetration and a much higher signal/background ratio using a 1064 nm laser.
 
