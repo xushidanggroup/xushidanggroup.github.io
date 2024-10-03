@@ -38,10 +38,10 @@ publication_types: ['article-journal']
 publication: In *Chemistry of Materials*
 publication_short: In *Chem. Mater.*
 
-abstract: As a noninvasive treatment option, photodynamic therapy (PDT) offers light-controlled spatiotemporal precision. However, the current clinical practice requires the patients to avoid light exposure for days to weeks post PDT treatment due to the retention of photosensitizers (PSs) in the living body. In addition, traditional PSs suffer from quenched fluorescence and reduced 1O2 production in nanoparticles (NPs) or the aggregate state. Herein, an efficient metabolizable type-II photosensitizer FBD with aggregation-induced emission characteristics is developed and processed into NPs, which demonstrates good anti-tumor PDT efficiency in mice models. Importantly, FBD can be gradually oxidized after PDT by endogenous hypochlorite (ClO¨C) in the living body and subsequently excreted through urine within 24 h after PS administration. The designed metabolizable therapeutic agent addresses the key limitation of traditional PDT, showing great potential for clinical translation.
+abstract: As a noninvasive treatment option, photodynamic therapy (PDT) offers light-controlled spatiotemporal precision. However, the current clinical practice requires the patients to avoid light exposure for days to weeks post PDT treatment due to the retention of photosensitizers (PSs) in the living body. In addition, traditional PSs suffer from quenched fluorescence and reduced 1O2 production in nanoparticles (NPs) or the aggregate state. Herein, an efficient metabolizable type-II photosensitizer FBD with aggregation-induced emission characteristics is developed and processed into NPs, which demonstrates good anti-tumor PDT efficiency in mice models. Importantly, FBD can be gradually oxidized after PDT by endogenous hypochlorite (ClOï¿½C) in the living body and subsequently excreted through urine within 24 h after PS administration. The designed metabolizable therapeutic agent addresses the key limitation of traditional PDT, showing great potential for clinical translation.
 
 # Summary. An optional shortened abstract.
-summary: As a noninvasive treatment option, photodynamic therapy (PDT) offers light-controlled spatiotemporal precision. However, the current clinical practice requires the patients to avoid light exposure for days to weeks post PDT treatment due to the retention of photosensitizers (PSs) in the living body. In addition, traditional PSs suffer from quenched fluorescence and reduced 1O2 production in nanoparticles (NPs) or the aggregate state. Herein, an efficient metabolizable type-II photosensitizer FBD with aggregation-induced emission characteristics is developed and processed into NPs, which demonstrates good anti-tumor PDT efficiency in mice models. Importantly, FBD can be gradually oxidized after PDT by endogenous hypochlorite (ClO¨C) in the living body and subsequently excreted through urine within 24 h after PS administration. The designed metabolizable therapeutic agent addresses the key limitation of traditional PDT, showing great potential for clinical translation.
+summary: As a noninvasive treatment option, photodynamic therapy (PDT) offers light-controlled spatiotemporal precision. However, the current clinical practice requires the patients to avoid light exposure for days to weeks post PDT treatment due to the retention of photosensitizers (PSs) in the living body. In addition, traditional PSs suffer from quenched fluorescence and reduced 1O2 production in nanoparticles (NPs) or the aggregate state. Herein, an efficient metabolizable type-II photosensitizer FBD with aggregation-induced emission characteristics is developed and processed into NPs, which demonstrates good anti-tumor PDT efficiency in mice models. Importantly, FBD can be gradually oxidized after PDT by endogenous hypochlorite (ClOï¿½C) in the living body and subsequently excreted through urine within 24 h after PS administration. The designed metabolizable therapeutic agent addresses the key limitation of traditional PDT, showing great potential for clinical translation.
 tags: []
 
 # Display this page in the Featured widget?
@@ -63,8 +63,8 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#   focal_point: ''
+#   preview_only: false
 ---

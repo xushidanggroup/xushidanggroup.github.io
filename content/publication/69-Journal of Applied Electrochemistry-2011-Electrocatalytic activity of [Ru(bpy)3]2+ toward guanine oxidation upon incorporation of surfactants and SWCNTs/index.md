@@ -34,10 +34,10 @@ publication_types: ['article-journal']
 publication: In *Journal of Applied Electrochemistry*
 publication_short: In *J. Appl. Electrochem.*
 
-abstract: The homogeneous and mediated oxidation of guanine by [Ru(bpy)3]2+ (2,2¡ä-bipypyridine) in the presence of surfactants and single-walled carbon nanotubes (SWCNTs) has been investigated using cyclic voltammetry, repetitive differential pulse voltammetry and rotating electrode method. In acidic medium, the oxidation of guanine was controlled by mass transport process of [Ru(bpy)3]2+ in solution, leading to a homogeneous electrocatalysis. In neutral medium, the result from emission spectroscopy suggested the formation of the aggregates containing [Ru(bpy)3]2+, dihexadecyl phosphate (DHP) and guanine. The electrocatalysis of [Ru(bpy)3]2+ toward guanine oxidation was promoted by anionic surfactant DHP and, however, hindered by an excess amount of hexadecyl trismethyl ammonium chloride (HTAC) or SWCNTs added to solutions. The electrocatalytic mechanism of [Ru(bpy)3]2+ for guanine oxidation becomes evident, strongly depending on the presence of anionic or cationic surfactants and SWCNTs.
+abstract: The homogeneous and mediated oxidation of guanine by [Ru(bpy)3]2+ (2,2ï¿½ï¿½-bipypyridine) in the presence of surfactants and single-walled carbon nanotubes (SWCNTs) has been investigated using cyclic voltammetry, repetitive differential pulse voltammetry and rotating electrode method. In acidic medium, the oxidation of guanine was controlled by mass transport process of [Ru(bpy)3]2+ in solution, leading to a homogeneous electrocatalysis. In neutral medium, the result from emission spectroscopy suggested the formation of the aggregates containing [Ru(bpy)3]2+, dihexadecyl phosphate (DHP) and guanine. The electrocatalysis of [Ru(bpy)3]2+ toward guanine oxidation was promoted by anionic surfactant DHP and, however, hindered by an excess amount of hexadecyl trismethyl ammonium chloride (HTAC) or SWCNTs added to solutions. The electrocatalytic mechanism of [Ru(bpy)3]2+ for guanine oxidation becomes evident, strongly depending on the presence of anionic or cationic surfactants and SWCNTs.
 
 # Summary. An optional shortened abstract.
-summary: The homogeneous and mediated oxidation of guanine by [Ru(bpy)3]2+ (2,2¡ä-bipypyridine) in the presence of surfactants and single-walled carbon nanotubes (SWCNTs) has been investigated using cyclic voltammetry, repetitive differential pulse voltammetry and rotating electrode method. In acidic medium, the oxidation of guanine was controlled by mass transport process of [Ru(bpy)3]2+ in solution, leading to a homogeneous electrocatalysis. In neutral medium, the result from emission spectroscopy suggested the formation of the aggregates containing [Ru(bpy)3]2+, dihexadecyl phosphate (DHP) and guanine. The electrocatalysis of [Ru(bpy)3]2+ toward guanine oxidation was promoted by anionic surfactant DHP and, however, hindered by an excess amount of hexadecyl trismethyl ammonium chloride (HTAC) or SWCNTs added to solutions. The electrocatalytic mechanism of [Ru(bpy)3]2+ for guanine oxidation becomes evident, strongly depending on the presence of anionic or cationic surfactants and SWCNTs.
+summary: The homogeneous and mediated oxidation of guanine by [Ru(bpy)3]2+ (2,2ï¿½ï¿½-bipypyridine) in the presence of surfactants and single-walled carbon nanotubes (SWCNTs) has been investigated using cyclic voltammetry, repetitive differential pulse voltammetry and rotating electrode method. In acidic medium, the oxidation of guanine was controlled by mass transport process of [Ru(bpy)3]2+ in solution, leading to a homogeneous electrocatalysis. In neutral medium, the result from emission spectroscopy suggested the formation of the aggregates containing [Ru(bpy)3]2+, dihexadecyl phosphate (DHP) and guanine. The electrocatalysis of [Ru(bpy)3]2+ toward guanine oxidation was promoted by anionic surfactant DHP and, however, hindered by an excess amount of hexadecyl trismethyl ammonium chloride (HTAC) or SWCNTs added to solutions. The electrocatalytic mechanism of [Ru(bpy)3]2+ for guanine oxidation becomes evident, strongly depending on the presence of anionic or cationic surfactants and SWCNTs.
 tags: []
 
 # Display this page in the Featured widget?
@@ -59,8 +59,8 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#   focal_point: ''
+#   preview_only: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: 'Photothermal©\activatable liposome carrying tissue plasminogen activator for photoacoustic image©\guided ischemic stroke treatment'
+title: 'Photothermalï¿½\activatable liposome carrying tissue plasminogen activator for photoacoustic imageï¿½\guided ischemic stroke treatment'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -71,8 +71,8 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#   focal_point: ''
+#   preview_only: false
 ---

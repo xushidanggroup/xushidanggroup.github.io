@@ -38,10 +38,10 @@ publication_types: ['article-journal']
 publication: In *Journal of Materials Chemistry B*
 publication_short: In *	J. Mater. Chem. B*
 
-abstract: Three conjugated polymers that have the same donor¨Cacceptor structure but totally different architectures are designed to show both Type-I and Type-II photosensitization abilities simultaneously, among which the hyperbranched polymer shows the best performance in both in vitro and in vivo experiments, superior to even the commonly used clinical photosensitizer of hemoporfin.
+abstract: Three conjugated polymers that have the same donorï¿½Cacceptor structure but totally different architectures are designed to show both Type-I and Type-II photosensitization abilities simultaneously, among which the hyperbranched polymer shows the best performance in both in vitro and in vivo experiments, superior to even the commonly used clinical photosensitizer of hemoporfin.
 
 # Summary. An optional shortened abstract.
-summary: Three conjugated polymers that have the same donor¨Cacceptor structure but totally different architectures are designed to show both Type-I and Type-II photosensitization abilities simultaneously, among which the hyperbranched polymer shows the best performance in both in vitro and in vivo experiments, superior to even the commonly used clinical photosensitizer of hemoporfin.
+summary: Three conjugated polymers that have the same donorï¿½Cacceptor structure but totally different architectures are designed to show both Type-I and Type-II photosensitization abilities simultaneously, among which the hyperbranched polymer shows the best performance in both in vitro and in vivo experiments, superior to even the commonly used clinical photosensitizer of hemoporfin.
 tags: []
 
 # Display this page in the Featured widget?
@@ -63,8 +63,8 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#   focal_point: ''
+#   preview_only: false
 ---

@@ -34,10 +34,10 @@ publication_types: ['Applications of Data Science to Molecules and Materials (T3
 publication: In *Virtual AIChE Annual Meeting*
 publication_short: In *Virtual AIChE Annual Meeting*
 
-abstract: Photodynamic therapy is arising as a non-invasive treatment modality for cancer and other diseases. One of the key factors to determine the therapeutic function is the efficiency of photosensitizers (PSs). According to the latest studies, reducing the energy gap (¦¤EST) between the lowest excited singlet state (S1) and lowest excited triplet state (T1) was an effective approach to yield highly efficient PSs and ¦¤EST could be fine-tuned through precise molecular donor-acceptor engineering. There is a growing literature where small families of small-¦¤EST PS compounds are explored experimentally, or purely computationally at a slightly larger scale. Here, we report a large-scale data-driven search for novel PSs, with a special focus on red PS. This work employed a collaborative approach encompassing computational quantum chemistry, machine learning, organic synthesis, and nanoagent fabrication and testing.
+abstract: Photodynamic therapy is arising as a non-invasive treatment modality for cancer and other diseases. One of the key factors to determine the therapeutic function is the efficiency of photosensitizers (PSs). According to the latest studies, reducing the energy gap (ï¿½ï¿½EST) between the lowest excited singlet state (S1) and lowest excited triplet state (T1) was an effective approach to yield highly efficient PSs and ï¿½ï¿½EST could be fine-tuned through precise molecular donor-acceptor engineering. There is a growing literature where small families of small-ï¿½ï¿½EST PS compounds are explored experimentally, or purely computationally at a slightly larger scale. Here, we report a large-scale data-driven search for novel PSs, with a special focus on red PS. This work employed a collaborative approach encompassing computational quantum chemistry, machine learning, organic synthesis, and nanoagent fabrication and testing.
 
 # Summary. An optional shortened abstract.
-summary: Photodynamic therapy is arising as a non-invasive treatment modality for cancer and other diseases. One of the key factors to determine the therapeutic function is the efficiency of photosensitizers (PSs). According to the latest studies, reducing the energy gap (¦¤EST) between the lowest excited singlet state (S1) and lowest excited triplet state (T1) was an effective approach to yield highly efficient PSs and ¦¤EST could be fine-tuned through precise molecular donor-acceptor engineering. There is a growing literature where small families of small-¦¤EST PS compounds are explored experimentally, or purely computationally at a slightly larger scale. Here, we report a large-scale data-driven search for novel PSs, with a special focus on red PS. This work employed a collaborative approach encompassing computational quantum chemistry, machine learning, organic synthesis, and nanoagent fabrication and testing.
+summary: Photodynamic therapy is arising as a non-invasive treatment modality for cancer and other diseases. One of the key factors to determine the therapeutic function is the efficiency of photosensitizers (PSs). According to the latest studies, reducing the energy gap (ï¿½ï¿½EST) between the lowest excited singlet state (S1) and lowest excited triplet state (T1) was an effective approach to yield highly efficient PSs and ï¿½ï¿½EST could be fine-tuned through precise molecular donor-acceptor engineering. There is a growing literature where small families of small-ï¿½ï¿½EST PS compounds are explored experimentally, or purely computationally at a slightly larger scale. Here, we report a large-scale data-driven search for novel PSs, with a special focus on red PS. This work employed a collaborative approach encompassing computational quantum chemistry, machine learning, organic synthesis, and nanoagent fabrication and testing.
 tags: []
 
 # Display this page in the Featured widget?
@@ -59,8 +59,8 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#   focal_point: ''
+#   preview_only: false
 ---

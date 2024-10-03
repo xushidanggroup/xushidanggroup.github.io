@@ -1,20 +1,20 @@
 ---
-title: 'Cell Tracking: Organic Nanoparticles with Aggregation©\Induced Emission for Bone Marrow Stromal Cell Tracking in a Rat PTI Model (Small 47/2016)'
+title: 'Cell Tracking: Organic Nanoparticles with Aggregationï¿½\Induced Emission for Bone Marrow Stromal Cell Tracking in a Rat PTI Model (Small 47/2016)'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Xiaolei Cai
-  - Chong©\Jing Zhang
-  - Chong©\Jing Zhang
+  - Chongï¿½\Jing Zhang
+  - Chongï¿½\Jing Zhang
   - Su Jing Chan
   - Aishwarya Bandla
   - Chan Kim Chuan
   - Fang Hu
   - Shidang Xu
   - Nitish V. Thakor
-  - Lun©\De Liao*
+  - Lunï¿½\De Liao*
   - Bin Liu*
 
 # Author notes (optional)
@@ -71,8 +71,8 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#   focal_point: ''
+#   preview_only: false
 ---

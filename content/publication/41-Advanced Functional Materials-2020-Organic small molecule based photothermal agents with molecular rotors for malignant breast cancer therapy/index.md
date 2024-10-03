@@ -46,10 +46,10 @@ publication_types: ['article-journal']
 publication: In *Advanced Functional Materials*
 publication_short: In *Adv. Fun. Mater.*
 
-abstract: Organic photothermal nanoagents are promising candidates for treating primary tumors and inhibiting metastasis. However, they often exhibit poor photostability, low absorptivity, or limited photothermal conversion efficiency (PCE). Herein, a facile molecular engineering approach to produce efficient organic photothermal molecules is demonstrated. By integrating donor¨Cacceptor structure and molecular motors, a small molecule (TA1) is synthesized with large absorptivity (22.4 L g?1 cm?1), negligible reactive oxygen species generation, high PCE (84.8%), excellent photothermal stability, and good biocompatibility. Furthermore, microfluidics is used to thoroughly study the relationship between the size and process conditions, yielding small uniform nanoparticles (NPs) with a diameter of 44 nm. Importantly, TA1 NPs under near-infrared laser irradiation significantly suppressed primary breast tumor growth and metastasis, both in vitro and in vivo. This study shows that small organic molecule nanoparticles are promising candidates for future cancer nanomedicine.
+abstract: Organic photothermal nanoagents are promising candidates for treating primary tumors and inhibiting metastasis. However, they often exhibit poor photostability, low absorptivity, or limited photothermal conversion efficiency (PCE). Herein, a facile molecular engineering approach to produce efficient organic photothermal molecules is demonstrated. By integrating donorï¿½Cacceptor structure and molecular motors, a small molecule (TA1) is synthesized with large absorptivity (22.4 L g?1 cm?1), negligible reactive oxygen species generation, high PCE (84.8%), excellent photothermal stability, and good biocompatibility. Furthermore, microfluidics is used to thoroughly study the relationship between the size and process conditions, yielding small uniform nanoparticles (NPs) with a diameter of 44 nm. Importantly, TA1 NPs under near-infrared laser irradiation significantly suppressed primary breast tumor growth and metastasis, both in vitro and in vivo. This study shows that small organic molecule nanoparticles are promising candidates for future cancer nanomedicine.
 
 # Summary. An optional shortened abstract.
-summary: Organic photothermal nanoagents are promising candidates for treating primary tumors and inhibiting metastasis. However, they often exhibit poor photostability, low absorptivity, or limited photothermal conversion efficiency (PCE). Herein, a facile molecular engineering approach to produce efficient organic photothermal molecules is demonstrated. By integrating donor¨Cacceptor structure and molecular motors, a small molecule (TA1) is synthesized with large absorptivity (22.4 L g?1 cm?1), negligible reactive oxygen species generation, high PCE (84.8%), excellent photothermal stability, and good biocompatibility. Furthermore, microfluidics is used to thoroughly study the relationship between the size and process conditions, yielding small uniform nanoparticles (NPs) with a diameter of 44 nm. Importantly, TA1 NPs under near-infrared laser irradiation significantly suppressed primary breast tumor growth and metastasis, both in vitro and in vivo. This study shows that small organic molecule nanoparticles are promising candidates for future cancer nanomedicine.
+summary: Organic photothermal nanoagents are promising candidates for treating primary tumors and inhibiting metastasis. However, they often exhibit poor photostability, low absorptivity, or limited photothermal conversion efficiency (PCE). Herein, a facile molecular engineering approach to produce efficient organic photothermal molecules is demonstrated. By integrating donorï¿½Cacceptor structure and molecular motors, a small molecule (TA1) is synthesized with large absorptivity (22.4 L g?1 cm?1), negligible reactive oxygen species generation, high PCE (84.8%), excellent photothermal stability, and good biocompatibility. Furthermore, microfluidics is used to thoroughly study the relationship between the size and process conditions, yielding small uniform nanoparticles (NPs) with a diameter of 44 nm. Importantly, TA1 NPs under near-infrared laser irradiation significantly suppressed primary breast tumor growth and metastasis, both in vitro and in vivo. This study shows that small organic molecule nanoparticles are promising candidates for future cancer nanomedicine.
 tags: []
 
 # Display this page in the Featured widget?
@@ -71,8 +71,8 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#   focal_point: ''
+#   preview_only: false
 ---

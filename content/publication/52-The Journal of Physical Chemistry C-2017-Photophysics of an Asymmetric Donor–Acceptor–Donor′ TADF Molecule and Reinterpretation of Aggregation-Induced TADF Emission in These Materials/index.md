@@ -1,5 +1,5 @@
 ---
-title: 'Photophysics of an Asymmetric Donor¨CAcceptor¨CDonor¡ä TADF Molecule and Reinterpretation of Aggregation-Induced TADF Emission in These Materials'
+title: 'Photophysics of an Asymmetric Donorï¿½CAcceptorï¿½CDonorï¿½ï¿½ TADF Molecule and Reinterpretation of Aggregation-Induced TADF Emission in These Materials'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -35,10 +35,10 @@ publication_types: ['article-journal']
 publication: In *The Journal of Physical Chemistry C*
 publication_short: In *J. Phys. Chem. C.*
 
-abstract: We report an in-depth photophysical investigation of an asymmetric donor¨Cacceptor¨Cdonor¡ä (D¨CA¨CD¡ä) thermally activated delayed fluorescence (TADF) molecule (4-(9H-carbazol-9-yl)phenyl)(4-(10H-phenothiazin-10-yl)phenyl)sulfone and compare its photophysical properties to the parent symmetric D¨CA¨CD and D¡ä¨CA¨CD¡ä molecules. These D¨CA¨CD type small molecules all show strong TADF. The work reveals how the relative orientations of D¨CA (D¡ä¨CA) moieties favor reverse intersystem crossing (rISC) by forming stable charge transfer (CT) states. The key requirement for the efficient TADF emitters is to achieve a very small CT-local triplet state energy splitting, which is shown to be complex in the asymmetric molecule. Throughout the investigations, we show that in the asymmetric D¨CA¨CD¡ä system, even though ECT (D¨CA) > ECT (D¡ä¨CA), no evidence of energy transfer from D¨CA to A¨CD¡ä is observed, nor from excited D to D¡ä. This is ascribed to the near orthogonality of the D and D¡ä units and the very strong decoupling of the electrons on the D and A in the CT state. In addition, the possibility of aggregation-induced TADF (AI-TADF) is examined and shown to be a manifestation of solvatochromism in these particular molecules.
+abstract: We report an in-depth photophysical investigation of an asymmetric donorï¿½Cacceptorï¿½Cdonorï¿½ï¿½ (Dï¿½CAï¿½CDï¿½ï¿½) thermally activated delayed fluorescence (TADF) molecule (4-(9H-carbazol-9-yl)phenyl)(4-(10H-phenothiazin-10-yl)phenyl)sulfone and compare its photophysical properties to the parent symmetric Dï¿½CAï¿½CD and Dï¿½ï¿½CAï¿½CDï¿½ï¿½ molecules. These Dï¿½CAï¿½CD type small molecules all show strong TADF. The work reveals how the relative orientations of Dï¿½CA (Dï¿½ï¿½CA) moieties favor reverse intersystem crossing (rISC) by forming stable charge transfer (CT) states. The key requirement for the efficient TADF emitters is to achieve a very small CT-local triplet state energy splitting, which is shown to be complex in the asymmetric molecule. Throughout the investigations, we show that in the asymmetric Dï¿½CAï¿½CDï¿½ï¿½ system, even though ECT (Dï¿½CA) > ECT (Dï¿½ï¿½CA), no evidence of energy transfer from Dï¿½CA to Aï¿½CDï¿½ï¿½ is observed, nor from excited D to Dï¿½ï¿½. This is ascribed to the near orthogonality of the D and Dï¿½ï¿½ units and the very strong decoupling of the electrons on the D and A in the CT state. In addition, the possibility of aggregation-induced TADF (AI-TADF) is examined and shown to be a manifestation of solvatochromism in these particular molecules.
 
 # Summary. An optional shortened abstract.
-summary: We report an in-depth photophysical investigation of an asymmetric donor¨Cacceptor¨Cdonor¡ä (D¨CA¨CD¡ä) thermally activated delayed fluorescence (TADF) molecule (4-(9H-carbazol-9-yl)phenyl)(4-(10H-phenothiazin-10-yl)phenyl)sulfone and compare its photophysical properties to the parent symmetric D¨CA¨CD and D¡ä¨CA¨CD¡ä molecules. These D¨CA¨CD type small molecules all show strong TADF. The work reveals how the relative orientations of D¨CA (D¡ä¨CA) moieties favor reverse intersystem crossing (rISC) by forming stable charge transfer (CT) states. The key requirement for the efficient TADF emitters is to achieve a very small CT-local triplet state energy splitting, which is shown to be complex in the asymmetric molecule. Throughout the investigations, we show that in the asymmetric D¨CA¨CD¡ä system, even though ECT (D¨CA) > ECT (D¡ä¨CA), no evidence of energy transfer from D¨CA to A¨CD¡ä is observed, nor from excited D to D¡ä. This is ascribed to the near orthogonality of the D and D¡ä units and the very strong decoupling of the electrons on the D and A in the CT state. In addition, the possibility of aggregation-induced TADF (AI-TADF) is examined and shown to be a manifestation of solvatochromism in these particular molecules.
+summary: We report an in-depth photophysical investigation of an asymmetric donorï¿½Cacceptorï¿½Cdonorï¿½ï¿½ (Dï¿½CAï¿½CDï¿½ï¿½) thermally activated delayed fluorescence (TADF) molecule (4-(9H-carbazol-9-yl)phenyl)(4-(10H-phenothiazin-10-yl)phenyl)sulfone and compare its photophysical properties to the parent symmetric Dï¿½CAï¿½CD and Dï¿½ï¿½CAï¿½CDï¿½ï¿½ molecules. These Dï¿½CAï¿½CD type small molecules all show strong TADF. The work reveals how the relative orientations of Dï¿½CA (Dï¿½ï¿½CA) moieties favor reverse intersystem crossing (rISC) by forming stable charge transfer (CT) states. The key requirement for the efficient TADF emitters is to achieve a very small CT-local triplet state energy splitting, which is shown to be complex in the asymmetric molecule. Throughout the investigations, we show that in the asymmetric Dï¿½CAï¿½CDï¿½ï¿½ system, even though ECT (Dï¿½CA) > ECT (Dï¿½ï¿½CA), no evidence of energy transfer from Dï¿½CA to Aï¿½CDï¿½ï¿½ is observed, nor from excited D to Dï¿½ï¿½. This is ascribed to the near orthogonality of the D and Dï¿½ï¿½ units and the very strong decoupling of the electrons on the D and A in the CT state. In addition, the possibility of aggregation-induced TADF (AI-TADF) is examined and shown to be a manifestation of solvatochromism in these particular molecules.
 tags: []
 
 # Display this page in the Featured widget?
@@ -60,8 +60,8 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#   focal_point: ''
+#   preview_only: false
 ---

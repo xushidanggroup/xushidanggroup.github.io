@@ -38,10 +38,10 @@ publication_types: ['article-journal']
 publication: In *Angewandte Chemie*
 publication_short: In *Angew. Chem. Int. Ed. Engl.*
 
-abstract: The cis and trans isomers of a tetraphenylethene derivative with aggregation-induced emission, TPETH-MAL, were characterized by HPLC analysis and NMR spectroscopy. cis-TPETH-MAL emits yellow fluorescence in DMSO at ?20?¡ãC whereas trans-TPETH-MAL shows red fluorescence under the same conditions.
+abstract: The cis and trans isomers of a tetraphenylethene derivative with aggregation-induced emission, TPETH-MAL, were characterized by HPLC analysis and NMR spectroscopy. cis-TPETH-MAL emits yellow fluorescence in DMSO at ?20?ï¿½ï¿½C whereas trans-TPETH-MAL shows red fluorescence under the same conditions.
 
 # Summary. An optional shortened abstract.
-summary: The cis and trans isomers of a tetraphenylethene derivative with aggregation-induced emission, TPETH-MAL, were characterized by HPLC analysis and NMR spectroscopy. cis-TPETH-MAL emits yellow fluorescence in DMSO at ?20?¡ãC whereas trans-TPETH-MAL shows red fluorescence under the same conditions.
+summary: The cis and trans isomers of a tetraphenylethene derivative with aggregation-induced emission, TPETH-MAL, were characterized by HPLC analysis and NMR spectroscopy. cis-TPETH-MAL emits yellow fluorescence in DMSO at ?20?ï¿½ï¿½C whereas trans-TPETH-MAL shows red fluorescence under the same conditions.
 tags: []
 
 # Display this page in the Featured widget?
@@ -63,8 +63,8 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#   focal_point: ''
+#   preview_only: false
 ---
