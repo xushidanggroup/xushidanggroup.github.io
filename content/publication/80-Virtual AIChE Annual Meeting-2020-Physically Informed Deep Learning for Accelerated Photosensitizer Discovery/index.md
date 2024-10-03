@@ -28,7 +28,7 @@ publishDate: '2020-11-17T00:00:00Z'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['Applications of Data Science to Molecules and Materials (T3) (PreRecorded+)']
+publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: In *Virtual AIChE Annual Meeting*

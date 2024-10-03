@@ -40,7 +40,7 @@ publishDate: '2018-07-19T00:00:00Z'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['frontispiece-journal']
+publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
 publication: In *Advanced Materials*
