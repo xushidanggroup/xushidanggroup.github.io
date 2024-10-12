@@ -53,8 +53,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_paper: 'https://aiche.confex.com/aiche/2020/meetingapp.cgi/Paper/605068'
-url_pdf: ''
+url_pdf: 'https://aiche.confex.com/aiche/2020/meetingapp.cgi/Paper/605068'
 url_code: ''
 url_dataset: ''
 url_poster: ''
