@@ -12,14 +12,14 @@ authors:
   - Bin Liu*
   - Xiaonan Wang*
 
-# Author notes (optional)
-author_notes:
-  - ''
-  - ''
-  - ''
-  - ''
-  - 'Corresponding author'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
+#   - 'Corresponding author'
 
 date: '2021-11-17T00:00:00Z'
 doi: '10.1021/jacs.1c08211'

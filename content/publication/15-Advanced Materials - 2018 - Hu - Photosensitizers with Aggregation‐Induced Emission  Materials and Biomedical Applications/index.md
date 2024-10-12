@@ -9,11 +9,11 @@ authors:
   - Shidang Xu
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - ''
-  - ''
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - 'Corresponding author'
 
 date: '2018-07-31T00:00:00Z'
 doi: '10.1002/adma.201801350'

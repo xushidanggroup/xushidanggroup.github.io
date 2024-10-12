@@ -8,10 +8,10 @@ authors:
   - Shidang Xu
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - ''
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - 'Corresponding author'
 
 date: '2022-09-15T00:00:00Z'
 doi: '10.1021/jacs.2c06838'
