@@ -16,14 +16,14 @@ authors:
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
+  - ''
+  - ''
+  - ''
   - 'Corresponding author'
   - 'Corresponding author'
   - 'Corresponding author'
   - 'Corresponding author'
-  - 'Equal contribution'
+  - ''
 
 date: '2024-04-24T00:00:00Z'
 doi: '10.1002/advs.202400661'
