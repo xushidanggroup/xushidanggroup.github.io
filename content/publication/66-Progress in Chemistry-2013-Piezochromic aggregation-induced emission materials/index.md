@@ -14,11 +14,11 @@ authors:
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+  - ''
+  - ''
   - 'Corresponding author'
-  - 'Equal contribution'
-  - 'Equal contribution'
+  - ''
+  - ''
   - 'Corresponding author'
 
 date: '2013-09-12T00:00:00Z'

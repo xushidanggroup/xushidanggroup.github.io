@@ -5,22 +5,22 @@ title: 'A light-up endoplasmic reticulum probe based on a rational design of red
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Chong-Jing Zhang
-  - Xiaolei Cai
+  - Chong-Jing Zhang#
+  - Xiaolei Cai#
   - Shidang Xu
   - Ruoyu Zhan
   - Wu Jien
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - 'Equal contribution'
+#   - 'Equal contribution'
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
 
 date: '2017-08-21T00:00:00Z'
 doi: '10.1039/c7cc05205g'

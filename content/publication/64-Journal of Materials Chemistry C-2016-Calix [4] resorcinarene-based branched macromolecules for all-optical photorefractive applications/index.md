@@ -15,17 +15,17 @@ authors:
   - Shengang Xu*
   - Shaokui Cao*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contributio'
-  - 'Equal contributio'
-  - 'Equal contributio'
-  - 'Equal contributio'
-  - 'Corresponding author'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - 'Equal contribution'
+#   - 'Equal contribution'
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
+#   - 'Corresponding author'
 
 date: '2016-09-17T00:00:00Z'
 doi: '10.1039/C6TC04062D'

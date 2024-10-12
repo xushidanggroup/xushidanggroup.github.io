@@ -1,5 +1,5 @@
 ---
-title: 'Photoacoustic Imaging: Bright Aggregation-Induced-Emission Dots for Targeted Synergetic NIR-II Fluorescence and NIR-I Photoacoustic Imaging of Orthotopic Brain Tumors (Adv. Mater. 29/2018)'
+title: 'Photoacoustic Imaging: Bright Aggregation-Induced-Emission Dots for Targeted Synergetic NIR-II Fluorescence and NIR-I Photoacoustic Imaging of Orthotopic Brain Tumors'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -19,20 +19,20 @@ authors:
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - 'Corresponding author'
   - 'Corresponding author'
 
 date: '2018-07-16T00:00:00Z'
-doi: '10.1002/adma.201870214'
+doi: 'https://doi.org/10.1002/adma.201800766'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2018-07-19T00:00:00Z'
@@ -60,7 +60,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://onlinelibrary.wiley.com/doi/epdf/10.1002/adma.201870214'
+url_pdf: 'https://onlinelibrary.wiley.com/doi/10.1002/adma.201800766'
 url_code: ''
 url_dataset: ''
 url_poster: ''

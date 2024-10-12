@@ -1,5 +1,5 @@
 ---
-title: 'Photothermal�\activatable liposome carrying tissue plasminogen activator for photoacoustic image�\guided ischemic stroke treatment'
+title: 'Photothermal-Activatable Liposome Carrying Tissue Plasminogen Activator for Photoacoustic Image-Guided Ischemic Stroke Treatment'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -17,19 +17,19 @@ authors:
   - Nitish V. Thakor*
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
+#   - 'Corresponding author'
 
 date: '2021-11-17T00:00:00Z'
 doi: '10.1002/sstr.202100118'

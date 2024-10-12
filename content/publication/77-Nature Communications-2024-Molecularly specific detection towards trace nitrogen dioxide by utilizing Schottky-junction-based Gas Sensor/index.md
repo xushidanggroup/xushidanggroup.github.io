@@ -19,21 +19,21 @@ authors:
   - Fengqiang Sun*
   - Hailin Peng*
 
-# Author notes (optional)
-author_notes:
-  - 'Corresponding author' 
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - 'Corresponding author' 
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
+#   - 'Corresponding author'
 
 date: '2024-04-24T00:00:00Z'
 doi: '10.1038/s41467-024-50443-5'
@@ -50,10 +50,10 @@ publication_types: ['article-journal']
 publication: In *Nature Communications*
 publication_short: In *Nat. Commun.*
 
-abstract: Trace NO2 detection is essential for the production and life, where the sensing strategy is appropriate for rapid detection but lacks molecular specificity. This investigation proposes a sensing mechanism dominated by surface-scattering to achieve the molecularly-specific detection. Two-dimensional Bi2O2Se is firstly fabricated into a Schottky-junction-based gas-sensor. Applied with an alternating excitation, the sensor simultaneously outputs multiple response signals (i.e., resistance, reactance, and the impedance angle). Their response times are shorter than 200 s at room temperature. In NO2 sensing, these responses present the detection limit in ppt range and the sensitivity is up to 16.8 %��ppb-1. This NO2 sensitivity presents orders of magnitude higher than those of the common gases within the exhaled breath. The impedance angle is involved in the principle component analysis together with the other two sensing signals. Twelve kinds of typical gases containing NO2 are acquired with molecular characteristics. The change in dipole moment of the target molecule adsorbed is demonstrated to correlate with the impedance angle via surface scattering. The proposed mechanism is confirmed to output ultra-sensitive sensing responses with the molecular characteristic.
+abstract: Trace NO2 detection is essential for the production and life, where the sensing strategy is appropriate for rapid detection but lacks molecular specificity. This investigation proposes a sensing mechanism dominated by surface-scattering to achieve the molecularly-specific detection. Two-dimensional Bi2O2Se is firstly fabricated into a Schottky-junction-based gas-sensor. Applied with an alternating excitation, the sensor simultaneously outputs multiple response signals (i.e., resistance, reactance, and the impedance angle). Their response times are shorter than 200 s at room temperature. In NO2 sensing, these responses present the detection limit in ppt range and the sensitivity is up to 16.8 %·ppb−1. This NO2 sensitivity presents orders of magnitude higher than those of the common gases within the exhaled breath. The impedance angle is involved in the principle component analysis together with the other two sensing signals. Twelve kinds of typical gases containing NO2 are acquired with molecular characteristics. The change in dipole moment of the target molecule adsorbed is demonstrated to correlate with the impedance angle via surface scattering. The proposed mechanism is confirmed to output ultra-sensitive sensing responses with the molecular characteristic.
 
 # Summary. An optional shortened abstract.
-summary: Trace NO2 detection is essential for the production and life, where the sensing strategy is appropriate for rapid detection but lacks molecular specificity. This investigation proposes a sensing mechanism dominated by surface-scattering to achieve the molecularly-specific detection. Two-dimensional Bi2O2Se is firstly fabricated into a Schottky-junction-based gas-sensor. Applied with an alternating excitation, the sensor simultaneously outputs multiple response signals (i.e., resistance, reactance, and the impedance angle). Their response times are shorter than 200 s at room temperature. In NO2 sensing, these responses present the detection limit in ppt range and the sensitivity is up to 16.8 %��ppb-1. This NO2 sensitivity presents orders of magnitude higher than those of the common gases within the exhaled breath. The impedance angle is involved in the principle component analysis together with the other two sensing signals. Twelve kinds of typical gases containing NO2 are acquired with molecular characteristics. The change in dipole moment of the target molecule adsorbed is demonstrated to correlate with the impedance angle via surface scattering. The proposed mechanism is confirmed to output ultra-sensitive sensing responses with the molecular characteristic.
+summary: Trace NO2 detection is essential for the production and life, where the sensing strategy is appropriate for rapid detection but lacks molecular specificity. This investigation proposes a sensing mechanism dominated by surface-scattering to achieve the molecularly-specific detection. Two-dimensional Bi2O2Se is firstly fabricated into a Schottky-junction-based gas-sensor. Applied with an alternating excitation, the sensor simultaneously outputs multiple response signals (i.e., resistance, reactance, and the impedance angle). Their response times are shorter than 200 s at room temperature. In NO2 sensing, these responses present the detection limit in ppt range and the sensitivity is up to 16.8 %·ppb−1. This NO2 sensitivity presents orders of magnitude higher than those of the common gases within the exhaled breath. The impedance angle is involved in the principle component analysis together with the other two sensing signals. Twelve kinds of typical gases containing NO2 are acquired with molecular characteristics. The change in dipole moment of the target molecule adsorbed is demonstrated to correlate with the impedance angle via surface scattering. The proposed mechanism is confirmed to output ultra-sensitive sensing responses with the molecular characteristic.
 tags: []
 
 # Display this page in the Featured widget?

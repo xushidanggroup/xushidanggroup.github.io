@@ -16,18 +16,18 @@ authors:
   - Bin Liu*
   - Dan Zhao*
 
-# Author notes (optional)
-author_notes:
-  - 'Corresponding author'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
-  - 'Corresponding author'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - 'Corresponding author'
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
+#   - 'Corresponding author'
+#   - 'Corresponding author'
 
 date: '2022-01-27T00:00:00Z'
 doi: '10.1021/acsnano.1c08605'

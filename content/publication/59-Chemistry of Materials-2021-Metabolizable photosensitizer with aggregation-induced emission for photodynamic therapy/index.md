@@ -13,15 +13,15 @@ authors:
   - Xinyuan Zhu
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
 
 date: '2021-07-28T00:00:00Z'
 doi: '10.1021/acs.chemmater.1c01173'

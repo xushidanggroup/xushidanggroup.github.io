@@ -5,21 +5,21 @@ title: 'A Self-Improving Photosensitizer Discovery System via Bayesian Optimizat
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Shidang Xu
+  - Shidang Xu*
   - Jiali Li
   - Pengfei Cai
   - Xiaoli Liu
-  - Bin Liu*
-  - Xiaonan Wang*
+  - Bin Liu
+  - Xiaonan Wang
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - 'Corresponding author'
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
 
 date: '2021-06-11T00:00:00Z'
 doi: '10.26434/chemrxiv.14757975.v1'

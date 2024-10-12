@@ -1,38 +1,38 @@
 ---
-title: 'Cell Tracking: Organic Nanoparticles with Aggregation�\Induced Emission for Bone Marrow Stromal Cell Tracking in a Rat PTI Model (Small 47/2016)'
+title: 'Cell Tracking: Organic Nanoparticles with Aggregation-Induced Emission for Bone Marrow Stromal Cell Tracking in a Rat PTI Model'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Xiaolei Cai
-  - Chong�\Jing Zhang
-  - Chong�\Jing Zhang
+  - Chong-Jing Zhang
+  - Frances Ting Wei Lim
   - Su Jing Chan
   - Aishwarya Bandla
   - Chan Kim Chuan
   - Fang Hu
   - Shidang Xu
   - Nitish V. Thakor
-  - Lun�\De Liao*
+  - Lun-De Liao*
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
+#   - 'Corresponding author'
 
 date: '2016-12-15T00:00:00Z'
-doi: '10.1002/smll.201670244'
+doi: 'https://doi.org/10.1002/smll.201601630'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2016-12-21T00:00:00Z'
@@ -60,7 +60,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://onlinelibrary.wiley.com/doi/epdf/10.1002/smll.201670244'
+url_pdf: 'https://onlinelibrary.wiley.com/doi/epdf/10.1002/smll.201601630'
 url_code: ''
 url_dataset: ''
 url_poster: ''

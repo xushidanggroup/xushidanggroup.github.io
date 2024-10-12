@@ -5,19 +5,17 @@ title: 'A biosensor based on self-clickable AIEgen: a signal amplification strat
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Youyong Yuan
-  - Wenbo Wu
-  - Ruoxuan Wu
+  - Youyong Yuan#
+  - Wenbo Wu#
   - Shidang Xu
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - 'Equal contribution'
+#   - 'Equal contribution'
+#   - ''
+#   - 'Corresponding author'
 
 date: '2017-02-11T00:00:00Z'
 doi: '10.1039/c7cc01093a'

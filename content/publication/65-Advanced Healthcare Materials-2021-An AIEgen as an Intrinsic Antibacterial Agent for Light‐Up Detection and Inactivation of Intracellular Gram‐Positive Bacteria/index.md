@@ -13,15 +13,15 @@ authors:
   - Guillermo C. Bazan
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
 
 date: '2021-08-08T00:00:00Z'
 doi: '10.1002/adhm.202100885'

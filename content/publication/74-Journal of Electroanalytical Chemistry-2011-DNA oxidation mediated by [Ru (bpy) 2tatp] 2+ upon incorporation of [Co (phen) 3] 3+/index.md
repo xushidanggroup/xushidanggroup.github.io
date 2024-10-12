@@ -12,14 +12,14 @@ authors:
   - Hong Li*
   - Weishan Li
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
-  - 'Equal contribution'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
+#   - ''
 
 date: '2021-09-03T00:00:00Z'
 doi: '10.1016/j.jelechem.2011.07.047'
@@ -36,10 +36,10 @@ publication_types: ['article-journal']
 publication: In *Journal of Electroanalytical Chemistry*
 publication_short: In *Journal of Electroanalytical Chemistry*
 
-abstract: The electrochemical oxidation of DNA mediated by [Ru(bpy)2tatp]2+ (bpy = 2,2��-bipyridine, tatp = 1,4,8,9-tetra-aza-triphenylene) upon incorporation of [Co(phen)3]3+ (phen = 1,10-phenanthroline) has been investigated. The results from emission spectra and fluorescence microscope images suggest the formation of an aggregate containing [Ru(bpy)2tatp]2+, DNA and [Co(phen)3]3+ based on the strong interactions. The evidences from repetitive differential pulse voltammograms and cyclic voltammogams reveal that the presence of [Co(phen)3]3+ can promote the oxidation of DNA mediated by [Ru(bpy)2tatp]2+ on an indium tin oxide (ITO) electrode. The oxidative response of DNA shows a cumulative enhancement with increasing the voltammetric sweeping number, and a stable linear response to DNA is found between 0.001 mM and 0.1 mM. Furthermore, the oxidative mechanism of DNA mediated by [Ru(bpy)2tatp]2+ upon incorporation of [Co(phen)3]3+ becomes evident, depending on the concentration of DNA and mediators, the structure of mediators and scan rate. The results from this study provide a significant basis for better understanding the oxidative damage of DNA mediated by DNA-binding agents.
+abstract: The electrochemical oxidation of DNA mediated by [Ru(bpy)2tatp]2+ (bpy = 2,2′-bipyridine, tatp = 1,4,8,9-tetra-aza-triphenylene) upon incorporation of [Co(phen)3]3+ (phen = 1,10-phenanthroline) has been investigated. The results from emission spectra and fluorescence microscope images suggest the formation of an aggregate containing [Ru(bpy)2tatp]2+, DNA and [Co(phen)3]3+ based on the strong interactions. The evidences from repetitive differential pulse voltammograms and cyclic voltammogams reveal that the presence of [Co(phen)3]3+ can promote the oxidation of DNA mediated by [Ru(bpy)2tatp]2+ on an indium tin oxide (ITO) electrode. The oxidative response of DNA shows a cumulative enhancement with increasing the voltammetric sweeping number, and a stable linear response to DNA is found between 0.001 mM and 0.1 mM. Furthermore, the oxidative mechanism of DNA mediated by [Ru(bpy)2tatp]2+ upon incorporation of [Co(phen)3]3+ becomes evident, depending on the concentration of DNA and mediators, the structure of mediators and scan rate. The results from this study provide a significant basis for better understanding the oxidative damage of DNA mediated by DNA-binding agents.
 
 # Summary. An optional shortened abstract.
-summary: The electrochemical oxidation of DNA mediated by [Ru(bpy)2tatp]2+ (bpy = 2,2��-bipyridine, tatp = 1,4,8,9-tetra-aza-triphenylene) upon incorporation of [Co(phen)3]3+ (phen = 1,10-phenanthroline) has been investigated. The results from emission spectra and fluorescence microscope images suggest the formation of an aggregate containing [Ru(bpy)2tatp]2+, DNA and [Co(phen)3]3+ based on the strong interactions. The evidences from repetitive differential pulse voltammograms and cyclic voltammogams reveal that the presence of [Co(phen)3]3+ can promote the oxidation of DNA mediated by [Ru(bpy)2tatp]2+ on an indium tin oxide (ITO) electrode. The oxidative response of DNA shows a cumulative enhancement with increasing the voltammetric sweeping number, and a stable linear response to DNA is found between 0.001 mM and 0.1 mM. Furthermore, the oxidative mechanism of DNA mediated by [Ru(bpy)2tatp]2+ upon incorporation of [Co(phen)3]3+ becomes evident, depending on the concentration of DNA and mediators, the structure of mediators and scan rate. The results from this study provide a significant basis for better understanding the oxidative damage of DNA mediated by DNA-binding agents.
+summary: The electrochemical oxidation of DNA mediated by [Ru(bpy)2tatp]2+ (bpy = 2,2′-bipyridine, tatp = 1,4,8,9-tetra-aza-triphenylene) upon incorporation of [Co(phen)3]3+ (phen = 1,10-phenanthroline) has been investigated. The results from emission spectra and fluorescence microscope images suggest the formation of an aggregate containing [Ru(bpy)2tatp]2+, DNA and [Co(phen)3]3+ based on the strong interactions. The evidences from repetitive differential pulse voltammograms and cyclic voltammogams reveal that the presence of [Co(phen)3]3+ can promote the oxidation of DNA mediated by [Ru(bpy)2tatp]2+ on an indium tin oxide (ITO) electrode. The oxidative response of DNA shows a cumulative enhancement with increasing the voltammetric sweeping number, and a stable linear response to DNA is found between 0.001 mM and 0.1 mM. Furthermore, the oxidative mechanism of DNA mediated by [Ru(bpy)2tatp]2+ upon incorporation of [Co(phen)3]3+ becomes evident, depending on the concentration of DNA and mediators, the structure of mediators and scan rate. The results from this study provide a significant basis for better understanding the oxidative damage of DNA mediated by DNA-binding agents.
 tags: []
 
 # Display this page in the Featured widget?

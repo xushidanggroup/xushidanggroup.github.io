@@ -13,18 +13,18 @@ authors:
   - Jianwen Jiang
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
 
 date: '2020-04-24T00:00:00Z'
-doi: '10.1002/advs.202400661'
+doi: 'https://doi.org/10.1021/acs.chemmater.0c01187'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2020-06-03T00:00:00Z'

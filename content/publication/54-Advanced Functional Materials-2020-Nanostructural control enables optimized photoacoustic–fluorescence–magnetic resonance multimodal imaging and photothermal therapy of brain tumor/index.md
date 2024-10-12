@@ -1,5 +1,5 @@
 ---
-title: 'Nanostructural Control Enables Optimized Photoacoustic�CFluorescence�CMagnetic Resonance Multimodal Imaging and Photothermal Therapy of Brain Tumor'
+title: 'Nanostructural Control Enables Optimized Photoacoustic–Fluorescence–Magnetic Resonance Multimodal Imaging and Photothermal Therapy of Brain Tumor'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -18,20 +18,20 @@ authors:
   - Hairong Zheng*
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
+#   - 'Corresponding author'
 
 date: '2020-01-03T00:00:00Z'
 doi: '10.1002/adfm.201907077'

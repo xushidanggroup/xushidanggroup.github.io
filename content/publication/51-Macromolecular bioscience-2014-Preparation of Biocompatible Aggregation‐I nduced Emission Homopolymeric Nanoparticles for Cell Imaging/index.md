@@ -16,18 +16,18 @@ authors:
   - Yi Zhang
   - Jiarui Xu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
-  - 'Equal contribution'
-  - 'Corresponding author'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
+#   - ''
+#   - 'Corresponding author'
+#   - ''
+#   - ''
+#   - 'Corresponding author'
 
 date: '2013-05-27T00:00:00Z'
 doi: '10.1002/mabi.201300259'

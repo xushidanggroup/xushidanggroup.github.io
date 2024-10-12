@@ -1,5 +1,5 @@
 ---
-title: 'Photophysics of an Asymmetric Donor�CAcceptor�CDonor�� TADF Molecule and Reinterpretation of Aggregation-Induced TADF Emission in These Materials'
+title: 'Photophysics of an Asymmetric Donor–Acceptor–Donor′ TADF Molecule and Reinterpretation of Aggregation-Induced TADF Emission in These Materials'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -11,14 +11,15 @@ authors:
   - Martin R. Bryce
   - Zhenguo Chi
   - Andrew P. Monkman
-# Author notes (optional)
-author_notes:
-  - 'Corresponding author'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
+
+# # Author notes (optional)
+# author_notes:
+#   - 'Corresponding author'
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
 
 date: '2017-08-14T00:00:00Z'
 doi: '10.1021/acs.jpcc.7b06299'
@@ -35,10 +36,10 @@ publication_types: ['article-journal']
 publication: In *The Journal of Physical Chemistry C*
 publication_short: In *J. Phys. Chem. C.*
 
-abstract: We report an in-depth photophysical investigation of an asymmetric donor�Cacceptor�Cdonor�� (D�CA�CD��) thermally activated delayed fluorescence (TADF) molecule (4-(9H-carbazol-9-yl)phenyl)(4-(10H-phenothiazin-10-yl)phenyl)sulfone and compare its photophysical properties to the parent symmetric D�CA�CD and D��CA�CD�� molecules. These D�CA�CD type small molecules all show strong TADF. The work reveals how the relative orientations of D�CA (D��CA) moieties favor reverse intersystem crossing (rISC) by forming stable charge transfer (CT) states. The key requirement for the efficient TADF emitters is to achieve a very small CT-local triplet state energy splitting, which is shown to be complex in the asymmetric molecule. Throughout the investigations, we show that in the asymmetric D�CA�CD�� system, even though ECT (D�CA) > ECT (D��CA), no evidence of energy transfer from D�CA to A�CD�� is observed, nor from excited D to D��. This is ascribed to the near orthogonality of the D and D�� units and the very strong decoupling of the electrons on the D and A in the CT state. In addition, the possibility of aggregation-induced TADF (AI-TADF) is examined and shown to be a manifestation of solvatochromism in these particular molecules.
+abstract: We report an in-depth photophysical investigation of an asymmetric donor–acceptor–donor′ (D–A–D′) thermally activated delayed fluorescence (TADF) molecule (4-(9H-carbazol-9-yl)phenyl)(4-(10H-phenothiazin-10-yl)phenyl)sulfone and compare its photophysical properties to the parent symmetric D–A–D and D′–A–D′ molecules. These D–A–D type small molecules all show strong TADF. The work reveals how the relative orientations of D–A (D′–A) moieties favor reverse intersystem crossing (rISC) by forming stable charge transfer (CT) states. The key requirement for the efficient TADF emitters is to achieve a very small CT-local triplet state energy splitting, which is shown to be complex in the asymmetric molecule. Throughout the investigations, we show that in the asymmetric D–A–D′ system, even though ECT (D–A) > ECT (D′–A), no evidence of energy transfer from D–A to A–D′ is observed, nor from excited D to D′. This is ascribed to the near orthogonality of the D and D′ units and the very strong decoupling of the electrons on the D and A in the CT state. In addition, the possibility of aggregation-induced TADF (AI-TADF) is examined and shown to be a manifestation of solvatochromism in these particular molecules.
 
 # Summary. An optional shortened abstract.
-summary: We report an in-depth photophysical investigation of an asymmetric donor�Cacceptor�Cdonor�� (D�CA�CD��) thermally activated delayed fluorescence (TADF) molecule (4-(9H-carbazol-9-yl)phenyl)(4-(10H-phenothiazin-10-yl)phenyl)sulfone and compare its photophysical properties to the parent symmetric D�CA�CD and D��CA�CD�� molecules. These D�CA�CD type small molecules all show strong TADF. The work reveals how the relative orientations of D�CA (D��CA) moieties favor reverse intersystem crossing (rISC) by forming stable charge transfer (CT) states. The key requirement for the efficient TADF emitters is to achieve a very small CT-local triplet state energy splitting, which is shown to be complex in the asymmetric molecule. Throughout the investigations, we show that in the asymmetric D�CA�CD�� system, even though ECT (D�CA) > ECT (D��CA), no evidence of energy transfer from D�CA to A�CD�� is observed, nor from excited D to D��. This is ascribed to the near orthogonality of the D and D�� units and the very strong decoupling of the electrons on the D and A in the CT state. In addition, the possibility of aggregation-induced TADF (AI-TADF) is examined and shown to be a manifestation of solvatochromism in these particular molecules.
+summary: We report an in-depth photophysical investigation of an asymmetric donor–acceptor–donor′ (D–A–D′) thermally activated delayed fluorescence (TADF) molecule (4-(9H-carbazol-9-yl)phenyl)(4-(10H-phenothiazin-10-yl)phenyl)sulfone and compare its photophysical properties to the parent symmetric D–A–D and D′–A–D′ molecules. These D–A–D type small molecules all show strong TADF. The work reveals how the relative orientations of D–A (D′–A) moieties favor reverse intersystem crossing (rISC) by forming stable charge transfer (CT) states. The key requirement for the efficient TADF emitters is to achieve a very small CT-local triplet state energy splitting, which is shown to be complex in the asymmetric molecule. Throughout the investigations, we show that in the asymmetric D–A–D′ system, even though ECT (D–A) > ECT (D′–A), no evidence of energy transfer from D–A to A–D′ is observed, nor from excited D to D′. This is ascribed to the near orthogonality of the D and D′ units and the very strong decoupling of the electrons on the D and A in the CT state. In addition, the possibility of aggregation-induced TADF (AI-TADF) is examined and shown to be a manifestation of solvatochromism in these particular molecules.
 tags: []
 
 # Display this page in the Featured widget?

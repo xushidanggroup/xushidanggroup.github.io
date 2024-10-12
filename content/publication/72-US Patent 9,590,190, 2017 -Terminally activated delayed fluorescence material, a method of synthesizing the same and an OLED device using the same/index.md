@@ -12,15 +12,15 @@ authors:
   - Yifan Wang
   - Qinghua Zou
 
-# Author notes (optional)
-author_notes:
-  - 'Inventor'
-  - 'Inventor'
-  - 'Inventor'
-  - 'Inventor'
-  - 'Inventor'
-  - 'Inventor'
-  - 'Inventor'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
 
 date: '2013-12-26T00:00:00Z'
 publication number: 'US20150270494A1'
@@ -34,14 +34,18 @@ publishDate: '2013-12-26T00:00:00Z'
 publication_types: ['patent']
 
 # Publication name and optional abbreviated publication name.
-publication: In *US Patent*
-publication_short: In *US Patent*
+publication: 'US Patent Application'
+publication_short: 'US Patent Appl.'
 
 abstract:  Terminally Activated Delayed Fluorescence Material, A Method Of Synthesizing The Same and An OLED Device Using The Same - Google Patents
 
 # Summary. An optional shortened abstract.
-summary:  Terminally Activated Delayed Fluorescence Material, A Method Of Synthesizing The Same and An OLED Device Using The Same - Google Patents
-tags: []
+summary:  'Synthesis method for TADF materials and their use in OLED devices.'
+tags: 
+  - TADF
+  - OLED
+  - materials science
+  - patent
 
 # Display this page in the Featured widget?
 featured: true
@@ -51,7 +55,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://sc.panda985.com/'
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -59,6 +63,7 @@ url_project: ''
 url_slides: ''
 url_source: ''
 url_video: ''
+url_patent: 'https://trea.com/information/terminally-activated-delayed-fluorescence-material-a-method-of-synthesizing-the-/patentgrant/a7af67d6-7cf7-4e49-b1c5-778e1d994256'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

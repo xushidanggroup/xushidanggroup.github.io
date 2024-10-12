@@ -5,23 +5,23 @@ title: 'From main-chain conjugated polymer photosensitizer to hyperbranched poly
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Jingxi Cheng
-  - Yuping Zhou
+  - Jingxi Cheng#
+  - Yuping Zhou#
   - Shidang Xu
   - Yujun Xie
   - Duo Mao*
   - Wenbo Wu*
   - Zhen Li*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
-  - 'Corresponding author'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - 'Equal contribution'
+#   - 'Equal contribution'
+#   - ''
+#   - ''
+#   - 'Corresponding author'
+#   - 'Corresponding author'
+#   - 'Corresponding author'
 
 date: '2022-05-27T00:00:00Z'
 doi: '10.1039/d2tb00679k'
@@ -38,10 +38,10 @@ publication_types: ['article-journal']
 publication: In *Journal of Materials Chemistry B*
 publication_short: In *	J. Mater. Chem. B*
 
-abstract: Three conjugated polymers that have the same donor�Cacceptor structure but totally different architectures are designed to show both Type-I and Type-II photosensitization abilities simultaneously, among which the hyperbranched polymer shows the best performance in both in vitro and in vivo experiments, superior to even the commonly used clinical photosensitizer of hemoporfin.
+abstract: Three conjugated polymers that have the same donor–acceptor structure but totally different architectures are designed to show both Type-I and Type-II photosensitization abilities simultaneously, among which the hyperbranched polymer shows the best performance in both in vitro and in vivo experiments, superior to even the commonly used clinical photosensitizer of hemoporfin.
 
 # Summary. An optional shortened abstract.
-summary: Three conjugated polymers that have the same donor�Cacceptor structure but totally different architectures are designed to show both Type-I and Type-II photosensitization abilities simultaneously, among which the hyperbranched polymer shows the best performance in both in vitro and in vivo experiments, superior to even the commonly used clinical photosensitizer of hemoporfin.
+summary: Three conjugated polymers that have the same donor–acceptor structure but totally different architectures are designed to show both Type-I and Type-II photosensitization abilities simultaneously, among which the hyperbranched polymer shows the best performance in both in vitro and in vivo experiments, superior to even the commonly used clinical photosensitizer of hemoporfin.
 tags: []
 
 # Display this page in the Featured widget?
