@@ -13,15 +13,15 @@ authors:
   - Jien Wu
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
 
 date: '2024-04-13T00:00:00Z'
 doi: '10.1002/anie.201600244'
@@ -38,10 +38,10 @@ publication_types: ['article-journal']
 publication: In *Angewandte Chemie*
 publication_short: In *Angew. Chem. Int. Ed. Engl.*
 
-abstract: The cis and trans isomers of a tetraphenylethene derivative with aggregation-induced emission, TPETH-MAL, were characterized by HPLC analysis and NMR spectroscopy. cis-TPETH-MAL emits yellow fluorescence in DMSO at ?20?��C whereas trans-TPETH-MAL shows red fluorescence under the same conditions.
+abstract: The isomerization and optical properties of the cis and trans isomers of tetraphenylethene (TPE) derivatives with aggregation-induced emission (AIEgens) have been sparsely explored. We have now observed the tautomerization-induced isomerization of a hydroxy-substituted derivative, TPETH-OH, under acidic but not under basic conditions. Replacing the proton of the hydroxy group in TPETH-OH with an alkyl group leads to the formation of TPETH-MAL, for which the pure cis and trans isomers were obtained and characterized by HPLC analysis and NMR spectroscopy. Importantly, cis-TPETH-MAL emits yellow fluorescence in DMSO at −20 °C whereas trans-TPETH-MAL shows red fluorescence under the same conditions. Moreover, the geometry of cis- and trans-TPETH-MAL remains unchanged when they undergo thiol–ene reactions to form cis- and trans-TPETH-cRGD, respectively. Collectively, our findings improve our fundamental understanding of the cis/trans isomerization and photophysical properties of TPE derivatives, which will guide further AIEgen design for various applications.
 
 # Summary. An optional shortened abstract.
-summary: The cis and trans isomers of a tetraphenylethene derivative with aggregation-induced emission, TPETH-MAL, were characterized by HPLC analysis and NMR spectroscopy. cis-TPETH-MAL emits yellow fluorescence in DMSO at ?20?��C whereas trans-TPETH-MAL shows red fluorescence under the same conditions.
+summary: The isomerization and optical properties of the cis and trans isomers of tetraphenylethene (TPE) derivatives with aggregation-induced emission (AIEgens) have been sparsely explored. We have now observed the tautomerization-induced isomerization of a hydroxy-substituted derivative, TPETH-OH, under acidic but not under basic conditions. Replacing the proton of the hydroxy group in TPETH-OH with an alkyl group leads to the formation of TPETH-MAL, for which the pure cis and trans isomers were obtained and characterized by HPLC analysis and NMR spectroscopy. Importantly, cis-TPETH-MAL emits yellow fluorescence in DMSO at −20 °C whereas trans-TPETH-MAL shows red fluorescence under the same conditions. Moreover, the geometry of cis- and trans-TPETH-MAL remains unchanged when they undergo thiol–ene reactions to form cis- and trans-TPETH-cRGD, respectively. Collectively, our findings improve our fundamental understanding of the cis/trans isomerization and photophysical properties of TPE derivatives, which will guide further AIEgen design for various applications.
 tags: []
 
 # Display this page in the Featured widget?

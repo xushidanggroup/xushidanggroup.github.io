@@ -5,8 +5,8 @@ title: 'Decoration of porphyrin with tetraphenylethene: converting a fluorophore
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Bing Guo
-  - Xiaolei Cai
+  - Bing Guo#
+  - Xiaolei Cai#
   - Shidang Xu
   - Syed Mohammad Ali Fateminia
   - Jie Liu
@@ -15,16 +15,16 @@ authors:
   - Wenbo Wu
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - 'Equal contribution'
+#   - 'Equal contribution'
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
 
 date: '2016-05-09T00:00:00Z'
 doi: '10.1039/c6tb01159d'
