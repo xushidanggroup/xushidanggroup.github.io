@@ -50,7 +50,7 @@ publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
 publication: In *Advanced Functional Materials*
-publication_short: In * Adv. Funct. Mater.*
+publication_short: In *Adv. Funct. Mater.*
 
 abstract: Photosensitizers (PSs) with effective reactive oxygen species generation ability against hypoxia are of great potential for clinical treatment of malignant tumors. However, complex tumor microenvironment, such as antioxidative responses and immunosuppression, would ineluctably limit the efficiency of photodynamic therapy (PDT). Herein, a molecular-targeting photosensitizer QTANHOH is rationally designed for histone deacetylases (HDACs-targeting photo-immunotherapy application. The PS QTANHOH displays excellent type-I/II PDT performance, exhibiting significant phototoxicity toward cancer cells with half maximal inhibitory concentration (IC50) less than 10 nm in both normoxia and hypoxia conditions under blue laser irradiation. Moreover, the bioactive compound could inhibit HDACs and activate the immune microenvironment to boost PDT efficacy on the immunocompetent BALB/c mice with breast cancer, leading to the eradication of solid tumor and inhibition of metastasis. Notably, the molecular-targeting photosensitizer introduces an alternative strategy to achieve superior phototherapy for cancer therapy.
 

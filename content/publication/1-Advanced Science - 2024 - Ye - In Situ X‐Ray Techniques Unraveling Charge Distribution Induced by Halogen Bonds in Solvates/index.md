@@ -38,7 +38,7 @@ publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
 publication: In *Advanced Science*
-publication_short: In * Adv. Sci.*
+publication_short: In *Adv. Sci.*
 
 abstract: The importance of halogen bonds (XBs) in the regulation of material properties through a variation in the electrostatic potential of the halogen atom is not attracted much attention. Herein, this study utilizes in situ single crystal X-ray diffraction and synchrotron-based X-ray techniques to investigate the cooling-triggered irreversible single-crystal-to-single-crystal transformation of the DMF solvated iodo-substituted squaraine dye (SQD-I). Transformation is observed to be mediated by solvent-involved XB formation and strengthening of electrostatic interaction between adjacent SQD-I molecules. By immersing a DMF solvate in acetonitrile a solvent exchange without loss of long-range ordering is observed. This is attributed to conservation of the molecular charge distribution of SQD-I molecules during the process. The different solvates can be used in combination for temperature-dependent image encryption. This work emphasizes the changes caused by XB formation to the electrostatic potentials of halogen containing molecules and their influence on material properties and presents the potential utility of XBs in the design of soft-porous crystals and luminescent materials.
 
