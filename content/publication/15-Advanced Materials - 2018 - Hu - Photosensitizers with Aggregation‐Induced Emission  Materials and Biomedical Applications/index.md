@@ -11,8 +11,8 @@ authors:
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+  - ''
+  - ''
   - 'Corresponding author'
 
 date: '2018-07-31T00:00:00Z'

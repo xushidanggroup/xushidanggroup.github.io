@@ -5,21 +5,21 @@ title: 'Cancer-Cell-Activated in situ Synthesis of Mitochondria-Targeting AIE Ph
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Yuanbo Wang#
-  - Shidang Xu#
+  - Yuanbo Wang
+  - Shidang Xu
   - Leilei Shi
   - Cathleen Teh
   - Guobin Qi
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
 
 date: '2021-04-22T00:00:00Z'
 doi: '10.1002/anie.202017350'

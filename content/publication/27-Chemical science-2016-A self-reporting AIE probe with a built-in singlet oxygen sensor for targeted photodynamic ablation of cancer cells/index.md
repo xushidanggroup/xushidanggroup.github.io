@@ -10,12 +10,12 @@ authors:
   - Shidang Xua
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
 
 date: '2015-11-23T00:00:00Z'
 doi: '10.1039/c5sc03583j'

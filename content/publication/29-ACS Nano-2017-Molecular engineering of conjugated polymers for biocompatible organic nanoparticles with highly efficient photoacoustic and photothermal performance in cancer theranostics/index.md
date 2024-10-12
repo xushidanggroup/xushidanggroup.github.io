@@ -13,19 +13,19 @@ authors:
   - Purnima Naresh Manghnani
   - Chengbo Liu
   - Lin Guo
-  - Hairong Zheng
+  - Hairong Zheng*
   - Bin Liu*
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - 'Corresponding author'
   - 'Corresponding author'
 
@@ -44,10 +44,10 @@ publication_types: ['article-journal']
 publication: In *ACS Nano*
 publication_short: In *ACS Nano*
 
-abstract: Conjugated polymer nanoparticles (CP NPs) are emerging candidates of "all-in-one" theranostic nanoplatforms with dual photoacoustic imaging (PA) and photothermal therapy (PTT) functions. So far, very limited molecular design guidelines have been developed for achieving CPs with highly efficient PA and PTT performance. Herein, by designing CP1, CP2, and CP3 using different electron acceptors (A) and a planar electron donor (D), we demonstrate how the D-A strength affects their absorption, emission, extinction coefficient, and ultimately PA and PTT performance. The resultant CP NPs have strong PA signals with high photothermal conversion efficiencies and excellent biocompatibility in vitro and in vivo. The CP3 NPs show a high PA signal to background ratio of 47 in U87 tumor-bearing mice, which is superior to other reported PA/PTT theranostic agents. A very small IC50 value of 0.88 ��g/mL (CP3 NPs) was obtained for U87 glioma cell ablation under laser irradiation (808 nm, 0.8 W/cm2, 5 min). This study shows that CP NP based theranostic platforms are promising for future personalized nanomedicine.
+abstract: Conjugated polymer nanoparticles (CP NPs) are emerging candidates of “all-in-one” theranostic nanoplatforms with dual photoacoustic imaging (PA) and photothermal therapy (PTT) functions. So far, very limited molecular design guidelines have been developed for achieving CPs with highly efficient PA and PTT performance. Herein, by designing CP1, CP2, and CP3 using different electron acceptors (A) and a planar electron donor (D), we demonstrate how the D–A strength affects their absorption, emission, extinction coefficient, and ultimately PA and PTT performance. The resultant CP NPs have strong PA signals with high photothermal conversion efficiencies and excellent biocompatibility in vitro and in vivo. The CP3 NPs show a high PA signal to background ratio of 47 in U87 tumor-bearing mice, which is superior to other reported PA/PTT theranostic agents. A very small IC50 value of 0.88 μg/mL (CP3 NPs) was obtained for U87 glioma cell ablation under laser irradiation (808 nm, 0.8 W/cm2, 5 min). This study shows that CP NP based theranostic platforms are promising for future personalized nanomedicine.
 
 # Summary. An optional shortened abstract.
-summary: Conjugated polymer nanoparticles (CP NPs) are emerging candidates of "all-in-one" theranostic nanoplatforms with dual photoacoustic imaging (PA) and photothermal therapy (PTT) functions. So far, very limited molecular design guidelines have been developed for achieving CPs with highly efficient PA and PTT performance. Herein, by designing CP1, CP2, and CP3 using different electron acceptors (A) and a planar electron donor (D), we demonstrate how the D-A strength affects their absorption, emission, extinction coefficient, and ultimately PA and PTT performance. The resultant CP NPs have strong PA signals with high photothermal conversion efficiencies and excellent biocompatibility in vitro and in vivo. The CP3 NPs show a high PA signal to background ratio of 47 in U87 tumor-bearing mice, which is superior to other reported PA/PTT theranostic agents. A very small IC50 value of 0.88 ��g/mL (CP3 NPs) was obtained for U87 glioma cell ablation under laser irradiation (808 nm, 0.8 W/cm2, 5 min). This study shows that CP NP based theranostic platforms are promising for future personalized nanomedicine.
+summary: Conjugated polymer nanoparticles (CP NPs) are emerging candidates of “all-in-one” theranostic nanoplatforms with dual photoacoustic imaging (PA) and photothermal therapy (PTT) functions. So far, very limited molecular design guidelines have been developed for achieving CPs with highly efficient PA and PTT performance. Herein, by designing CP1, CP2, and CP3 using different electron acceptors (A) and a planar electron donor (D), we demonstrate how the D–A strength affects their absorption, emission, extinction coefficient, and ultimately PA and PTT performance. The resultant CP NPs have strong PA signals with high photothermal conversion efficiencies and excellent biocompatibility in vitro and in vivo. The CP3 NPs show a high PA signal to background ratio of 47 in U87 tumor-bearing mice, which is superior to other reported PA/PTT theranostic agents. A very small IC50 value of 0.88 μg/mL (CP3 NPs) was obtained for U87 glioma cell ablation under laser irradiation (808 nm, 0.8 W/cm2, 5 min). This study shows that CP NP based theranostic platforms are promising for future personalized nanomedicine.
 tags: []
 
 # Display this page in the Featured widget?

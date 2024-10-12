@@ -14,19 +14,19 @@ authors:
   - Deling Kong
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
 
 date: '2017-06-25T00:00:00Z'
-doi: '10.1002/advs.202400661'
+doi: '10.1039/C7MH00469A'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2024-08-18T00:00:00Z'
@@ -40,10 +40,10 @@ publication_types: ['article-journal']
 publication: In *Materials Horizons*
 publication_short: In *Mater. Horiz.*
 
-abstract: A series of D�CA��C�ШCA type photosensitizers, AP3 and AP4, were designed and synthesized to show strong aggregation-induced far red and near infrared emission and very effective 1O2 generation simultaneously. In comparison with the most widely used photosensitizer, Ce6 nanoparticles, AP4 nanoparticles showed over 10-fold higher fluorescence quantum yield, and more than 3-fold higher 1O2 generation efficiency, and have been successfully used for image-guided photodynamic anticancer therapy.
+abstract: A series of D–A′–π–A type photosensitizers, AP3 and AP4, were designed and synthesized to show strong aggregation-induced far red and near infrared emission and very effective 1O2 generation simultaneously. In comparison with the most widely used photosensitizer, Ce6 nanoparticles, AP4 nanoparticles showed over 10-fold higher fluorescence quantum yield, and more than 3-fold higher 1O2 generation efficiency, and have been successfully used for image-guided photodynamic anticancer therapy.
 
 # Summary. An optional shortened abstract.
-summary: A series of D�CA��C�ШCA type photosensitizers, AP3 and AP4, were designed and synthesized to show strong aggregation-induced far red and near infrared emission and very effective 1O2 generation simultaneously. In comparison with the most widely used photosensitizer, Ce6 nanoparticles, AP4 nanoparticles showed over 10-fold higher fluorescence quantum yield, and more than 3-fold higher 1O2 generation efficiency, and have been successfully used for image-guided photodynamic anticancer therapy.
+summary: A series of D–A′–π–A type photosensitizers, AP3 and AP4, were designed and synthesized to show strong aggregation-induced far red and near infrared emission and very effective 1O2 generation simultaneously. In comparison with the most widely used photosensitizer, Ce6 nanoparticles, AP4 nanoparticles showed over 10-fold higher fluorescence quantum yield, and more than 3-fold higher 1O2 generation efficiency, and have been successfully used for image-guided photodynamic anticancer therapy.
 tags: []
 
 # Display this page in the Featured widget?

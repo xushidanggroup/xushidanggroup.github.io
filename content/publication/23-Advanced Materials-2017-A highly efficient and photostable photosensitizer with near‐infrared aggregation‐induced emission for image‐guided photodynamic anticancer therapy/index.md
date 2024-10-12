@@ -1,5 +1,5 @@
 ---
-title: 'A highly efficient and photostable photosensitizer with near�\infrared aggregation�\induced emission for image�\guided photodynamic anticancer therapy'
+title: 'A Highly Efficient and Photostable Photosensitizer with Near-Infrared Aggregation-Induced Emission for Image-Guided Photodynamic Anticancer Therapy'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -17,19 +17,19 @@ authors:
   - Deling Kong
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
 
 date: '2017-01-26T00:00:00Z'
 doi: '10.1002/adma.201700548'

@@ -9,11 +9,11 @@ authors:
   - Yukun Duan
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - 'Corresponding author'
 
 date: '2019-10-03T00:00:00Z'
 doi: '10.1002/adma.201903530'

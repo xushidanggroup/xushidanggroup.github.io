@@ -5,8 +5,8 @@ title: 'AIEgen-coupled upconversion nanoparticles eradicate solid tumors through
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Duo Mao
-  - Fang Hu
+  - Duo Mao#
+  - Fang Hu#
   - Zhigao Yi
   - Kenry
   - Shidang Xu
@@ -18,20 +18,20 @@ authors:
   - Xiaogang Liu*
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - 'Equal contribution'
+#   - 'Equal contribution'
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
+#   - 'Corresponding author'
 
 date: '2020-05-15T00:00:00Z'
 doi: '10.1126/sciadv.abb2712'

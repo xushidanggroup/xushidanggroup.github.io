@@ -5,8 +5,8 @@ title: 'Polymerization-enhanced photosensitization'
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Wenbo Wu
-  - Duo Mao
+  - Wenbo Wu#
+  - Duo Mao#
   - Shidang Xu
   - Kenry
   - Fang Hu
@@ -14,16 +14,16 @@ authors:
   - Deling Kong
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - 'Equal contribution'
+#   - 'Equal contribution'
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
 
 date: '2018-08-09T00:00:00Z'
 doi: '10.1016/j.chempr.2018.06.003'
@@ -40,10 +40,10 @@ publication_types: ['article-journal']
 publication: In *Chem*
 publication_short: In *Chem.*
 
-abstract: Effective photosensitizers are highly desirable in many applications, such as photodynamic therapy, photocatalytic organic waste decomposition, and synthetic chemistry. Herein, we demonstrate polymerization-enhanced photosensitization, in which conjugated-polymer-based photosensitizers show much higher efficiency in singlet oxygen (1O2) production than their small-molecule analogs. Based on small-molecule photosensitizers SM1�CSM4 with long wavelength emission, four conjugated polymer photosensitizers, CP1�CCP4, were prepared. Interestingly, the conjugated polymer photosensitizers CP1�CCP4 showed 5.06-, 5.07-, 1.73-, and 3.42-fold higher 1O2 generation efficiency than SM1�CSM4, respectively. The improved intersystem crossing process from the singlet excitation states to the triplet excitation states and improved light-harvesting ability are essential to the enhancement of 1O2 generation efficiency. To illustrate the advantages of conjugated polymer photosensitizers on various applications, we demonstrate the superior performance of CP1 by using photoinduced organic waste decomposition, photoinduced organic oxidation reaction, and photodynamic cancer therapy as examples.
+abstract: Effective photosensitizers are highly desirable in many applications, such as photodynamic therapy, photocatalytic organic waste decomposition, and synthetic chemistry. Herein, we demonstrate polymerization-enhanced photosensitization, in which conjugated-polymer-based photosensitizers show much higher efficiency in singlet oxygen (1O2) production than their small-molecule analogs. Based on small-molecule photosensitizers SM1–SM4 with long wavelength emission, four conjugated polymer photosensitizers, CP1–CP4, were prepared. Interestingly, the conjugated polymer photosensitizers CP1–CP4 showed 5.06-, 5.07-, 1.73-, and 3.42-fold higher 1O2 generation efficiency than SM1–SM4, respectively. The improved intersystem crossing process from the singlet excitation states to the triplet excitation states and improved light-harvesting ability are essential to the enhancement of 1O2 generation efficiency. To illustrate the advantages of conjugated polymer photosensitizers on various applications, we demonstrate the superior performance of CP1 by using photoinduced organic waste decomposition, photoinduced organic oxidation reaction, and photodynamic cancer therapy as examples.
 
 # Summary. An optional shortened abstract.
-summary: Effective photosensitizers are highly desirable in many applications, such as photodynamic therapy, photocatalytic organic waste decomposition, and synthetic chemistry. Herein, we demonstrate polymerization-enhanced photosensitization, in which conjugated-polymer-based photosensitizers show much higher efficiency in singlet oxygen (1O2) production than their small-molecule analogs. Based on small-molecule photosensitizers SM1�CSM4 with long wavelength emission, four conjugated polymer photosensitizers, CP1�CCP4, were prepared. Interestingly, the conjugated polymer photosensitizers CP1�CCP4 showed 5.06-, 5.07-, 1.73-, and 3.42-fold higher 1O2 generation efficiency than SM1�CSM4, respectively. The improved intersystem crossing process from the singlet excitation states to the triplet excitation states and improved light-harvesting ability are essential to the enhancement of 1O2 generation efficiency. To illustrate the advantages of conjugated polymer photosensitizers on various applications, we demonstrate the superior performance of CP1 by using photoinduced organic waste decomposition, photoinduced organic oxidation reaction, and photodynamic cancer therapy as examples.
+summary: Effective photosensitizers are highly desirable in many applications, such as photodynamic therapy, photocatalytic organic waste decomposition, and synthetic chemistry. Herein, we demonstrate polymerization-enhanced photosensitization, in which conjugated-polymer-based photosensitizers show much higher efficiency in singlet oxygen (1O2) production than their small-molecule analogs. Based on small-molecule photosensitizers SM1–SM4 with long wavelength emission, four conjugated polymer photosensitizers, CP1–CP4, were prepared. Interestingly, the conjugated polymer photosensitizers CP1–CP4 showed 5.06-, 5.07-, 1.73-, and 3.42-fold higher 1O2 generation efficiency than SM1–SM4, respectively. The improved intersystem crossing process from the singlet excitation states to the triplet excitation states and improved light-harvesting ability are essential to the enhancement of 1O2 generation efficiency. To illustrate the advantages of conjugated polymer photosensitizers on various applications, we demonstrate the superior performance of CP1 by using photoinduced organic waste decomposition, photoinduced organic oxidation reaction, and photodynamic cancer therapy as examples.
 tags: []
 
 # Display this page in the Featured widget?

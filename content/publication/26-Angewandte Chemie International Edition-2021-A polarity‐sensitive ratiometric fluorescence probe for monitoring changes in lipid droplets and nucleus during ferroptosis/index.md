@@ -1,5 +1,5 @@
 ---
-title: 'A polarity�\sensitive ratiometric fluorescence probe for monitoring changes in lipid droplets and nucleus during ferroptosis'
+title: 'A Polarity-Sensitive Ratiometric Fluorescence Probe for Monitoring Changes in Lipid Droplets and Nucleus during Ferroptosis'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -14,16 +14,16 @@ authors:
   - Zong-Wan Mao*
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
+#   - 'Corresponding author'
 
 date: '2021-06-25T00:00:00Z'
 doi: '10.1002/anie.202104163'

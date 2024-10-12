@@ -16,18 +16,18 @@ authors:
   - Alan Lien
   - Jiarui Xu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
-  - 'Equal contribution'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
+#   - ''
+#   - ''
+#   - 'Corresponding author'
+#   - ''
+#   - 'Corresponding author'
 
 
 date: '2014-12-02T00:00:00Z'

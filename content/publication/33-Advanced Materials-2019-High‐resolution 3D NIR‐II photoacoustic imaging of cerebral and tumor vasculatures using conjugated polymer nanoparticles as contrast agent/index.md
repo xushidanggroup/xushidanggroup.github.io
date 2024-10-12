@@ -16,18 +16,18 @@ authors:
   - Chengbo Liu*
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
+#   - 'Corresponding author'
 
 date: '2018-12-28T00:00:00Z'
 doi: '10.1002/adma.201808355'
@@ -44,10 +44,10 @@ publication_types: ['article-journal']
 publication: In *Advanced Materials,*
 publication_short: In *Adv. Mater.*
 
-abstract: Exogenous contrast-agent-assisted NIR-II optical-resolution photoacoustic microscopy imaging (ORPAMI) holds promise to decipher wide-field 3D biological structures with deep penetration, large signal-to-background ratio (SBR), and high maximum imaging depth to depth resolution ratio. Herein, NIR-II conjugated polymer nanoparticle (CP NP) assisted ORPAMI is reported for pinpointing cerebral and tumor vasculatures. The CP NPs exhibit a large extinction coefficient of 48.1 L g-1 at the absorption maximum of 1161 nm, with an ultrahigh PA sensitivity up to 2 ��g mL-1 . 3D ORPAMI of wide-field mice ear allows clear visualization of regular vasculatures with a resolution of 19.2 ��m and an SBR of 29.3 dB at the maximal imaging depth of 539 ��m. The margin of ear tumor composed of torsional dense vessels among surrounding normal regular vessels can be clearly delineated via 3D angiography. In addition, 3D whole-cortex cerebral vasculatures with large imaging area (48 mm2 ), good resolution (25.4 ��m), and high SBR (22.3 dB) at a depth up to 1001 ��m are clearly resolved through the intact skull. These results are superior to the recently reported 3D NIR-II fluorescence confocal vascular imaging, which opens up new opportunities for NIR-II CP-NP-assisted ORPAMI in various biomedical applications.
+abstract: Exogenous contrast-agent-assisted NIR-II optical-resolution photoacoustic microscopy imaging (ORPAMI) holds promise to decipher wide-field 3D biological structures with deep penetration, large signal-to-background ratio (SBR), and high maximum imaging depth to depth resolution ratio. Herein, NIR-II conjugated polymer nanoparticle (CP NP) assisted ORPAMI is reported for pinpointing cerebral and tumor vasculatures. The CP NPs exhibit a large extinction coefficient of 48.1 L g−1 at the absorption maximum of 1161 nm, with an ultrahigh PA sensitivity up to 2 µg mL−1. 3D ORPAMI of wide-field mice ear allows clear visualization of regular vasculatures with a resolution of 19.2 µm and an SBR of 29.3 dB at the maximal imaging depth of 539 µm. The margin of ear tumor composed of torsional dense vessels among surrounding normal regular vessels can be clearly delineated via 3D angiography. In addition, 3D whole-cortex cerebral vasculatures with large imaging area (48 mm2), good resolution (25.4 µm), and high SBR (22.3 dB) at a depth up to 1001 µm are clearly resolved through the intact skull. These results are superior to the recently reported 3D NIR-II fluorescence confocal vascular imaging, which opens up new opportunities for NIR-II CP-NP-assisted ORPAMI in various biomedical applications.
 
 # Summary. An optional shortened abstract.
-summary: Exogenous contrast-agent-assisted NIR-II optical-resolution photoacoustic microscopy imaging (ORPAMI) holds promise to decipher wide-field 3D biological structures with deep penetration, large signal-to-background ratio (SBR), and high maximum imaging depth to depth resolution ratio. Herein, NIR-II conjugated polymer nanoparticle (CP NP) assisted ORPAMI is reported for pinpointing cerebral and tumor vasculatures. The CP NPs exhibit a large extinction coefficient of 48.1 L g-1 at the absorption maximum of 1161 nm, with an ultrahigh PA sensitivity up to 2 ��g mL-1 . 3D ORPAMI of wide-field mice ear allows clear visualization of regular vasculatures with a resolution of 19.2 ��m and an SBR of 29.3 dB at the maximal imaging depth of 539 ��m. The margin of ear tumor composed of torsional dense vessels among surrounding normal regular vessels can be clearly delineated via 3D angiography. In addition, 3D whole-cortex cerebral vasculatures with large imaging area (48 mm2 ), good resolution (25.4 ��m), and high SBR (22.3 dB) at a depth up to 1001 ��m are clearly resolved through the intact skull. These results are superior to the recently reported 3D NIR-II fluorescence confocal vascular imaging, which opens up new opportunities for NIR-II CP-NP-assisted ORPAMI in various biomedical applications.
+summary: Exogenous contrast-agent-assisted NIR-II optical-resolution photoacoustic microscopy imaging (ORPAMI) holds promise to decipher wide-field 3D biological structures with deep penetration, large signal-to-background ratio (SBR), and high maximum imaging depth to depth resolution ratio. Herein, NIR-II conjugated polymer nanoparticle (CP NP) assisted ORPAMI is reported for pinpointing cerebral and tumor vasculatures. The CP NPs exhibit a large extinction coefficient of 48.1 L g−1 at the absorption maximum of 1161 nm, with an ultrahigh PA sensitivity up to 2 µg mL−1. 3D ORPAMI of wide-field mice ear allows clear visualization of regular vasculatures with a resolution of 19.2 µm and an SBR of 29.3 dB at the maximal imaging depth of 539 µm. The margin of ear tumor composed of torsional dense vessels among surrounding normal regular vessels can be clearly delineated via 3D angiography. In addition, 3D whole-cortex cerebral vasculatures with large imaging area (48 mm2), good resolution (25.4 µm), and high SBR (22.3 dB) at a depth up to 1001 µm are clearly resolved through the intact skull. These results are superior to the recently reported 3D NIR-II fluorescence confocal vascular imaging, which opens up new opportunities for NIR-II CP-NP-assisted ORPAMI in various biomedical applications.
 tags: []
 
 # Display this page in the Featured widget?

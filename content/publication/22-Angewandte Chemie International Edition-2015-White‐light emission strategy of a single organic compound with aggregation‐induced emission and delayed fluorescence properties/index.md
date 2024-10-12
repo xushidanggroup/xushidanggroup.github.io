@@ -14,16 +14,16 @@ authors:
   - Jiarui Xu
   - Zhenguo Chi*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contributionr'
-  - 'Corresponding author'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - 'r'
+#   - 'Corresponding author'
+#   - ''
+#   - ''
+#   - 'Corresponding author'
 
 date: '2015-06-01T00:00:00Z'
 doi: '10.1002/anie.201502180'

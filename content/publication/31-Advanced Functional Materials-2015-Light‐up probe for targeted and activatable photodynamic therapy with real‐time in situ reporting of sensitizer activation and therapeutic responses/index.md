@@ -1,5 +1,5 @@
 ---
-title: 'Light�\up probe for targeted and activatable photodynamic therapy with real�\time in situ reporting of sensitizer activation and therapeutic responses'
+title: 'Light-Up Probe for Targeted and Activatable Photodynamic Therapy with Real-Time In Situ Reporting of Sensitizer Activation and Therapeutic Responses'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -14,16 +14,16 @@ authors:
   - Ben Zhong Tang*
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
+#   - 'Corresponding author'
 
 date: '2015-07-04T00:00:00Z'
 doi: '10.1002/adfm.201502728'

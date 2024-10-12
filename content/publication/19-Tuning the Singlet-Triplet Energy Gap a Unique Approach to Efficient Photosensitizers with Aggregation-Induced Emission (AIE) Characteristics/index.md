@@ -1,5 +1,5 @@
 ---
-title: 'Tuning the Singlet-Triplet Energy Gap: a Unique Approach to Efficient Photosensitizers with Aggregation-Induced Emission (AIE) Characteristics'
+title: 'Tuning the singlet-triplet energy gap: a unique approach to efficient photosensitizers with aggregation-induced emission (AIE) characteristics'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -15,17 +15,17 @@ authors:
   - Deqing Zhang
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - 'Equal contribution'
+#   - 'Equal contribution'
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
 
 date: '2015-07-17T00:00:00Z'
 doi: '10.1039/C5SC01733E'
