@@ -5,19 +5,19 @@ title: 'A FRET probe with AIEgen as the energy quencher: dual signal turn-on for
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Youyong Yuan
-  - Ruoyu Zhang
-  - Xiamin Cheng
+  - Youyong Yuan#
+  - Ruoyu Zhang#
+  - Xiamin Cheng#
   - Shidang Xu
   - Bin Liu*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - 'Equal contribution'
+#   - 'Equal contribution'
+#   - 'Equal contribution'
+#   - ''
+#   - 'Corresponding author'
 
 date: '2016-01-06T00:00:00Z'
 doi: '10.1039/c6sc00055j'

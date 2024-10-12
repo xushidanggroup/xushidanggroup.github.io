@@ -18,20 +18,20 @@ authors:
   - Bin Liu*
   - Ben Zhong Tang*
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Corresponding author'
-  - 'Corresponding author'
-  - 'Corresponding author'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
+#   - 'Corresponding author'
+#   - 'Corresponding author'
 
 date: '2015-12-23T00:00:00Z'
 doi: '10.1002/smll.201502822'
@@ -48,10 +48,10 @@ publication_types: ['article-journal']
 publication: In *Small*
 publication_short: In *Small*
 
-abstract: Robust luminescent dyes with efficient two-photon fluorescence are highly desirable for biological imaging applications, but those suitable for organic dots fabrication are still rare because of aggregation-caused quenching. In this work, a red fluorescent silole, 2,5-bis[5-(dimesitylboranyl)thiophen-2-yl]-1-methyl-1,3,4-triphenylsilole ((MesB)2 DTTPS), is synthesized and characterized. (MesB)2 DTTPS exhibits enhanced fluorescence efficiency in nanoaggregates, indicative of aggregation-enhanced emission (AEE). The organic dots fabricated by encapsulating (MesB)2 DTTPS within lipid-PEG show red fluorescence peaking at 598 nm and a high fluorescence quantum yield of 32%. Upon excitation at 820 nm, the dots show a large two-photon absorption cross section of 3.43 �� 10(5) GM, which yields a two-photon action cross section of 1.09 �� 10(5) GM. These (MesB)2 DTTPS dots show good biocompatibility and are successfully applied to one-photon and two-photon fluorescence imaging of MCF-7 cells and two-photon in vivo visualization of the blood vascular of mouse muscle in a high-contrast and noninvasive manner. Moreover, the 3D blood vasculature located at the mouse ear skin with a depth of over 100 ��m can also be visualized clearly, providing the spatiotemporal information about the whole blood vascular network.
+abstract: Robust luminescent dyes with efficient two-photon fluorescence are highly desirable for biological imaging applications, but those suitable for organic dots fabrication are still rare because of aggregation-caused quenching. In this work, a red fluorescent silole, 2,5-bis[5-(dimesitylboranyl)thiophen-2-yl]-1-methyl-1,3,4-triphenylsilole ((MesB)2DTTPS), is synthesized and characterized. (MesB)2DTTPS exhibits enhanced fluorescence efficiency in nanoaggregates, indicative of aggregation-enhanced emission (AEE). The organic dots fabricated by encapsulating (MesB)2DTTPS within lipid-PEG show red fluorescence peaking at 598 nm and a high fluorescence quantum yield of 32%. Upon excitation at 820 nm, the dots show a large two-photon absorption cross section of 3.43 × 105 GM, which yields a two-photon action cross section of 1.09 × 105 GM. These (MesB)2DTTPS dots show good biocompatibility and are successfully applied to one-photon and two-photon fluorescence imaging of MCF-7 cells and two-photon in vivo visualization of the blood vascular of mouse muscle in a high-contrast and noninvasive manner. Moreover, the 3D blood vasculature located at the mouse ear skin with a depth of over 100 μm can also be visualized clearly, providing the spatiotemporal information about the whole blood vascular network.
 
 # Summary. An optional shortened abstract.
-summary: Robust luminescent dyes with efficient two-photon fluorescence are highly desirable for biological imaging applications, but those suitable for organic dots fabrication are still rare because of aggregation-caused quenching. In this work, a red fluorescent silole, 2,5-bis[5-(dimesitylboranyl)thiophen-2-yl]-1-methyl-1,3,4-triphenylsilole ((MesB)2 DTTPS), is synthesized and characterized. (MesB)2 DTTPS exhibits enhanced fluorescence efficiency in nanoaggregates, indicative of aggregation-enhanced emission (AEE). The organic dots fabricated by encapsulating (MesB)2 DTTPS within lipid-PEG show red fluorescence peaking at 598 nm and a high fluorescence quantum yield of 32%. Upon excitation at 820 nm, the dots show a large two-photon absorption cross section of 3.43 �� 10(5) GM, which yields a two-photon action cross section of 1.09 �� 10(5) GM. These (MesB)2 DTTPS dots show good biocompatibility and are successfully applied to one-photon and two-photon fluorescence imaging of MCF-7 cells and two-photon in vivo visualization of the blood vascular of mouse muscle in a high-contrast and noninvasive manner. Moreover, the 3D blood vasculature located at the mouse ear skin with a depth of over 100 ��m can also be visualized clearly, providing the spatiotemporal information about the whole blood vascular network.
+summary: Robust luminescent dyes with efficient two-photon fluorescence are highly desirable for biological imaging applications, but those suitable for organic dots fabrication are still rare because of aggregation-caused quenching. In this work, a red fluorescent silole, 2,5-bis[5-(dimesitylboranyl)thiophen-2-yl]-1-methyl-1,3,4-triphenylsilole ((MesB)2DTTPS), is synthesized and characterized. (MesB)2DTTPS exhibits enhanced fluorescence efficiency in nanoaggregates, indicative of aggregation-enhanced emission (AEE). The organic dots fabricated by encapsulating (MesB)2DTTPS within lipid-PEG show red fluorescence peaking at 598 nm and a high fluorescence quantum yield of 32%. Upon excitation at 820 nm, the dots show a large two-photon absorption cross section of 3.43 × 105 GM, which yields a two-photon action cross section of 1.09 × 105 GM. These (MesB)2DTTPS dots show good biocompatibility and are successfully applied to one-photon and two-photon fluorescence imaging of MCF-7 cells and two-photon in vivo visualization of the blood vascular of mouse muscle in a high-contrast and noninvasive manner. Moreover, the 3D blood vasculature located at the mouse ear skin with a depth of over 100 μm can also be visualized clearly, providing the spatiotemporal information about the whole blood vascular network.
 tags: []
 
 # Display this page in the Featured widget?
