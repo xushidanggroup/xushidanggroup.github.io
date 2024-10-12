@@ -5,8 +5,8 @@ title: 'Cationization to boost both type I and type II ROS generation for photod
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Yuewen Yu\textsuperscript{+}
-  - Shuang Wu\textsuperscript{+}
+  - Yuewen Yu#
+  - Shuang Wu#
   - Le Zhang
   - Shidang Xu
   - Chunhui Dai
