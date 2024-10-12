@@ -38,6 +38,7 @@ abstract: Photodynamic therapy is arising as a non-invasive treatment modality f
 
 # Summary. An optional shortened abstract.
 summary: Photodynamic therapy is arising as a non-invasive treatment modality for cancer and other diseases. One of the key factors to determine the therapeutic function is the efficiency of photosensitizers (PSs). According to the latest studies, reducing the energy gap (ΔEST) between the lowest excited singlet state (S1) and lowest excited triplet state (T1) was an effective approach to yield highly efficient PSs and ΔEST could be fine-tuned through precise molecular donor-acceptor engineering. There is a growing literature where small families of small-ΔEST PS compounds are explored experimentally, or purely computationally at a slightly larger scale. Here, we report a large-scale data-driven search for novel PSs, with a special focus on red PS. This work employed a collaborative approach encompassing computational quantum chemistry, machine learning, organic synthesis, and nanoagent fabrication and testing.
+
 tags: 
   - photodynamic therapy
   - deep learning

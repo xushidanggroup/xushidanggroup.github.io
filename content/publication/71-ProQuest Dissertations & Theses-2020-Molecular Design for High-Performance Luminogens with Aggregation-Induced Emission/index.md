@@ -23,8 +23,8 @@ publishDate: '2019-12-20T00:00:00Z'
 publication_types: ['thesis']
 
 # Publication name and optional abbreviated publication name.
-publication: *Doctoral dissertation, National University of Singapore*
-publication_short: *PhD thesis, NUS*
+publication: 'National University of Singapore'
+publication_short: 'NUS'
 
 abstract: Luminescence has revolutionized numerous fields of industries, with a largenumber of natural and synthetic luminescent materials broadly exploited overthe past centuries. Although many luminescence associated phenomena havebeen studied in dilute solutions, in practice, luminescent materials are often usedin solid state, such as thin films in organic light emitting diodes, ornanoaggregates in aqueous media for sensing and imaging. Aggregation-causedquenching (ACQ) is a prevailing characteristic of conventional fluorescent dyes,which prevents them from achieving the best performance in solid state oraggregate state for light emission, although such behavior could benefit otherapplications associated with the nonradiative decay process, such asphotoacoustic imaging and photothermal therapy. In the scenario where strongluminescence is desired, many strategies have been developed to overcome thebottleneck of ACQ and achieve high-performance in solid state, but with limitedsuccess. 
 
