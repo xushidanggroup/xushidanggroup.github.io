@@ -10,7 +10,7 @@ authors:
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
+  - ''
   - 'Corresponding author'
 
 date: '2022-09-15T00:00:00Z'

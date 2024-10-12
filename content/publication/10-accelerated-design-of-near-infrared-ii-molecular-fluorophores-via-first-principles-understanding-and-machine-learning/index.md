@@ -5,23 +5,23 @@ title: 'Accelerated Design of Near-Infrared-II Molecular Fluorophores via First-
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Shidang Xu#
-  - Pengfei Cai#
+  - Shidang Xu
+  - Pengfei Cai*
   - Jiali Li
   - Xianhe Zhang
   - Xianglong Liu
-  - Xiaonan Wang*
-  - Bin Liu*
+  - Xiaonan Wang
+  - Bin Liu
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Corresponding author'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - 'Corresponding author'
+#   - ''
+#   - ''
+#   - ''
+#   - ''
+#   - ''
 
 date: '2021-09-15T00:00:00Z'
 doi: '10.26434/chemrxiv-2021-6617l'

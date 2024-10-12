@@ -1,5 +1,5 @@
 ---
-title: ' Charge-Gradient-Induced Ferroelectricity with Robust Polarization Reversal'
+title: 'Charge-Gradient-Induced Ferroelectricity with Robust Polarization Reversal'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -9,11 +9,11 @@ authors:
   - Xing Xu
   - Shidang Xu
 
-# Author notes (optional)
-author_notes:
-  - 'Corresponding author'
-  - 'Equal contribution'
-  - 'Equal contribution'
+# # Author notes (optional)
+# author_notes:
+#   - 'Corresponding author'
+#   - ''
+#   - ''
 
 date: '2022-12-21T00:00:00Z'
 doi: '10.1021/acs.nanolett.2c04347'

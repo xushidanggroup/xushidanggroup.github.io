@@ -14,16 +14,16 @@ authors:
   - Yi-Hung Chen*
   - Konstantin Karaghiosoff
 
-# Author notes (optional)
-author_notes:
-  - ''
-  - ''
-  - ''
-  - 'Corresponding author'
-  - 'Corresponding author'
-  - 'Corresponding author'
-  - 'Corresponding author'
-  - ''
+# # Author notes (optional)
+# author_notes:
+#   - ''
+#   - ''
+#   - ''
+#   - 'Corresponding author'
+#   - 'Corresponding author'
+#   - 'Corresponding author'
+#   - 'Corresponding author'
+#   - ''
 
 date: '2024-04-24T00:00:00Z'
 doi: '10.1002/advs.202400661'
