@@ -193,6 +193,7 @@ sections:
             <p class="details">24 PhD Student in Biomedical Engineering</p>
             <div class="email" onclick="copyToClipboard('920815351@qq.com')">
               <i class="fas fa-envelope"></i><span>mailto:920815351@qq.com</span>
+            </div>
           </div>
           <div class="person">
             <img src="YH/avatar.jpg" alt="Graduate Student">
