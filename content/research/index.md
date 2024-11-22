@@ -31,10 +31,11 @@ sections:
         &emsp;&emsp;Through AIPDE, we aspire to revolutionize the field of protein engineering, creating versatile, customizable proteins that can be used in a wide range of applications, from targeted drug delivery to renewable energy solutions. This integrated approach holds the potential to unlock new frontiers in biotechnology and precision medicine, offering solutions to some of the world’s most pressing scientific and health challenges.
 
         <div style="display: flex; justify-content: center; gap: 10px;">
-          <img src="2(1).png" alt="Image 1" style="width: 30%; height: auto;">
-          <img src="2(2).png" alt="Image 2" style="width: 30%; height: auto;">
-          <img src="2(3).png" alt="Image 3" style="width: 30%; height: auto;">
+          <img src="2(1).png" alt="Image 1" style="height: 200px; width: auto;">
+          <img src="2(2).png" alt="Image 2" style="height: 200px; width: auto;">
+          <img src="2(3).png" alt="Image 3" style="height: 200px; width: auto;">
         </div>
+
 
 
         ---
