@@ -10,7 +10,7 @@ sections:
       text: |
         **1. Combining Biology/Chemistry-Based Priors with Machine Learning**
 
-        &emsp;&emsp;**Research Overview**
+        Research Overview
 
         &emsp;&emsp;In the quest for groundbreaking advancements in molecular science, leveraging the synergy between biology, chemistry, and machine learning is a promising frontier. Traditional machine learning models, particularly deep neural networks, have shown remarkable capabilities in interpolating within large datasets. However, their performance often diminishes when applied to novel scenarios due to a lack of inherent domain-specific knowledge. In the fields of biology and chemistry, we possess rich, physics-based priors—such as functional forms, symmetries, and statistical behaviors—that are grounded in well-established scientific principles.
 
@@ -20,27 +20,28 @@ sections:
 
         ---
 
-        **2. Representation Learning**
+        **2. Artificial Intelligence-driven Protein Design and Engineering (AIPDE)**
 
-        &emsp;&emsp;**Research Overview**
+        Research Overview
 
-        &emsp;&emsp;The ability to accurately represent molecular structures and their interactions is fundamental to advancing the field of chemical and biological discovery. Traditional machine learning models, while powerful, often fall short in chemistry and biology due to the unique and complex nature of molecular data. Unlike typical image or text data, molecules are not inherently numeric or character-based, and the available data is often limited and noisy.
+        &emsp;&emsp;AIPDE combines cutting-edge computational tools and AI algorithms to design novel proteins with specific functions and properties, enabling the creation of proteins that do not exist in nature. By integrating AI-driven approaches with computational platforms like Rosetta, we are able to design proteins from scratch or optimize existing ones for targeted applications, such as molecule binding or catalysis. This approach allows for the efficient design of entirely new protein structures, addressing complex challenges in synthetic biology, drug discovery, and material science.
 
-        &emsp;&emsp;Representation learning addresses these challenges by creating robust, meaningful representations of molecular structures that can be effectively utilized by machine learning models. Our research focuses on integrating domain-specific knowledge into these representations to improve model accuracy, uncertainty estimation, and generalization, particularly in low-data environments.
+        &emsp;&emsp;Our research focuses on developing AI models that not only predict protein structures and functions but also guide the synthesis of proteins with tailored properties. By combining computational protein design with experimental validation, we aim to streamline the process of de novo protein engineering, reducing the time and cost involved in developing innovative proteins for therapeutic, industrial, and biotechnological applications.
 
-        &emsp;&emsp;By developing 2D and 3D molecular representations that account for stereochemistry and conformational flexibility, we aim to enhance the predictive power of our models. Additionally, we explore representation learning for more complex systems, such as molecular ensembles, polymers, and porous materials, to further broaden the applicability of our methods.
+        &emsp;&emsp;Through AIPDE, we aspire to revolutionize the field of protein engineering, creating versatile, customizable proteins that can be used in a wide range of applications, from targeted drug delivery to renewable energy solutions. This integrated approach holds the potential to unlock new frontiers in biotechnology and precision medicine, offering solutions to some of the world’s most pressing scientific and health challenges.
 
-        &emsp;&emsp;Through representation learning, we seek to transform how we model, predict, and understand molecular behavior, enabling more efficient and accurate discoveries in drug development, materials science, and beyond. This approach not only optimizes the use of available data but also opens new pathways for innovation by providing deeper insights into the fundamental properties and interactions of molecules.
-
-        <div style="text-align: center;">
-          <img src="2.png" alt="Representation Learning" style="width: 50%; display: block; margin: 0 auto;">
+        <div style="display: flex; justify-content: center; gap: 10px;">
+          <img src="2(1).png" alt="Image 1" style="width: 30%; height: auto;">
+          <img src="2(2).png" alt="Image 2" style="width: 30%; height: auto;">
+          <img src="2(3).png" alt="Image 3" style="width: 30%; height: auto;">
         </div>
+
 
         ---
 
         **3. Artificial Intelligence-driven Drug Discovery (AIDD)**
 
-        &emsp;&emsp;**Research Overview**
+        Research Overview
 
         &emsp;&emsp;AIDD leverages vast amounts of chemical and biological data to build predictive models that can identify promising drug candidates more efficiently and accurately. By integrating AI with existing data, we can better predict compound performance, optimize molecular properties, and streamline the drug discovery pipeline. This approach minimizes human bias, reduces the need for manual intervention, and accelerates the hit-to-lead and lead optimization stages, significantly cutting down the time and cost required to bring new drugs to market.
 
@@ -52,7 +53,7 @@ sections:
 
         **4. Biomaterials Design**
 
-        &emsp;&emsp;**Research Overview**
+        Research Overview
 
         &emsp;&emsp;We focus on developing high-performance biomaterials for various applications, including drug delivery systems, tissue engineering scaffolds, and biosensors. Our approach combines domain-specific knowledge with cutting-edge machine learning to create robust, predictive models that guide the design of new materials. This synergy not only accelerates the discovery and optimization of biomaterials but also ensures their safety and efficacy in real-world applications.
 
