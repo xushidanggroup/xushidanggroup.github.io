@@ -31,7 +31,7 @@ sections:
         &emsp;&emsp;Through AIPDE, we aspire to revolutionize the field of protein engineering, creating versatile, customizable proteins that can be used in a wide range of applications, from targeted drug delivery to renewable energy solutions. This integrated approach holds the potential to unlock new frontiers in biotechnology and precision medicine, offering solutions to some of the world’s most pressing scientific and health challenges.
 
         <div style="text-align: center;">
-          <img src="2.png" alt="AIPDE" style="width: 50%; display: block; margin: 0 auto;">
+          <img src="2.png" alt="AIPDE" style="width: 100%;">
         </div>
 
         ---
