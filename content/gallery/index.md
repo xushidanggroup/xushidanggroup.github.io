@@ -138,10 +138,28 @@ date: 2023-06-19T12:00:00Z
         <div class="thumbnail-container" onclick="showImage(10, true)">
             <img src="/images/龙林毕业聚餐.jpg" alt="Thumbnail 龙林毕业聚餐">
         </div>
+        <div class="thumbnail-container" onclick="showImage(11, true)">
+            <img src="/images/大南山_1.jpg" alt="Thumbnail 大南山_1">
+        </div>
+        <div class="thumbnail-container" onclick="showImage(12, true)">
+            <img src="/images/大南山_2.jpg" alt="Thumbnail 大南山_2">
+        </div>
+        <div class="thumbnail-container" onclick="showImage(13, true)">
+            <img src="/images/大南山_3.jpg" alt="Thumbnail 大南山_3">
+        </div>
+        <div class="thumbnail-container" onclick="showImage(14, true)">
+            <img src="/images/大南山_4.jpg" alt="Thumbnail 大南山_4">
+        </div>
+        <div class="thumbnail-container" onclick="showImage(15, true)">
+            <img src="/images/大南山_5.jpg" alt="Thumbnail 大南山_5">
+        </div>
+        <div class="thumbnail-container" onclick="showImage(16, true)">
+            <img src="/images/大南山_6.jpg" alt="Thumbnail 大南山_6">
+        </div>
     </div>
     <div class="gallery-main">
         <button class="gallery-nav left" onclick="showPreviousImage()">&#10094;</button>
-        <img src="/images/冬至.jpg" alt="Main Image" id="mainImage">
+        <img src="/images/清远漂流.jpg" alt="Main Image" id="mainImage">
         <button class="gallery-nav right" onclick="showNextImage()">&#10095;</button>
     </div>
 </div>
@@ -158,10 +176,16 @@ date: 2023-06-19T12:00:00Z
         { src: '/images/羽毛球赛.jpg' },
         { src: '/images/课题组合照.jpg' },
         { src: '/images/毕业典礼合照.jpg' },
-        { src: '/images/龙林毕业聚餐.jpg' }
+        { src: '/images/龙林毕业聚餐.jpg' },
+        { src: '/images/大南山_1.jpg' },
+        { src: '/images/大南山_2.jpg' },
+        { src: '/images/大南山_3.jpg' },
+        { src: '/images/大南山_4.jpg' },
+        { src: '/images/大南山_5.jpg' },
+        { src: '/images/大南山_6.jpg' },
     ];
 
-    let currentIndex = 1;
+    let currentIndex = 0;
     let autoSwitchInterval;
     const transitionTime = 1000; // 1 second
     const quickTransitionTime = 500; // 0.5 second
