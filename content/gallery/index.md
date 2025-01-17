@@ -189,7 +189,9 @@ date: 2023-06-19T12:00:00Z
     let autoSwitchInterval;
     const transitionTime = 1000; // 1 second
     const quickTransitionTime = 500; // 0.5 second
+    const autoSwitchDelay = 5000; // 自动切换间隔（5秒）
 
+    // 显示指定图像并应用平滑过渡
     function showImage(index, quick = false) {
         currentIndex = index;
         const mainImage = document.getElementById('mainImage');
@@ -207,29 +209,35 @@ date: 2023-06-19T12:00:00Z
             mainImage.style.opacity = 1;
         }, quick ? quickTransitionTime : transitionTime);
 
-        resetAutoSwitch();
+        resetAutoSwitch();  // 用户点击时重启计时器
     }
 
+    // 显示下一个图像
     function showNextImage() {
         currentIndex = (currentIndex + 1) % images.length;
         showImage(currentIndex, true);
     }
 
+    // 显示上一个图像
     function showPreviousImage() {
         currentIndex = (currentIndex - 1 + images.length) % images.length;
         showImage(currentIndex, true);
     }
 
+    // 启动自动切换图像
     function autoSwitchImages() {
-        autoSwitchInterval = setInterval(showNextImage, 5000); // 5 seconds
+        autoSwitchInterval = setInterval(showNextImage, autoSwitchDelay); // 每5秒自动切换
     }
 
+    // 重置自动切换计时器
     function resetAutoSwitch() {
-        clearInterval(autoSwitchInterval);
-        autoSwitchImages();
+        clearInterval(autoSwitchInterval);  // 清除当前的定时器
+        autoSwitchImages();  // 重新启动自动切换
     }
 
+    // 页面加载完成后启动自动切换
     document.addEventListener('DOMContentLoaded', () => {
-        autoSwitchImages();
+        autoSwitchImages();  // 页面加载后启动自动切换
     });
 </script>
+
