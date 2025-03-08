@@ -91,10 +91,6 @@ sections:
             });
           }
         </script>
-        
-        <div class="group-photo">
-          <img src="/images/课题组合照.jpg" alt="Group Photo 1">
-        </div>
 
         <div class="group-photo">
           <img src="/images/红林花海2024.9.18.jpg" alt="Group Photo 2">
@@ -291,4 +287,9 @@ sections:
             <td style="width: 45%; padding: 8px; vertical-align: middle;">Master in Biomedical Engineering, National University of Singapore (2024)</td>
           </tr>
         </table>
+
+        ---
+        <div class="group-photo">
+          <img src="/images/课题组合照.jpg" alt="Group Photo 1">
+        </div> 
 ---
