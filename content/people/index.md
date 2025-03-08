@@ -234,6 +234,11 @@ sections:
             <td style="width: 35%; padding: 8px; vertical-align: middle;">Biomedical Engineering at SCUT (2022)</td>
             <td style="width: 45%; padding: 8px; vertical-align: middle;"></td>
           </tr>
+          <tr>
+            <td style="width: 20%; padding: 8px; vertical-align: middle;">Yuechuan Lin</td>
+            <td style="width: 35%; padding: 8px; vertical-align: middle;">Biomedical Engineering at SCUT (2023)</td>
+            <td style="width: 45%; padding: 8px; vertical-align: middle;"></td>
+          </tr>
         </table>
 
         ---
