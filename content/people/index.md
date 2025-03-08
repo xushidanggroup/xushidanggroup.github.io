@@ -192,7 +192,7 @@ sections:
             </div>
           </div>
                     <div class="person">
-            <img src="SC/avatar.jpg" alt="Graduate Student">
+            <img src="YF/avatar.jpg" alt="Graduate Student">
             <p class="name">Shicheng Lang 韩逸飞</p>
             <p class="details">25 Master's Student in Biomedical Engineering</p>
             <div class="email" onclick="copyToClipboard('2784331517@qq.com')">
