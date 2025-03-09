@@ -126,6 +126,9 @@ sections:
             <div class="email" onclick="copyToClipboard('bun_hui@126.com')">
               <i class="fas fa-envelope"></i><span>bun_hui@126.com</span>
             </div>
+            <div class="scholar" onclick="window.open('https://scholar.google.com/citations?hl=zh-CN&user=dLJxV9MAAAAJ')">
+              <i class="fas fa-graduation-cap"></i><span>Google Scholar</span>
+            </div>
           </div>
           <div class="person">
             <img src="NB/avatar.jpg" alt="Graduate Student">
@@ -141,6 +144,9 @@ sections:
             <p class="details">23 PhD Student in Biomedical Engineering</p>
             <div class="email" onclick="copyToClipboard('lcc1430880822@163.com')">
               <i class="fas fa-envelope"></i><span>lcc1430880822@163.com</span>
+            </div>
+            <div class="scholar" onclick="window.open('https://scholar.google.com/citations?hl=zh-CN&user=4zGLorYAAAAJ')">
+              <i class="fas fa-graduation-cap"></i><span>Google Scholar</span>
             </div>
           </div>
           <div class="person">
@@ -207,7 +213,7 @@ sections:
               <i class="fas fa-envelope"></i><span>920815351@qq.com</span>
             </div>
           </div>
-                    <div class="person">
+          <div class="person">
             <img src="YF/avatar.jpg" alt="Graduate Student">
             <p class="name">Yifei Han 韩逸飞</p>
             <p class="details">25 Master's Student in Biomedical Engineering</p>
