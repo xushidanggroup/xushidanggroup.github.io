@@ -174,11 +174,11 @@
     const imageFiles = [
         '1_清远漂流.jpg',
         '2_冬至.jpg',
-        '3_石门1.jpg',  // 修正拼写
+        '3_石门1.jpg',
         '4_石门2.jpg',
         '5_石门3.jpg',
         '6_石门4.jpg',
-        '7_红林花海.jpg',
+        '7_红林花海_2024.9.18.jpg',
         '8_羽毛球赛.jpg',
         '9_课题组合照_2024.jpg',
         '10_毕业典礼合照.jpg',
@@ -194,29 +194,24 @@
     const images = imageFiles.map(fileName => ({
         thumbSrc: `${thumbnailBasePath}${fileName.replace(/\.(jpg|jpeg|png|webp)$/, '_t.$1')}`,
         src: `${imageBasePath}${fileName}`,
-        alt: fileName.replace(/_/g, ' ').replace(/\..+$/, ''),
-        preloaded: false // 记录是否已经预加载
+        alt: fileName.replace(/_/g, ' ').replace(/\..+$/, '')
     }));
-
-    let isUserClicked = false; // 记录用户是否点击过模态框
-    let preloadQueue = []; // 预加载队列
 
     // 生成缩略图
     function generateThumbnails() {
         const container = document.getElementById('thumbnailContainer');
         container.innerHTML = '';
-
         images.forEach((img, index) => {
             const thumbnail = document.createElement('div');
             thumbnail.className = 'thumbnail-container';
 
-            // "加载中" 占位文本
+            // 加载中提示
             const loadingText = document.createElement('div');
             loadingText.className = 'loading-text';
             loadingText.innerText = 'loading';
             thumbnail.appendChild(loadingText);
 
-            // 缩略图
+            // 创建图片元素
             const imageElement = document.createElement('img');
             imageElement.loading = 'lazy';
             imageElement.src = img.thumbSrc;
@@ -226,11 +221,6 @@
             imageElement.onload = () => {
                 imageElement.classList.add('loaded');
                 loadingText.style.display = 'none';
-
-                // 检查是否所有缩略图都加载完
-                if (index === images.length - 1) {
-                    setTimeout(preloadImages, 500); // 500ms后开始预加载大图
-                }
             };
 
             // 绑定点击事件
@@ -240,60 +230,27 @@
         });
     }
 
-    // 预加载大图（有序）
-    function preloadImages() {
-        if (isUserClicked) return; // 用户已点击，暂停预加载
-
-        preloadQueue = images.filter(img => !img.preloaded); // 获取未预加载的图片
-
-        function loadNext() {
-            if (preloadQueue.length === 0 || isUserClicked) return; // 队列为空或用户已点击，停止
-
-            const imgData = preloadQueue.shift(); // 取出下一张
-            const img = new Image();
-            img.src = imgData.src;
-            img.onload = () => {
-                imgData.preloaded = true; // 标记已预加载
-                setTimeout(loadNext, 500); // 500ms 后加载下一张
-            };
-        }
-
-        loadNext();
-    }
-
-    // 打开模态框时，优先加载当前图片
+    // 打开模态框
     function openModal(index) {
-        isUserClicked = true; // 记录用户已点击
         currentIndex = index;
         const modal = document.getElementById('modal');
         const modalImage = document.getElementById('modalImage');
-        const loadingIndicator = document.getElementById('loadingIndicator'); // 获取加载动画元素
+        const modalLoading = document.getElementById('modalLoading');
 
+        // 显示模态框和加载动画
         modal.style.display = 'flex';
+        modalLoading.style.display = 'block';
+        modalImage.style.opacity = 0;
 
-        // 如果当前图片已经加载过，直接显示
-        if (images[index].preloaded) {
-            modalImage.src = images[index].src;
+        // 加载大图
+        const img = new Image();
+        img.src = images[index].src;
+        img.onload = () => {
+            modalImage.src = img.src;
             modalImage.alt = images[index].alt;
-            loadingIndicator.style.display = 'none'; // 直接隐藏加载动画
-        } else {
-            // 否则，显示加载动画并加载图片
-            loadingIndicator.style.display = 'block';
-            modalImage.src = ''; // 清空当前图片
-            const img = new Image();
-            img.src = images[index].src;
-            img.onload = () => {
-                images[index].preloaded = true;
-                modalImage.src = images[index].src; // 确保显示已加载的大图
-                modalImage.alt = images[index].alt;
-                loadingIndicator.style.display = 'none'; // 隐藏加载动画
-            };
-        }
-
-        // 3秒后恢复预加载剩余大图
-        setTimeout(() => {
-            preloadImages();
-        }, 3000);
+            modalImage.style.opacity = 1;
+            modalLoading.style.display = 'none'; // 隐藏加载动画
+        };
     }
 
     // 关闭模态框
@@ -301,23 +258,39 @@
         const modal = document.getElementById('modal');
         const modalImage = document.getElementById('modalImage');
         modal.style.display = 'none';
-        modalImage.src = ''; // 释放加载资源
+        modalImage.src = '';
     }
 
     // 切换到上一张图片
     function showPreviousImage() {
         currentIndex = (currentIndex - 1 + images.length) % images.length;
-        const modalImage = document.getElementById('modalImage');
-        modalImage.src = images[currentIndex].src;
-        modalImage.alt = images[currentIndex].alt;
+        loadImageIntoModal(currentIndex);
     }
 
     // 切换到下一张图片
     function showNextImage() {
         currentIndex = (currentIndex + 1) % images.length;
+        loadImageIntoModal(currentIndex);
+    }
+
+    // 加载图片到模态框
+    function loadImageIntoModal(index) {
         const modalImage = document.getElementById('modalImage');
-        modalImage.src = images[currentIndex].src;
-        modalImage.alt = images[currentIndex].alt;
+        const modalLoading = document.getElementById('modalLoading');
+
+        // 显示加载动画
+        modalLoading.style.display = 'block';
+        modalImage.style.opacity = 0;
+
+        // 加载大图
+        const img = new Image();
+        img.src = images[index].src;
+        img.onload = () => {
+            modalImage.src = img.src;
+            modalImage.alt = images[index].alt;
+            modalImage.style.opacity = 1;
+            modalLoading.style.display = 'none'; // 隐藏加载动画
+        };
     }
 
     // 键盘切换功能
