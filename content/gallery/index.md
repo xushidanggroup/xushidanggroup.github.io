@@ -180,9 +180,9 @@
         '6_石门4.jpg',
         '7_红林花海.jpg',
         '8_羽毛球赛.jpg',
-        '9_课题组合照.jpg',
+        '9_课题组合照_2024.jpg',
         '10_毕业典礼合照.jpg',
-        '11_龙林毕业聚餐.jpg',
+        '11_龙林毕业聚餐_2024.jpg',
         '12_大南山1.jpg',
         '13_大南山2.jpg',
         '14_大南山3.jpg',
@@ -267,19 +267,26 @@
         currentIndex = index;
         const modal = document.getElementById('modal');
         const modalImage = document.getElementById('modalImage');
+        const loadingIndicator = document.getElementById('loadingIndicator'); // 获取加载动画元素
+
         modal.style.display = 'flex';
 
-        // 先显示大图
-        modalImage.src = images[index].src;
-        modalImage.alt = images[index].alt;
-
-        // 仅优先加载当前图片
-        if (!images[index].preloaded) {
+        // 如果当前图片已经加载过，直接显示
+        if (images[index].preloaded) {
+            modalImage.src = images[index].src;
+            modalImage.alt = images[index].alt;
+            loadingIndicator.style.display = 'none'; // 直接隐藏加载动画
+        } else {
+            // 否则，显示加载动画并加载图片
+            loadingIndicator.style.display = 'block';
+            modalImage.src = ''; // 清空当前图片
             const img = new Image();
             img.src = images[index].src;
             img.onload = () => {
                 images[index].preloaded = true;
                 modalImage.src = images[index].src; // 确保显示已加载的大图
+                modalImage.alt = images[index].alt;
+                loadingIndicator.style.display = 'none'; // 隐藏加载动画
             };
         }
 
