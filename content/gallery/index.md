@@ -9,6 +9,11 @@
         text-align: center;
         margin-bottom: 20px;
     }
+    h2 {
+        text-align: center;
+        margin: 20px 0 10px;
+        color: #333;
+    }
     .gallery-thumbnails {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -71,9 +76,9 @@
         display: block;
         margin: 0 auto;
         transform-origin: center;
-        transition: transform 0.1s ease-out; /* 优化拖拽平滑度 */
+        transition: transform 0.1s ease-out;
         cursor: grab;
-        user-select: none; /* 防止拖拽时选中图片 */
+        user-select: none;
     }
     .modal-nav {
         position: absolute;
@@ -124,7 +129,10 @@
 </style>
 
 <h1>Gallery</h1>
-<div class="gallery-thumbnails" id="thumbnailContainer"></div>
+<h2>2025</h2>
+<div class="gallery-thumbnails" id="thumbnails2025"></div>
+<h2>2024</h2>
+<div class="gallery-thumbnails" id="thumbnails2024"></div>
 
 <div class="modal" id="modal">
     <div class="modal-content">
@@ -143,29 +151,52 @@
     const thumbnailBasePath = '/thumbnails/';
     const imageBasePath = '/images/';
     const imageFiles = [
-        '1_清远漂流.jpg', '2_冬至.jpg', '3_石门1.jpg', '4_石门2.jpg',
-        '5_石门3.jpg', '6_石门4.jpg', '7_红林花海.jpg', '8_羽毛球赛.jpg',
-        '9_课题组合照_2024.jpg', '10_毕业典礼合照.jpg', '11_龙林毕业聚餐_2024.jpg',
-        '12_大南山1.jpg', '13_大南山2.jpg', '14_大南山3.jpg', '15_大南山4.jpg',
-        '16_大南山5.jpg', '17_大南山6.jpg'
+        { fileName: '1_清远漂流.jpg', year: 2024 },
+        { fileName: '2_冬至.jpg', year: 2024 },
+        { fileName: '3_石门1.jpg', year: 2024 },
+        { fileName: '4_石门2.jpg', year: 2024 },
+        { fileName: '5_石门3.jpg', year: 2024 },
+        { fileName: '6_石门4.jpg', year: 2024 },
+        { fileName: '7_红林花海.jpg', year: 2024 },
+        { fileName: '8_羽毛球赛.jpg', year: 2024 },
+        { fileName: '9_课题组合照_2024.jpg', year: 2024 },
+        { fileName: '10_毕业典礼合照.jpg', year: 2024 },
+        { fileName: '11_龙林毕业聚餐_2024.jpg', year: 2024 },
+        { fileName: '12_大南山1.jpg', year: 2025 },
+        { fileName: '13_大南山2.jpg', year: 2025 },
+        { fileName: '14_大南山3.jpg', year: 2025 },
+        { fileName: '15_大南山4.jpg', year: 2025 },
+        { fileName: '16_大南山5.jpg', year: 2025 },
+        { fileName: '17_大南山6.jpg', year: 2025 }
     ];
 
-    const images = imageFiles.map(fileName => ({
-        thumbSrc: thumbnailBasePath + fileName.replace(/\.(jpg|jpeg|png|webp)$/, '_t.$1'),
-        src: imageBasePath + fileName,
-        alt: fileName.replace(/_/g, ' ').replace(/\..+$/, '')
+    const images = imageFiles.map((item, index) => ({
+        thumbSrc: thumbnailBasePath + item.fileName.replace(/\.(jpg|jpeg|png|webp)$/, '_t.$1'),
+        src: imageBasePath + item.fileName,
+        alt: item.fileName.replace(/_/g, ' ').replace(/\..+$/, ''),
+        year: item.year,
+        index: index
     }));
+
+    // 按年份分组
+    const images2024 = images.filter(img => img.year === 2024);
+    const images2025 = images.filter(img => img.year === 2025);
 
     // 生成缩略图
     function generateThumbnails() {
-        const container = document.getElementById('thumbnailContainer');
+        generateThumbnailsForYear(images2025, 'thumbnails2025'); // 先生成 2025 年
+        generateThumbnailsForYear(images2024, 'thumbnails2024'); // 再生成 2024 年
+    }
+
+    function generateThumbnailsForYear(yearImages, containerId) {
+        const container = document.getElementById(containerId);
         container.innerHTML = '';
-        images.forEach((img, index) => {
+        yearImages.forEach(img => {
             const thumbnail = document.createElement('div');
             thumbnail.className = 'thumbnail-container';
             const loadingText = document.createElement('div');
             loadingText.className = 'loading-text';
-            loadingText.innerText = 'loading';
+            loadingText.textContent = 'loading';
             thumbnail.appendChild(loadingText);
             const imageElement = document.createElement('img');
             imageElement.loading = 'lazy';
@@ -175,7 +206,7 @@
                 imageElement.classList.add('loaded');
                 loadingText.style.display = 'none';
             };
-            thumbnail.onclick = () => openModal(index);
+            thumbnail.onclick = () => openModal(img.index);
             thumbnail.appendChild(imageElement);
             container.appendChild(thumbnail);
         });
@@ -271,12 +302,11 @@
         modalImage.style.cursor = scale > 1 ? 'grab' : 'default';
     }
 
-    // 滚轮缩放
     document.getElementById('modal').addEventListener('wheel', (e) => {
         e.preventDefault();
         const delta = e.deltaY > 0 ? -0.1 : 0.1;
         const newScale = scale + delta;
-        scale = Math.min(Math.max(1, newScale), 5);
+        scale = Math.min(Math.max(1, newScale), 3);
         if (scale <= 1) {
             resetImageTransform();
         } else {
@@ -286,7 +316,6 @@
         }
     });
 
-    // 拖拽开始
     document.getElementById('modalImage').addEventListener('mousedown', (e) => {
         if (scale <= 1) return;
         e.preventDefault();
@@ -295,10 +324,9 @@
         startX = e.clientX / scale - translateX;
         startY = e.clientY / scale - translateY;
         document.getElementById('modalImage').style.cursor = 'grabbing';
-        document.getElementById('modalImage').style.transition = 'none'; // 拖拽时禁用过渡
+        document.getElementById('modalImage').style.transition = 'none';
     });
 
-    // 拖拽中
     document.addEventListener('mousemove', (e) => {
         if (!isDragging) return;
         const rect = document.getElementById('modalImage').getBoundingClientRect();
@@ -308,16 +336,14 @@
         applyTransform();
     });
 
-    // 拖拽结束
     document.addEventListener('mouseup', () => {
         if (isDragging) {
             isDragging = false;
             document.getElementById('modalImage').style.cursor = 'grab';
-            document.getElementById('modalImage').style.transition = 'transform 0.1s ease-out'; // 恢复过渡
+            document.getElementById('modalImage').style.transition = 'transform 0.1s ease-out';
         }
     });
 
-    // 限制平移范围，确保图片边缘不脱离模态框
     function restrictTranslate() {
         const modalContent = document.querySelector('.modal-content');
         const modalImage = document.getElementById('modalImage');
@@ -326,17 +352,14 @@
         const scaledWidth = imgRect.width * scale;
         const scaledHeight = imgRect.height * scale;
 
-        // 如果缩放后图片小于模态框，重置平移
         if (scaledWidth <= modalRect.width) translateX = 0;
         if (scaledHeight <= modalRect.height) translateY = 0;
 
-        // 计算平移范围，确保图片边缘不脱离模态框
         const minTranslateX = (modalRect.width - scaledWidth) / (2 * scale);
         const maxTranslateX = -minTranslateX;
         const minTranslateY = (modalRect.height - scaledHeight) / (2 * scale);
         const maxTranslateY = -minTranslateY;
 
-        // 限制平移值
         if (scaledWidth > modalRect.width) {
             translateX = Math.max(Math.min(translateX, maxTranslateX), minTranslateX);
         } else {
