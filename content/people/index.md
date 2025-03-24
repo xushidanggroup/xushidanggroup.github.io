@@ -325,6 +325,6 @@ sections:
 
         ---
         <div class="group-photo">
-          <img src="/images/9_课题组合照_2024.jpg" alt="Group Photo 1">
+          <img src="/images/课题组合照_2024(1200).jpg" alt="Group Photo 1">
         </div> 
 ---
